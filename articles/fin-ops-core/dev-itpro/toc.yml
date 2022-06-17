@@ -1,0 +1,1988 @@
+- name: 금융 및 운영 앱을 위한 개발 및 관리
+  items:
+    - name: 금융 및 운영 앱을 위한 개발 및 관리
+      items:
+        - name: 금융 및 운영 애플리케이션 설명서
+          href: ../fin-ops/index.md
+        - name: 금융 및 운영 앱을 위한 개발 및 관리
+          href: index.md
+        - name: 새로운 기능 또는 변경된 사항
+          items:
+            - name: 금융 및 운영 앱의 새로운 기능 또는 변경된 사항
+              href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: 플랫폼 업데이트의 새로운 기능 또는 변경된 사항
+              items:
+                - name: 플랫폼 업데이트의 새로운 기능 또는 변경된 사항 홈페이지
+                  href: get-started/whats-new-home-page.md
+                - name: 버전 10.0.26용 플랫폼 업데이트(2022년 5월)
+                  href: get-started/whats-new-platform-updates-10-0-26.md
+                - name: 버전 10.0.25용 플랫폼 업데이트(2022년 4월)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: 버전 10.0.24용 플랫폼 업데이트(2022년 2월)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: 버전 10.0.23용 플랫폼 업데이트(2022년 1월)
+                  href: get-started/whats-new-platform-updates-10-0-23.md
+            - name: 제거되거나 사용되지 않는 기능
+              items:
+                - name: 에서 제거되거나 사용되지 않는 기능 홈페이지
+                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+                - name: 제거되거나 사용되지 않는 플랫폼 기능
+                  href: get-started/removed-deprecated-features-platform-updates.md
+                - name: 이전 릴리스에서 제거되거나 사용되지 않는 기능
+                  href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: 연기된 AX 2012 기능
+              href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Microsoft Dynamics AX 2009 및 2012에 대한 일반 지원 종료
+              href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+        - name: 지속적인 업데이트
+          items:
+            - name: 지속적인 업데이트 홈페이지
+              href: dev-tools/continuous-delivery-home-page.md
+            - name: 개발 및 지속적인 업데이트 FAQ
+              href: dev-tools/continuous-delivery-faq.md
+            - name: 빌드 출력에서 테스트 패키지 제외
+              href: dev-tools/exclude-test-packages.md
+            - name: 소스 제어를 사용한 타사 모델 및 런타임 패키지 관리
+              href: dev-tools/manage-runtime-packages.md
+            - name: 배포 가능한 통합 패키지
+              href: dev-tools/aio-deployable-packages.md
+            - name: 자동화된 빌드에서 모델 버전 업데이트
+              href: dev-tools/version-models-build.md
+        - name: 데이터 통합
+          items:
+            - name: 금융 및 운영 앱과 타사 서비스 간의 통합
+              href: data-entities/integration-overview.md
+            - name: 우선 순위 기반 제한
+              hreF: data-entities/priority-based-throttling.md
+            - name: 우선 순위 기반 제한 FAQ
+              href: data-entities/throttling-faq.md
+            - name: 데이터 통합 API
+              items:
+                - name: 데이터 관리 패키지 REST API
+                  href: data-entities/data-management-api.md
+                - name: 서비스 엔드포인트
+                  items:
+                    - name: 서비스 엔드포인트 개요
+                      href: data-entities/services-home-page.md
+                    - name: 서비스 인증 문제 해결
+                      href: data-entities/troubleshoot-service-authentication.md
+                - name: OData
+                  href: data-entities/odata.md
+                - name: 사용자 지정 서비스 개발
+                  href: data-entities/custom-services.md
+                - name: 정기 통합
+                  href: data-entities/recurring-integrations.md
+                - name: 타사 유틸리티를 사용한 서비스 테스트
+                  href: data-entities/third-party-service-test.md
+            - name: Finance and Operations 커넥터
+              href: data-entities/fin-ops-connector.md
+            - name: 통합 개발
+              items:
+                - name: 데이터 엔터티를 사용한 데이터 통합
+                  items:
+                    - name: 데이터 엔터티를 사용한 데이터 통합 개요
+                      href: data-entities/data-management-integration-data-entity.md
+                    - name: 데이터 마이그레이션을 위한 엔터티 개발
+                      href: data-entities/develop-entity-for-data-migration.md
+                    - name: 복합 데이터 엔터티 개발
+                      href: data-entities/develop-composite-data-entities.md
+                    - name: 금융 회사 간 데이터 공유 구성
+                      href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
+                    - name: 데이터 입력을 지원하는 레코드 템플릿 생성
+                      href: data-entities/tasks/create-record-template-facilitate-data-entry.md
+                    - name: 레코드 템플릿을 사용한 레코드 생성
+                      href: data-entities/tasks/use-record-template-new-record.md
+                - name: 데이터 통합자
+                  items:
+                    - name: 잠재 고객-현금 시나리오 구성
+                      items:
+                        - name: 잠재 고객-현금
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Sales에서 Finance and Operations 고객으로 계정 직접 동기화
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Finance and Operations에서 Sales 제품으로 제품 직접 동기화
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Sales에서 Finance and Operations 연락처 또는 고객으로 연락처 직접 동기화
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Sales에서 Finance and Operations로 판매 견적 헤더 및 라인 직접 동기화
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Sales와 Finance and Operations 간 판매 주문 직접 동기화
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Finance and Operations에서 Sales로 판매 송장 헤더 및 라인 직접 동기화
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Field Service와 통합 구성
+                      items:
+                        - name: Field Service와 통합 구성 개요
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: Finance and Operations 제품을 Field Service 제품과 동기화
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: Field Service 작업 주문을 Finance and Operations 판매 주문과 동기화
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Field Service 계약 송장을 Finance and Operations 자유 텍스트 송장과 동기화
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Field Service에서 Finance and Operations로 재고 이동 및 조정 동기화
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Finance and Operations에서 Field Service로 재고 수준 정보 동기화
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Finance and Operations에서 Field Service로 제품과 재고 단위 동기화
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Finance and Operations에서 Field Service로 프로젝트 목록 동기화
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Finance and Operations에서 Field Service로 웨어하우스 동기화
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Field Service에서 Finance and Operations로 작업 주문과 프로젝트 동기화
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Project Service Automation 통합 구성
+                      items:
+                        - name: Project Service Automation 개요
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: Project Service Automation 통합 매개 변수
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: 프로젝트 계약과 프로젝트 동기화
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: 프로젝트 작업 동기화
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: 프로젝트 경비 범주 동기화
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: 프로젝트 추정에서 프로젝트 예측으로 동기화
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: 프로젝트 실제 데이터를 프로젝트 통합 분개장에 동기화
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+            - name: 외부 웹 서비스 사용
+              href: data-entities/consume-external-web-service.md
+            - name: 전자 메시지
+              href: ../../finance/general-ledger/electronic-messaging.md
+        - name: 데이터 관리
+          items:
+            - name: 데이터 관리 개요
+              href: data-entities/data-entities-data-packages.md
+            - name: 데이터 엔터티
+              items:
+                - name: 데이터 엔터티 개요
+                  href: data-entities/data-entities.md
+                - name: 구성 데이터 프로젝트
+                  href: data-entities/configuration-data-projects.md
+                - name: 회사 또는 법인 간 구성 데이터 복사
+                  items:
+                    - name: 구성 데이터 복사 개요
+                      href: data-entities/copy-configuration.md
+                    - name: 구성 데이터 패키지
+                      href: data-entities/configuration-data-packages.md
+                    - name: 구성 데이터 패키지(2017년 7월 릴리스만 해당)
+                      href: data-entities/configuration-data-packages.md
+                - name: 구성 데이터 템플릿
+                  href: data-entities/configuration-data-templates.md
+                - name: 엔터티에 대한 변경 내용 추적
+                  href: data-entities/entity-change-track.md
+                - name: 표준 데이터 항목 관련 정보 찾기
+                  href: data-entities/data-entities-report.md
+                - name: 여러 워크시트가 있는 데이터 템플릿
+                  href: data-entities/excel-template-multiple.md
+                - name: 엔터티에 대한 변경 내용 추적 사용
+                  href: data-entities/entity-change-track.md
+                - name: 구성 키 및 데이터 엔터티
+                  href: data-entities/config-key-entities.md
+                - name: 구성 데이터 패키지
+                  href: data-entities/configuration-data-packages.md
+            - name: 데이터 가져오기 및 내보내기 작업
+              items:
+                - name: 데이터 가져오기 및 내보내기 작업 개요
+                  href: data-entities/data-import-export-job.md
+                - name: 가져오기 작업에서 날짜 및 시간 동기화
+                  href: data-entities/data-synchronize-date-and-time.md
+                - name: 일반 분개장 엔터티를 사용하여 쿠폰 가져오기
+                  href: data-entities/tips-tricks-import-general-journal-entity.md
+                - name: 금융 및 운영 앱을 위한 데이터 마이그레이션 최적화
+                  href: sysadmin/optimize-data-migration.md
+            - name: 데이터 엔터티 개발
+              items:
+                - name: 데이터 엔터티에 대한 설계 원칙 및 모범 사례
+                  href: dev-tools/design-best-practices.md
+                - name: 새 데이터 엔터티 생성
+                  href: data-entities/build-consuming-data-entities.md
+                - name: 데이터 엔터티 속성
+                  href: data-entities/behavioral-properties-data-entities.md
+                - name: 계산 열 및 가상 필드 생성
+                  href: data-entities/data-entity-computed-columns-virtual-fields.md
+                - name: 교차 회사 행동
+                  href: data-entities/cross-company-behavior.md
+                - name: 국가/지역 코드 처리
+                  href: data-entities/countryregion-codes-configuration-keys.md
+                - name: 상속 패턴
+                  href: data-entities/support-super-type-sub-type.md
+                - name: 데이터 엔터티 마법사 규칙
+                  href: data-entities/data-entity-wizard-rules.md
+                - name: 메타데이터 속성
+                  href: data-entities/behavioral-properties-data-entities.md
+                - name: '유효성 검사, 기본값 및 매핑되지 않은 필드'
+                  href: data-entities/validations-defaults-unmapped-fields.md
+                - name: 보안 및 데이터 엔터티
+                  href: data-entities/security-data-entities.md
+                - name: 타사 서비스 테스트 유틸리티 사용
+                  href: data-entities/third-party-service-test.md
+                - name: 재무 차원을 노출하는 읽기 전용 엔터티 생성
+                  href: financial/read-only-entity-financial.md
+            - name: 나만의 데이터베이스 가져오기
+              href: analytics/export-entities-to-your-own-database.md
+            - name: 자동화된 엔터티 저장소 새로 고침
+              href: analytics/automated-entity-store-refresh.md
+            - name: 데이터 작업 자동화
+              href: data-entities/data-task-automation.md
+            - name: 데이터 유효성 검사 체크리스트 작업 영역
+              href: user-interface/data-validation-workspace.md
+            - name: 데이터 관리 오류 설명
+              href: data-entities/dm-error-descriptions.md
+        - name: Azure Data Lake
+          items:
+            - name: Azure Data Lake로 내보내기 개요
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: Azure Data Lake로 내보내기 추가 기능 설치
+              href: data-entities/configure-export-data-lake.md
+            - name: Azure Data Lake의 금융 및 운영 앱
+              href: data-entities/finance-data-azure-data-lake.md
+            - name: 엔터티 저장소를 Data Lake로 사용할 수 있도록 설정
+              href: data-entities/entity-store-data-lake.md
+            - name: Azure Data Lake로 내보내기 서비스로 생성된 비즈니스 이벤트(미리 보기)
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
+            - name: Azure Data Lake에서 데이터 변경
+              href: data-entities/Azure-data-lake-Change-feeds.md
+        - name: 데이터베이스 이동 작업
+          items:
+            - name: 개요
+              href: database/dbmovement-operations.md
+            - name: 데이터베이스 이동 도구 키트
+              href: database/database-movement-toolkit.md
+            - name: 빠른 시작 가이드
+              items:
+                - name: 데이터베이스 새로 고침
+                  href: database/database-refresh.md
+                - name: 데이터베이스 내보내기
+                  href: database/export-database.md
+                - name: 데이터베이스 가져오기
+                  href: database/import-database.md
+                - name: 데이터베이스 특정 시점 복원
+                  href: database/database-point-in-time-restore.md
+                - name: 프로덕션 데이터베이스를 샌드박스 환경으로 특정 시점 복원
+                  href: database/database-pitr-prod-sandbox.md
+                - name: Just-In-Time 데이터베이스 액세스 사용
+                  href: database/database-just-in-time-jit-access.md
+            - name: 자습서
+              items:
+                - name: 학습 목적으로 새로 고침
+                  href: database/dbmovement-scenario-general-refresh.md
+                - name: 프로덕션 데이터베이스 복사본 디버그
+                  href: database/dbmovement-scenario-debugdiag.md
+                - name: 표준 사용자 승인 테스트(UAT) 데이터베이스 복사본 내보내기
+                  href: database/dbmovement-scenario-exportuat.md
+                - name: 골든 구성 승격
+                  href: database/dbmovement-scenario-goldenconfig.md
+                - name: 파괴적인 테스트
+                  href: database/dbmovement-scenario-destructivetests.md
+            - name: RESTful API
+              items:
+                - name: 개요
+                  href: database/api/dbmovement-api-overview.md
+                - name: 버전 관리 및 지원
+                  href: database/api/dbmovement-api-versioning-support.md
+                - name: 인증
+                  href: database/api/dbmovement-api-authentication.md
+                - name: 제한
+                  href: database/api/dbmovement-api-throttling.md
+                - name: 참조
+                  items:
+                    - name: API v1 참조
+                      href: database/api/v1/dbmovement-api-v1-overview.md
+                    - name: 데이터베이스 백업 나열
+                      href: database/api/v1/reference-list-backups.md
+                    - name: 데이터베이스 새로 고침 생성
+                      href: database/api/v1/reference-create-refresh.md
+                    - name: 데이터베이스 내보내기 생성
+                      href: database/api/v1/reference-create-export.md
+                    - name: 작업 활동 상태 가져오기
+                      href: database/api/v1/reference-get-status.md
+        - name: 데모 데이터
+          items:
+            - name: 데모 데이터 개요
+              href: ../fin-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
+            - name: 데이터 패키지를 사용하여 데모 데이터 생성
+              href: data-entities/generate-demo-data-packages.md
+        - name: 배포
+          items:
+            - name: 데모 환경 배포
+              href: deployment/deploy-demo-environment.md
+            - name: 클라우드 배포
+              items:
+                - name: 클라우드 배포 개요
+                  href: deployment/cloud-deployment-overview.md
+                - name: 셀프 서비스 배포
+                  items:
+                    - name: 셀프 서비스 배포 개요
+                      href: deployment/infrastructure-stack.md
+                    - name: 새 환경 배포
+                      href: deployment/deployenvironment-newinfrastructure.md
+                    - name: 배포 FAQ
+                      href: deployment/deploymentFAQ.md
+                    - name: 셀프 서비스 배포의 알려진 문제
+                      href: deployment/known-issues-new-deployment-experience.md
+                    - name: 배포를 위한 유지 관리 작업
+                      href: deployment/maintenanceoperationsguide-newinfrastructure.md
+                    - name: 환경 업데이트
+                      href: deployment/updateenvironment-newinfrastructure.md
+                    - name: 셀프 서비스 배포를 통해 배포된 환경 문제 해결
+                      href: deployment/troubleshoot-newinfrastructure.md
+                    - name: 셀프 서비스 환경의 계획된 유지 관리 FAQ
+                      href: deployment/plannedmaintenance-selfservice.md
+                    - name: 비즈니스 연속성 및 재해 복구
+                      href: sysadmin/business-continuity-disaster-recovery.md
+                - name: Azure Resource Manager 온보딩 프로세스 완료
+                  href: deployment/arm-onboarding.md
+                - name: 미국 정부 LCS 프로젝트에 대한 Azure Resource Manager 온보딩 프로세스 완료
+                  href: deployment/arm-onbarding-us-goverment.md
+                - name: Azure ExpressRoute 및 Finance and Operations
+                  href: deployment/expressroute.md
+                - name: Finance and Operations 아키텍처
+                  href: ../fin-ops/imp-lifecycle/architecture-overview.md
+                - name: 클라우드 환경에 업데이트 적용
+                  href: deployment/apply-deployable-package-system.md
+                - name: Commerce Scale Unit(클라우드)에 업데이트 및 확장 적용
+                  href: deployment/Update-retail-channel.md
+                - name: Commerce Scale Unit(클라우드) 자동 업데이트
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
+                - name: Commerce Scale Unit(클라우드) 초기화
+                  href: deployment/Initialize-Retail-Channels.md
+                - name: 다른 Commerce Scale Unit으로 채널 마이그레이션
+                  href: deployment/Reassign-CSU.md
+                - name: 소매 데이터 보존
+                  href: deployment/retail-data-residency.md
+            - name: 온-프레미스 배포
+              items:
+                - name: 온-프레미스 배포 홈페이지
+                  href: deployment/on-premises-deployment-landing-page.md
+                - name: 온-프레미스 배포 준비
+                  items:
+                    - name: 온-프레미스 배포 개요
+                      href: deployment/on-premises-overview.md
+                    - name: 온-프레미스 배포 계획 및 준비
+                      href: deployment/plan-onprem-deployment.md
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) 지원 소프트웨어
+                      href: deployment/onprem-compatibility.md
+                    - name: 하드웨어 크기 조정 요구 사항
+                      href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: Dynamics 365 Finance + Operations (on-premises) 인증
+                      href: deployment/authentication-onprem.md
+                - name: 온-프레미스 환경 설정 및 배포
+                  items:
+                    - name: LCS에서 온-프레미스 프로젝트 설정
+                      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                    - name: 온-프레미스 환경 설정 및 배포(플랫폼 업데이트 41 이상)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: 온-프레미스 환경 설정 및 배포(플랫폼 업데이트 12~40)
+                      href: deployment/setup-deploy-on-premises-pu12.md
+                    - name: 온-프레미스 환경의 소매 채널 구성 요소 설치 단계
+                      href: deployment/deploy-retail-onprem.md
+                    - name: 온-프레미스 환경에 사용자 지정 모델 개발 및 배포
+                      href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: 환경 운영
+                  items:
+                    - name: 온-프레미스 배포에 업데이트 적용
+                      href: deployment/apply-updates-on-premises.md
+                    - name: 인증서 교체
+                      href: deployment/certificate-rotation-on-prem.md
+                    - name: 클라이언트 인터넷 연결
+                      href: user-interface/client-disconnected.md
+                    - name: 온-프레미스 배포에서 일괄 처리 전용 및 대화형 전용 AOS 노드 구성
+                      href: deployment/onprem-batchonly.md
+                    - name: SSRS(SQL Server Reporting Services) 노드에 대한 고가용성 구성
+                      href: deployment/onprem-SSRSHA.md
+                    - name: 온-프레미스 환경에 대한 프록시 구성
+                      href: deployment/onprem-reverseproxy.md
+                    - name: 온-프레미스 진단
+                      href: deployment/on-premises-diagnostics.md
+                    - name: 온-프레미스 재해 복구 구성
+                      href: deployment/onprem-dr.md
+                    - name: 온-프레미스 환경과 PowerBI.com 통합
+                      href: analytics/entity-store-on-prem.md
+                    - name: 환경 다시 구성
+                      href: lifecycle-services/reconfigure-environment.md
+                    - name: 온-프레미스 배포 다시 배포
+                      href: deployment/redeploy-on-prem.md
+                    - name: AOS 노드 제거 및 다시 설치 또는 추가
+                      href: deployment/onprem-remove-reinstall-AOS-node.md
+                    - name: 여러 환경에 대해 동일한 AD FS 인스턴스 다시 사용
+                      href: deployment/onprem-reuseadfs.md
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) 환경의 SQL Server 인스턴스 업그레이드
+                      href: deployment/onprem-upgrade-sqlserver.md
+                - name: 로컬 에이전트
+                  items:
+                    - name: AD FS Microsoft 365 호환성
+                      href: deployment/onprem-adfscompatibility.md
+                    - name: 로컬 에이전트 배포 전 및 배포 후 스크립트
+                      href: lifecycle-services/pre-post-scripts.md
+                    - name: 로컬 에이전트 배포 구성
+                      href: deployment/onprem-localagent-options.md
+                    - name: 로컬 에이전트 업데이트
+                      href: lifecycle-services/update-local-agent.md
+                - name: 문제 해결
+                  items:
+                    - name: 온-프레미스 배포 문제 해결
+                      href: deployment/troubleshoot-on-prem.md
+                    - name: 온-프레미스 환경에서 문제를 해결하기 위한 스크립트
+                      href: deployment/onprem-tsg-implementations.md
+            - name: 사용자 지정 코드 배포
+              items:
+                - name: 배포 가능한 모델 패키지 생성
+                  href: deployment/create-apply-deployable-package.md
+                - name: 명령줄에서 배포 가능한 패키지 설치
+                  href: deployment/install-deployable-package.md
+                - name: 패키지 제거
+                  href: deployment/uninstall-deployable-package.md
+                - name: 가동 중지 시간 없이 사용자 지정 X++ 스크립트 실행
+                  href: deployment/run-custom-scripts.md
+                - name: 패키지 애플리케이션 문제 해결
+                  href: deployment/deployable-package-troubleshooting.md
+            - name: 사용자 지정 도움말 배포
+              items:
+                - name: 사용자 지정 도움말 개요
+                  href: help/custom-help-overview.md
+                - name: 도움말 창에서 사용할 콘텐츠 준비
+                  href: help/preparing-content.md
+                - name: Azure에 사용자 지정 도움말 배포
+                  href: help/walkthrough-help-azure.md
+                - name: 도움말 창에 사용자 지정 도움말 연결
+                  href: help/connect-help-pane.md
+                - name: 사용자 지정 도움말 도구 키트
+                  items:
+                    - name: 개요
+                      href: help/custom-help-toolkit.md
+                    - name: HTML From Repo Generator 도구
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: Convert HTML To JSON 도구
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: HTML Locale Changer 도구
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: Dynamics 365에서 사용할 Convert Dynamics AX 사용자 지정 도움말
+                      href: help/migrate-dynamicsax2012.md
+                - name: 여러 제품 및 도움말의 언어 및 로캘 설명자
+                  href: help/language-locale.md
+                - name: '도움말 확장, 사용자 지정 및 협업'
+                  href: help/contributor-guide.md
+            - name: 배포 고려 사항
+              items:
+                - name: Dynamics 365 Finance 및 Dynamics 365 Supply Chain Management의 소버린 및 로컬 클라우드 배포 옵션
+                  href: deployment/deployment-options-geo.md
+                - name: 미국 정부 커뮤니티 클라우드(GCC)의 Finance 및 Supply Chain Management
+                  href: deployment/us-gcc-deployment.md
+                - name: 중국의 21Vianet에서 운영하는 Finance 및 Supply Chain Management
+                  href: deployment/china-local-deployment.md
+                - name: 프랑스의 금융 및 운영 앱
+                  href: deployment/france-local-deployment.md
+        - name: 개발 및 사용자 지정
+          items:
+            - name: 홈페이지 개발 및 사용자 지정
+              href: dev-tools/developer-home-page.md
+            - name: 애플리케이션 스택 및 서버 아키텍처
+              href: dev-tools/application-stack-server-architecture.md
+            - name: 평가판 받기
+              href: dev-tools/get-evaluation-copy.md
+            - name: 미리 보기 구독 신청
+              href: dev-tools/sign-up-preview-subscription.md
+            - name: 개발 환경 배포 및 액세스
+              items:
+                - name: 개발 환경
+                  href: dev-tools/access-instances.md
+                - name: 원박스 개발 환경 구성
+                  href: dev-tools/configure-developer-vm.md
+                - name: 관리자 액세스를 허용하지 않는 VM 개발 및 빌드 FAQ
+                  href: sysadmin/VMs-no-admin-access.md
+                - name: Azure DevOps에 액세스할 로컬 환경 이름 바꾸기
+                  href: migration-upgrade/vso-machine-renaming.md
+                - name: 개발 시스템 요구 사항
+                  href: dev-tools/development-system-requirements.md
+            - name: '버전 제어, 메타데이터 검색 및 탐색'
+              href: dev-tools/version-control-metadata-navigation.md
+            - name: Azure를 사용한 빌드 자동화
+              items:
+                - name: Microsoft 호스트된 에이전트 및 Azure Pipelines를 사용한 빌드 자동화
+                  href: dev-tools/hosted-build-automation.md
+                - name: Azure Pipelines에서 배포 가능한 패키지에 라이선스 파일 추가
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: Azure Pipelines에서 배포 가능한 패키지 생성
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: Azure Pipelines의 X++ 모델 버전 관리
+                  href: dev-tools/pipeline-model-version.md
+                - name: Azure Pipelines를 사용하여 자산 다운로드
+                  href: dev-tools/pipeline-asset-download.md
+                - name: Azure Pipelines를 사용하여 자산 다운로드
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: Azure Pipelines를 사용하여 자산 배포
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: Azure Pipelines에서 LCS(Lifecycle Services) 연결 생성
+                  href: dev-tools/pipeline-lcs-connection.md
+                - name: Azure Pipelines에서 LCS 연결 인증 작업을 MSAL로 업데이트
+                  href: dev-tools/pipeline-lcs-connection-update.md
+                - name: 새 NuGet 패키지에 대해 호스트된 Azure Pipeline 업데이트
+                  href: dev-tools/pipeline-nuget-split.md
+                - name: Azure Pipelines에서 레거시 파이프라인 업데이트
+                  href: dev-tools/pipeline-msbuild-update.md
+            - name: 차량군 관리 샘플 애플리케이션
+              items:
+                - name: 차량군 관리 샘플 애플리케이션에 대한 엔드투엔드 시나리오
+                  href: dev-tools/fleet-management-sample.md
+                - name: 차량군 관리 샘플 애플리케이션
+                  href: dev-tools/introduction-fleet-management-sample.md
+            - name: Visual Studio 도구
+              items:
+                - name: 개발 도구
+                  href: dev-tools/development-tools-overview.md
+                - name: 개발 도구 자습서
+                  href: dev-tools/introduction-visual-studio.md
+                - name: 애플리케이션 검사기
+                  href: dev-tools/application-checker.md
+                - name: 애플리케이션 탐색기
+                  href: dev-tools/application-explorer.md
+                - name: 프로젝트 빌드 및 디버그
+                  href: dev-tools/build-debug-project.md
+                - name: 빌드 작업
+                  href: dev-tools/build-operations.md
+                - name: 코드 편집기 기능
+                  href: dev-tools/code-editor.md
+                - name: 모델 및 데이터 모델 요소 생성
+                  items:
+                    - name: 모델 및 데이터 모델 요소 생성 개요
+                      href: dev-tools/create-data-model-elements.md
+                    - name: 확장 명명 지침
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                    - name: 모델 사용자 지정 끄기 및 기능 사용 중단
+                      href: dev-tools/lock-models.md
+                - name: 사용자 지정 분석 보고서
+                  href: dev-tools/customization-analysis-report.md
+                - name: 요소 디자이너
+                  href: dev-tools/element-designers.md
+                - name: 요소 사용을 결정하기 위한 명령
+                  href: dev-tools/element-usage.md
+                - name: 모델 내보내기 및 가져오기
+                  href: dev-tools/models-export-import.md
+                - name: Visual Studio에서 메타데이터 검색
+                  href: dev-tools/metadata-search-visual-studio.md
+                - name: 모델 및 패키지
+                  href: dev-tools/models.md
+                - name: Finance and Operations 프로젝트 유형
+                  href: dev-tools/projects.md
+                - name: Visual Studio 도구 추가 기능
+                  href: dev-tools/developer-tools-add-ins.md
+                - name: Visual Studio 개발 도구 업데이트
+                  href: dev-tools/update-development-tools.md
+            - name: X++ 프로그래밍 언어
+              items:
+                - name: X++ 언어 지원
+                  items:
+                    - name: X++의 Visual Studio 요구 사항
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: X++ 코드 디버그
+                      href: dev-tools/debug-xpp.md
+                    - name: 요청 또는 응답 시나리오의 EventHandlerResult 클래스
+                      href: dev-tools/event-handler-result-class.md
+                    - name: C# 및 X++ 소스 코드를 사용하여 비즈니스 논리 쓰기
+                      href: dev-tools/write-business-logic.md
+                    - name: C#용 LINQ 공급자
+                      href: dev-tools/linq-provider-c.md
+                    - name: 모범 사례 규칙 쓰기
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: 애플리케이션 탐색기 속성
+                      href: dev-ref/application-explorer-aot-properties.md
+                    - name: SysSetupConfigAttribute 특성
+                      href: dev-tools/syssetupconfigattribute.md
+                - name: X++ 언어 참조
+                  items:
+                    - name: X++ 언어 참조 개요
+                      href: dev-ref/xpp-language-reference.md
+                    - name: 변수 및 데이터 형식
+                      items:
+                        - name: 변수
+                          href: dev-ref/xpp-variables-data-types.md
+                        - name: 기본 데이터 형식
+                          href: dev-ref/xpp-data-primitive.md
+                        - name: 복합 데이터 형식
+                          href: dev-ref/xpp-data-composite.md
+                        - name: 컬렉션 클래스
+                          href: dev-ref/xpp-data-collection.md
+                        - name: 확장 데이터 형식
+                          href: dev-ref/xpp-data-edt.md
+                    - name: '문, 루프 및 예외 처리'
+                      items:
+                        - name: '주석, 사용 및 인쇄'
+                          href: dev-ref/xpp-statements-loops.md
+                        - name: 조건문
+                          href: dev-ref/xpp-conditional.md
+                        - name: Loop 문
+                          href: dev-ref/xpp-loops.md
+                        - name: 예외 처리
+                          href: dev-ref/xpp-exceptions.md
+                    - name: SQL 연결 오류 X++ 예외
+                      href: dev-ref/sql-connection-error.md
+                    - name: X++ 연산자
+                      href: dev-ref/xpp-operators.md
+                    - name: X++ 연산자 우선 순위
+                      href: dev-ref/xpp-operator-precedence.md
+                    - name: X++ 클래스 및 메서드
+                      items:
+                        - name: 클래스 및 메서드
+                          href: dev-ref/xpp-classes-methods.md
+                        - name: 상속
+                          href: dev-ref/xpp-inheritance.md
+                        - name: 정적 클래스 멤버
+                          href: dev-ref/xpp-static-classes.md
+                        - name: 인터페이스
+                          href: dev-ref/xpp-interfaces.md
+                        - name: 라이브러리
+                          href: dev-ref/xpp-library-objects.md
+                        - name: 이벤트 및 대리자
+                          href: dev-ref/xpp-events.md
+                    - name: X++ 데이터 선택 및 조작
+                      items:
+                        - name: X++ 데이터 선택 및 조작 개요
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: 문 선택
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: 데이터 선택
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: 데이터 삽입
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: 데이터 업데이트
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: 데이터 삭제
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: While Select 문
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: Select 문을 식으로 쓰기
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: 트랜잭션 무결성
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: 집합 기반에서 레코드별 작업으로 변환
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: SysDa API를 사용한 데이터 액세스
+                          href: dev-ref/sysda.md
+                        - name: SQL 삽입 공격 완화
+                          href: dev-ref/query-with-parameters.md
+                    - name: X++ 매크로
+                      href: dev-ref/xpp-macros.md
+                    - name: X++ 특성 클래스
+                      href: dev-ref/xpp-attribute-classes.md
+                    - name: X++ 및 C# 비교
+                      href: dev-ref/xpp-cs-comparison.md
+                    - name: X++ 구문
+                      href: dev-ref/xpp-syntax.md
+            - name: 'API, 클래스 및 테이블 참조'
+              items:
+                - name: 'API, 클래스 및 테이블 리소스'
+                  href: dev-ref/api-reference.md
+                - name: X++ 컴파일 시간 함수
+                  href: dev-ref/xpp-compile-time-functions.md
+                - name: X++ 런타임 함수
+                  items:
+                    - name: X++ 런타임 함수 리소스
+                      href: dev-ref/xpp-run-time-functions.md
+                    - name: X++ 비즈니스 런타임 함수
+                      href: dev-ref/xpp-business-run-time-functions.md
+                    - name: X++ 컨테이너 런타임 함수
+                      href: dev-ref/xpp-container-run-time-functions.md
+                    - name: X++ 변환 런타임 함수
+                      href: dev-ref/xpp-conversion-run-time-functions.md
+                    - name: X++ 날짜 런타임 함수
+                      href: dev-ref/xpp-date-run-time-functions.md
+                    - name: X++ 수학 런타임 함수
+                      href: dev-ref/xpp-math-run-time-functions.md
+                    - name: X++ 리플렉션 런타임 함수
+                      href: dev-ref/xpp-reflection-run-time-functions.md
+                    - name: X++ 세션 런타임 함수
+                      href: dev-ref/xpp-session-run-time-functions.md
+                    - name: X++ 문자열 런타임 함수
+                      href: dev-ref/xpp-string-run-time-functions.md
+                - name: 시스템 테이블
+                  href: dev-ref/system-tables.md
+            - name: 확장성
+              items:
+                - name: 확장성 홈페이지
+                  href: extensibility/extensibility-home-page.md
+                - name: 소개 및 시작
+                  items:
+                    - name: 애플리케이션 확장성 계획
+                      href: extensibility/extensibility-roadmap.md
+                    - name: 확장성 요청
+                      href: extensibility/extensibility-requests.md
+                    - name: 확장성 FAQ
+                      href: extensibility/app-sealing-faq.md
+                    - name: 오버레이에서 확장으로 마이그레이션
+                      href: extensibility/migrate-overlayer-extension.md
+                    - name: 확장을 통해 모델 요소 사용자 지정(자습서)
+                      href: extensibility/customize-model-elements-extensions.md
+                    - name: 확장 및 오버레이를 통한 사용자 지정
+                      href: extensibility/customization-overlayering-extensions.md
+                - name: 새로운 기능
+                  items:
+                    - name: 확장성의 새로운 기능 또는 변경된 사항
+                      href: extensibility/extensibility-new.md
+                    - name: 확장성 변경 버전 10.0.3
+                      href: extensibility/extensibility-changes-10-3.md
+                    - name: 확장성 변경 버전 10.0.2
+                      href: extensibility/extensibility-changes-10-2.md
+                    - name: 확장성 변경 버전 10.0.1
+                      href: extensibility/extensibility-changes-10-1.md
+                    - name: 확장성 변경 버전 10.0
+                      href: extensibility/extensibility-changes-10.md
+                    - name: 확장성 변경 버전 8.1.3
+                      href: extensibility/extensibility-changes-813.md
+                    - name: 확장성 변경 버전 8.1.2
+                      href: extensibility/extensibility-changes-812.md
+                    - name: 확장성 변경 버전 8.1.1
+                      href: extensibility/extensibility-changes-811.md
+                    - name: 확장성 변경 버전 8.1
+                      href: extensibility/extensibility-changes-81.md
+                    - name: 확장성 변경 버전 8.0.4
+                      href: extensibility/extensibility-changes-804.md
+                    - name: 확장성 변경 버전 8.0.3
+                      href: extensibility/extensibility-changes-803.md
+                    - name: 확장성 변경 버전 8.0.2
+                      href: extensibility/extensibility-changes-802.md
+                    - name: 확장성 변경 버전 8.0.1
+                      href: extensibility/extensibility-changes-801.md
+                    - name: 버전 8.0의 확장성 변경
+                      href: extensibility/Changes-80.md
+                    - name: 버전 7.3의 확장성 변경
+                      href: extensibility/extensibility-changes-73.md
+                    - name: 2017년 7월 확장성 변경
+                      href: extensibility/changes-july-2017.md
+                - name: 기본 사항
+                  items:
+                    - name: 방해가 되는 사용자 지정
+                      href: extensibility/intrusive-customizations.md
+                    - name: 클래스 확장 모델
+                      href: extensibility/class-extensions.md
+                    - name: 메서드 래핑 및 Chain of Command를 통한 클래스 확장
+                      href: extensibility/method-wrapping-coc.md
+                    - name: 확장 명명 지침
+                      href: extensibility/naming-guidelines-extensions.md
+                    - name: 모델 제한을 완화하여 오버레이를 확장으로 리팩터링
+                      href: extensibility/refactoring-over-layering.md
+                - name: 확장 생성
+                  items:
+                    - name: 열거형에 값 추가
+                      href: extensibility/add-enum-value.md
+                    - name: 확장 데이터 형식 수정
+                      href: extensibility/modify-edt.md
+                    - name: 팩토리 메서드에 대한 하위 클래스 등록
+                      href: extensibility/register-subclass-factory-methods.md
+                    - name: EventHandlerResult를 사용하여 응답
+                      href: extensibility/respond-event-handler-result.md
+                    - name: RunBase 클래스 확장
+                      href: extensibility/extend-runbase-class.md
+                    - name: 대리자를 사용하여 애플리케이션 시작 사용자 지정
+                      href: extensibility/startup-customizations.md
+                    - name: 테이블의 기존 필드 수정
+                      href: extensibility/modify-existing-field.md
+                    - name: 테이블에 필드 추가
+                      href: extensibility/add-field-extension.md
+                    - name: 테이블에 인덱스 추가
+                      href: extensibility/add-index.md
+                    - name: 테이블에 관계 추가
+                      href: extensibility/add-relation.md
+                    - name: 테이블 속성 수정
+                      href: extensibility/modify-properties.md
+                    - name: 테이블에 메서드 추가
+                      href: extensibility/add-method-table.md
+                    - name: 테이블 레코드 수명 주기 전반에서 비즈니스 작업 수행
+                      href: extensibility/subscribe-table-events.md
+                    - name: 양식에 데이터 원본 추가
+                      href: extensibility/add-datasource.md
+                    - name: 양식 캡션 변경
+                      href: extensibility/change-caption-form.md
+                    - name: 양식 컨트롤 속성 수정
+                      href: extensibility/modify-control-properties.md
+                    - name: 숫자 시퀀스 범위 확장
+                      href: extensibility/extend-number-sequence-scope.md
+                    - name: 새 재고 차원 추가
+                      href: extensibility/inventory-dimensions.md
+                    - name: 가격 및 할인 확장성
+                      href: extensibility/pricing-app73.md
+                    - name: 테이블 맵 확장
+                      href: extensibility/map-extensions.md
+                    - name: 인터페이스로 사용되는 테이블 맵 확장
+                      href: extensibility/maps-as-interfaces.md
+                    - name: 버전 관리에 사용되는 테이블 맵 확장
+                      href: extensibility/maps-with-versioning.md
+                    - name: 선택한 데이터 형식의 소수점 정밀도 확장
+                      href: extensibility/decimal-point-precision.md
+                - name: 확장 가능한 솔루션 생성
+                  items:
+                    - name: 확장 가능한 코드 쓰기
+                      href: extensibility/writing-extensible-code.md
+                    - name: 클래스
+                      href: extensibility/extensible-classes.md
+                    - name: 메서드
+                      href: extensibility/extensible-methods.md
+                    - name: 양식
+                      href: extensibility/extensible-forms.md
+                    - name: 확장 데이터 형식
+                      href: extensibility/extensible-edts.md
+                    - name: 확장 가능한 열거형
+                      href: extensibility/extensible-enums.md
+                    - name: 대리자
+                      href: extensibility/extensible-code-delegates.md
+                    - name: 테이블
+                      href: extensibility/extensible-tables.md
+                    - name: 메서드의 확장성 특성
+                      href: extensibility/extensibility-attributes.md
+                    - name: 호환성이 손상되는 변경
+                      href: extensibility/breaking-changes.md
+                    - name: 호환성 검사기 도구
+                      href: extensibility/compatibility-checker-tool.md
+            - name: 성능
+              items:
+                - name: Trace 파서를 사용하여 추적 적용
+                  href: perf-test/trace-trace-tutorial.md
+                - name: Performance SDK와 작업 레코더를 사용한 단일 사용자 테스트
+                  href: perf-test/single-user-test-perf-sdk.md
+                - name: Performance SDK를 사용한 다중 사용자 테스트
+                  href: perf-test/perfsdk-multi-user-testing.md
+                - name: Performance SDK로 테스트하기 위한 문제 해결 가이드
+                  href: perf-test/troubleshoot-perf-sdk-user-testing.md
+                - name: 온-프레미스 환경에서 Performance SDK 및 다중 사용자 테스트
+                  href: perf-test/perfsdk-tutorial-lbd.md
+                - name: Trace 파서를 사용하여 문제 진단 및 성능 분석
+                  href: perf-test/trace-parser.md
+                - name: 성능 타이머
+                  href: perf-test/performance-timer.md
+            - name: Visual Studio에서 테스트 지원
+              items:
+                - name: 테스트 및 유효성 검사
+                  href: perf-test/testing-validation.md
+                - name: Visual Studio에서 프로젝트 테스트
+                  href: perf-test/testing-support.md
+                - name: 지속적인 빌드 및 테스트 자동화 환경 배포 및 사용
+                  href: perf-test/continuous-build-test-automation.md
+                - name: 클래스 및 메서드 특성을 사용한 SysTest 필터링
+                  href: perf-test/systest-filtering.md
+                - name: 여러 값을 테스트하기 위한 SysTestRow 특성
+                  href: perf-test/systest-row.md
+                - name: 수용 테스트 라이브러리
+                  items:
+                    - name: 수용 테스트 라이브러리 리소스
+                      href: perf-test/acceptance-test-library.md
+                    - name: 탐색 개념
+                      href: perf-test/concepts-navigation.md
+                    - name: 테스트 데이터 메서드
+                      href: perf-test/test-data-methods.md
+                    - name: 수용 테스트 라이브러리 엔터티
+                      href: perf-test/concepts-entities.md
+                    - name: 수용 테스트 라이브러리 명령
+                      href: perf-test/concepts-commands.md
+                    - name: 수용 테스트 라이브러리 생성자
+                      href: perf-test/concepts-creators.md
+                    - name: 수용 테스트 라이브러리 쿼리
+                      href: perf-test/concepts-queries.md
+                    - name: 사양 등급
+                      href: perf-test/concepts-specifications.md
+                    - name: 수용 테스트 라이브러리 코드 생성 마법사
+                      href: perf-test/code-generation-wizard.md
+                    - name: 수용 테스트 라이브러리 모범 사례
+                      href: perf-test/atl-best-practices.md
+                    - name: 자주 묻는 질문
+                      href: perf-test/atl-faq.md
+            - name: 날짜 유효성
+              href: dev-tools/date-effectivity.md
+            - name: ISV(Independent Software Vendor)를 위한 개발
+              items:
+                - name: ISV 개발 홈페이지
+                  href: dev-tools/isv-dev-home-page.md
+                - name: ISV Studio를 사용하여 X++ 모듈을 패키지에 연결
+                  href: dev-tools/isv-studio-solutions.md
+                - name: ISV 라이선싱
+                  href: dev-tools/isv-licensing.md
+                - name: ISV 라이선싱 온-프레미스
+                  href: dev-tools/isv-licensing-on-prem.md
+        - name: 일반 데이터 보호 규정(GDPR)
+          items:
+            - name: 일반 데이터 보호 규정 개요
+              href: gdpr/gdpr-guide.md
+            - name: GDPR 데이터 요청에 응답
+              items:
+                - name: GDPR 데이터 요청에 응답 리소스
+                  href: gdpr/gdpr-home-page.md
+                - name: 자산 분류
+                  href: gdpr/gdpr-asset-classification-values.md
+                - name: 인물 검색 보고서
+                  href: gdpr/gdpr-person-search-report.md
+                - name: 인물 검색 보고서 확장
+                  href: gdpr/gdpr-extend-person-search-report.md
+                - name: 중요한 데이터에 대한 액세스 관리
+                  href: gdpr/gdpr-auditing-sensitive-data.md
+                - name: Human resources를 사용하여 개인 데이터 요청에 응답
+                  href: gdpr/respond-dsr-request-talent.md
+                - name: AX 2012에서 개인 데이터 요청에 응답
+                  href: gdpr/gdpr-ax2012.md
+                - name: LCS에 대한 GDPR 데이터 요청
+                  href: gdpr/gdpr-lcs.md
+        - name: Lifecycle Services
+          items:
+            - name: Lifecycle Services 리소스
+              items:
+                - name: Lifecycle Services 리소스
+                  href: lifecycle-services/lcs.md
+                - name: 고객을 위한 LCS
+                  href: lifecycle-services/lcs-works-lcs.md
+                - name: 파트너를 위한 LCS
+                  href: lifecycle-services/getting-started-lcs.md
+                - name: RESTful API
+                  items:
+                    - name: 환경 시작 및 중지
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: 환경 메타데이터 가져오기
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: 환경 기록 가져오기
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: 환경 RSAT 인증서 ZIP 가져오기
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
+                - name: Lifecycle Services의 새로운 기능 또는 변경된 사항
+                  href: lifecycle-services/whats-new-lcs.md
+            - name: Lifecycle Services 사용자 가이드
+              href: lifecycle-services/lcs-user-guide.md
+            - name: 프로젝트 온보딩
+              href: lifecycle-services/project-onboarding.md
+            - name: 구독 예측 도구
+              href: lifecycle-services/subscription-estimator.md
+            - name: 보안 구성
+              href: lifecycle-services/configure-lcs-security.md
+            - name: 문제 검색
+              href: lifecycle-services/issue-search-lcs.md
+            - name: 구성 관리자
+              items:
+                - name: 구성 관리자 개요
+                  href: lifecycle-services/configuration-manager-lcs.md
+                - name: 구성 관리자 설정
+                  href: lifecycle-services/set-up-configuration-manager-lcs.md
+            - name: 코드 업그레이드 서비스 구성
+              href: lifecycle-services/configure-execute-code-upgrade.md
+            - name: 방법론 생성 또는 업데이트
+              href: lifecycle-services/create-methodology.md
+            - name: 비즈니스 프로세스 모델러(BPM)
+              items:
+                - name: 비즈니스 프로세스 모델러(BPM) 개요
+                  href: lifecycle-services/bpm-overview.md
+                - name: 비즈니스 프로세스 모델러의 비즈니스 프로세스 라이브러리
+                  href: lifecycle-services/business-process-libraries-business-process-modeler.md
+                - name: '비즈니스 프로세스 모델러 라이브러리 생성, 편집 및 찾아보기'
+                  href: lifecycle-services/creating-editing-browsing.md
+                - name: 비즈니스 프로세스 모델러에서 작업 완료
+                  href: lifecycle-services/complete-tasks-bpm.md
+                - name: BPM 라이브러리에서 활동 다이어그램 작업
+                  href: lifecycle-services/using-activity-diagrams.md
+                - name: BPM 라이브러리와 Azure DevOps 동기화
+                  href: lifecycle-services/synchronize-bpm-vsts.md
+                - name: 작업 가이드와 BPM을 사용하여 사용자 승인 테스트 라이브러리 생성
+                  href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+                - name: 비즈니스 프로세스 모델러 순서도
+                  href: lifecycle-services/flowcharts-business-process-modeler.md
+                - name: 비즈니스 프로세스 모델러에 사용자 지정 비즈니스 프로세스 업로드
+                  href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: 서비스 요청
+              items:
+                - name: 클라우드 운영 및 서비스
+                  href: lifecycle-services/cloud-operations-servicing.md
+                - name: Dynamics 서비스 엔지니어링 팀에 서비스 요청 제출
+                  href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+                - name: 계획된 유지 관리 기간 FAQ
+                  href: lifecycle-services/planned-maintenance-window-faq.md
+            - name: 모니터링 및 진단
+              items:
+                - name: 모니터링 및 진단 도구
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Azure Data Explorer를 사용하여 원시 정보 로그 쿼리
+                  href: lifecycle-services/azure-data-explorer.md
+            - name: 환경 서비스 다시 시작
+              href: lifecycle-services/restart-environment-services.md
+            - name: 생산 중단 보고
+              href: lifecycle-services/report-production-outage.md
+            - name: 사용자 로그인 추적
+              href: lifecycle-services/user-logins.md
+            - name: 자산 라이브러리
+              href: lifecycle-services/asset-library.md
+            - name: LCS 도구를 사용한 성능 문제 해결
+              href: lifecycle-services/performancetroubleshooting.md
+            - name: 쿼리 쿡북
+              href: lifecycle-services/querycookbook.md
+            - name: 만료된 구독 및 데이터 삭제
+              href: lifecycle-services/expired-subscription-data-deletion.md
+            - name: Microsoft Dynamics 365 Translation Service
+              items:
+                - name: Dynamics 365 Translation Service 개요
+                  href: lifecycle-services/translation-service-overview.md
+                - name: 사용자 인터페이스 파일 번역
+                  href: lifecycle-services/use-translation-service.md
+                - name: 설명서 파일 번역
+                  href: lifecycle-services/use-translation-service-ua.md
+                - name: 번역 메모리 파일
+                  href: lifecycle-services/use-translation-service-tm.md
+                - name: Azure DevOps 확장(공개 미리 보기)
+                  href: lifecycle-services/dts-devops-extension.md
+        - name: Microsoft Power Platform 통합
+          items:
+            - name: 개요
+              href: power-platform/overview.md
+            - name: Power Platform 통합 사용
+              href: power-platform/enable-power-platform-integration.md
+            - name: 인증 및 권한 부여
+              href: power-platform/authentication-and-authorization.md
+            - name: 이중 쓰기
+              items:
+                - name: 이중 쓰기 홈페이지
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: 이중 쓰기의 새로운 기능 또는 변경된 사항
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: 이중 쓰기 개요
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: 이중 쓰기 설정
+                  items:
+                    - name: 이중 쓰기 시스템 요구 사항
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: 이중 쓰기 설정 방법 지침
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: 초기 동기화 고려 사항
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: 실시간 동기화 제한
+                      href: data-entities/dual-write/sync-limits.md
+                    - name: Lifecycle Services의 이중 쓰기 설정
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: 기존 금융 및 운영 앱의 이중 쓰기 사용
+                      items:
+                        - name: 기존 금융 및 운영 앱의 이중 쓰기 사용
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: 시스템 요구 사항 및 필수 구성 요소
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: 이중 쓰기 마법사를 사용하여 환경을 연결하는 방법
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: 이중 쓰기를 위한 엔터티 맵 사용
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: 구분된 이중 쓰기 애플리케이션 오케스트레이션 패키지
+                      href: data-entities/dual-write/separated-solutions.md
+                    - name: 이중 쓰기를 위한 통화 데이터 형식 마이그레이션
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: 판매 주문 상태 필드 매핑 설정
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: Orders 및 OrderLines 동기화 방지를 위한 회사 간 주문 필터링
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: 이중 쓰기 관리
+                  items:
+                    - name: 엔터티 및 필드 매핑 사용자 지정
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: 이중 쓰기 사용자 지정 지침
+                      href: data-entities/dual-write/custom-best-practices.md
+                    - name: 여러 엔터티 맵 처리
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: 이중 쓰기 설정 후 법인 편집
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: 유지 관리를 위해 이중 쓰기 일시 중지
+                      href: data-entities/dual-write/pause-for-maintenance.md
+                    - name: 오류 관리 및 경고 알림
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: 애플리케이션 수명 주기 관리
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: 사용자 지정 팀 소유자
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: 이중 쓰기 환경 연결 해제 및 다시 연결
+                      href: data-entities/dual-write/relink-environments.md
+                - name: 앱 간 매핑 개념
+                  items:
+                    - name: 통합 고객 마스터
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: 공급업체 통합
+                      items:
+                        - name: 통합 공급업체 마스터
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: 공급업체 설계 간 전환
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: 고객 카드 및 리워드 포인트
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: 제품 통합
+                      items:
+                        - name: 통합 제품 환경
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: 통합 사이트 및 웨어하우스
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: 회사 통합
+                      items:
+                        - name: Dataverse의 회사 개념
+                          href: data-entities/dual-write/company-data.md
+                        - name: 회사 데이터 초기화
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Dataverse의 조직 계층 구조
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: 금융 및 세금 데이터
+                      items:
+                        - name: 금융 및 세금 참조 데이터에 대한 액세스
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: 통합 원장
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: 통합 세금 마스터
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: Supply Chain Management 조달을 Field Service와 통합
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: Supply Chain Management 가격 책정 엔진과 주문형 동기화
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: 이중 쓰기의 잠재 고객-현금
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: Dynamics 365 Sales와 함께 Dynamics 365 Commerce 가격 책정 엔진 사용
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: 사내 서비스 자산
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: 재고 가용성
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: '작업자, 직무 및 직위 통합'
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: 당사자 및 전체 주소록
+                      href: data-entities/dual-write/party-gab.md
+                    - name: 당사자 데이터 모델과 함께 Microsoft Power Apps 포털 사용
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: 당사자 및 전체 주소록 모델로 업그레이드
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: 당사자 데이터 보기
+                      href: data-entities/dual-write/view-party.md
+                    - name: 참고 통합
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: 매핑 참조
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: 이중 쓰기 지원
+                  items:
+                    - name: Field Service 및 Project Service Automation 솔루션 지원
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: 데이터 통합자에서 이중 쓰기로 잠재 고객-현금 데이터 마이그레이션
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: 문제 해결
+                      items:
+                        - name: 일반 문제 해결
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: 초기 설정 중 문제 해결
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: 초기 동기화 중 문제 해결
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: 실시간 동기화 문제 해결
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: 금융 및 운영 앱의 이중 쓰기 문제 해결
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: 당사자 및 전체 주소록 문제 해결
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
+                        - name: 솔루션 인식과 관련된 문제 해결
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: 금융 및 운영 앱 업그레이드 문제 해결
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: 금융 및 운영 앱과 Dataverse에서 이중 쓰기 구성 확인
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: 테이블 맵 상태 검사에 대한 오류 코드
+                          href: data-entities/dual-write/table-map-health-check.md
+                - name: 이중 쓰기 자주 묻는 질문
+                  href: data-entities/dual-write/dual-write-faq.md
+            - name: 가상 엔터티
+              items:
+                - name: 가상 엔터티 개요
+                  href: power-platform/virtual-entities-overview.md
+                - name: 엔터티 모델링
+                  href: power-platform/entity-modeling.md
+                - name: 애플리케이션 수명 주기 관리
+                  href: power-platform/application-lifecycle-management.md
+                - name: Dataverse 가상 엔터티 구성
+                  href: power-platform/admin-reference.md
+                - name: Dataverse 가상 엔터티 사용
+                  href: power-platform/enable-virtual-entities.md
+                - name: Power Apps 포털과 Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: Finance and Operations 가상 엔터티 FAQ
+                  href: power-platform/faq.md
+            - name: 비즈니스 이벤트
+              items:
+                - name: 비즈니스 이벤트 개요
+                  href: business-events/home-page.md
+                - name: 비즈니스 이벤트 엔드포인트 관리
+                  href: business-events/managing-business-event-endpoints.md
+                - name: 애플리케이션 비즈니스 이벤트
+                  href: business-events/app-business-events.md
+                - name: 워크플로 비즈니스 이벤트
+                  href: business-events/business-events-workflow.md
+                - name: 일괄 처리 비즈니스 이벤트
+                  href: business-events/system-business-events.md
+                - name: 비즈니스 이벤트로서의 알림
+                  href: business-events/alerts-business-events.md
+                - name: 데이터 이벤트
+                  href: business-events/data-events.md
+                - name: Power Automate 비즈니스 이벤트
+                  href: business-events/business-events-flow.md
+                - name: 비즈니스 이벤트 개발자 설명서
+                  href: business-events/business-events-dev-doc.md
+                - name: 비즈니스 이벤트 문제 해결
+                  href: business-events/troubleshooting.md
+                - name: 비즈니스 이벤트 사용 사례
+                  href: business-events/potential-use-cases.md
+                - name: 자습서
+                  items:
+                    - name: 비즈니스 이벤트 및 Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: 비즈니스 이벤트 및 Azure Event Grid
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: 비즈니스 이벤트 및 Azure Service Bus
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: 비즈니스 이벤트 및 Azure Service Bus 큐
+                      href: business-events/how-to/how-to-servicebus-queue.md
+                    - name: 비즈니스 이벤트 및 워크플로 승인
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: 비즈니스 이벤트 및 Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: 비즈니스 이벤트 및 Azure Event Hubs
+                      href: business-events/how-to/event-hub.md
+                    - name: Dataverse에서 이벤트 구독
+                      href: business-events/how-to/how-to-dataverse-events.md
+                    - name: 재무 기간 마감의 비즈니스 이벤트
+                      href: business-events/how-to/period-close.md
+            - name: 추가 기능
+              items:
+                - name: 추가 기능 개요
+                  href: power-platform/add-ins-overview.md
+            - name: 정책 및 커뮤니케이션
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
+        - name: 모바일 플랫폼
+          items:
+            - name: 모바일 플랫폼 리소스
+              href: mobile-apps/platform/mobile-platform-home-page.md
+            - name: 시작
+              items:
+                - name: 모바일 플랫폼 시작
+                  href: mobile-apps/platform/mobile-platform-getting-started.md
+                - name: 아키텍처 및 설계 고려 사항
+                  href: mobile-apps/platform/mobile-platform-architecture.md
+                - name: 비즈니스 논리 이벤트
+                  href: mobile-apps/platform/business-logic-events-overview.md
+                - name: 페이지 디자인 지침
+                  href: mobile-apps/platform/page-design-guidelines.md
+                - name: 작업 디자인 지침
+                  href: mobile-apps/platform/action-design-guidelines.md
+                - name: 양식 디자인 요구 사항
+                  href: mobile-apps/platform/form-design-requirements.md
+            - name: 일반 작업
+              items:
+                - name: SysAppWorkspace 클래스를 사용하여 작업 영역 구성
+                  href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
+                - name: 클릭 가능한 모바일 앱 페이지 필드 생성
+                  href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
+                - name: 필드에 개수 표시
+                  href: mobile-apps/platform/scenarios/display-count-workspace.md
+                - name: 모바일 작업 영역 보안 유지
+                  href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
+                - name: 모바일 작업 영역 지역화
+                  href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
+                - name: 작업 영역 클래스를 사용하여 필수 필드 생성
+                  href: mobile-apps/platform/scenarios/make-field-mandatory.md
+            - name: 서버 쪽 개발 참조
+              items:
+                - name: 서버 쪽 개발(작업 영역 X++ API)
+                  href: mobile-apps/platform/mobile-workspace-server-apis.md
+            - name: 클라이언트 쪽 개발 참조
+              items:
+                - name: 클라이언트 쪽 설계 API
+                  href: mobile-apps/platform/scenarios/client-api-design-overview.md
+                - name: 클라이언트 API
+                  items:
+                    - name: 클라이언트 API 홈페이지
+                      href: mobile-apps/platform/client-apis/client-apis-reference.md
+                    - name: PageState 열거형
+                      href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
+                    - name: 애플리케이션 모듈
+                      href: mobile-apps/platform/client-apis/modules/services-application.md
+                    - name: 연기 모듈
+                      href: mobile-apps/platform/client-apis/modules/defer.md
+                    - name: 이벤트 모듈
+                      href: mobile-apps/platform/client-apis/modules/event-ievent.md
+                    - name: 제어 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
+                    - name: 컨테이너 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
+                    - name: 필드 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
+                    - name: 파일 업로더 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md
+                    - name: 그룹 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md
+                    - name: 하이퍼링크 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md
+                    - name: 이미지 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md
+                    - name: 입력 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md
+                    - name: 목록 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md
+                    - name: 조회 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md
+                    - name: 다중 조회 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
+                    - name: 페이지 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
+                    - name: 페이지링크 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
+                    - name: 파트 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
+                    - name: 서비스 모듈
+                      href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
+                    - name: 값 모듈
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
+                    - name: 애플리케이션 형식
+                      href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
+                    - name: ApplicationMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
+                    - name: AsyncService 형식
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md
+                    - name: CacheService 형식
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md
+                    - name: CompleteEventArgs 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md
+                    - name: ContainerControl 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md
+                    - name: ContainerControlDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md
+                    - name: ContainerControlMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md
+                    - name: ControlMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
+                    - name: DataService 형식
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
+                    - name: 연기된 형식<T>
+                      href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
+                    - name: 설계 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
+                    - name: EventHook 형식<T>
+                      href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
+                    - name: 필드 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
+                    - name: FieldDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
+                    - name: FieldMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md
+                    - name: FileUploader 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md
+                    - name: FileUploaderDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md
+                    - name: FileUploaderMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md
+                    - name: GenericValue 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
+                    - name: getDataSource 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
+                    - name: 그룹 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
+                    - name: GroupDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
+                    - name: GroupMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md
+                    - name: HyperLink 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md
+                    - name: HyperLinkDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
+                    - name: HyperLinkMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
+                    - name: 이미지 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
+                    - name: ImageDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
+                    - name: ImageMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md
+                    - name: InputControl 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md
+                    - name: InputControlDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
+                    - name: InputControlMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
+                    - name: 목록 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
+                    - name: ListDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
+                    - name: ListMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
+                    - name: 조회 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
+                    - name: LookupDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
+                    - name: LookupMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md
+                    - name: MetadataService 형식
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md
+                    - name: MultiLookup 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md
+                    - name: MultiLookupDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md
+                    - name: MultiLookupMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md
+                    - name: NavigationArgs 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
+                    - name: NumberSequenceConfig 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
+                    - name: 페이지 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
+                    - name: PageData 형식
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
+                    - name: PageLink 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md
+                    - name: PageLinkDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md
+                    - name: PageLinkMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md
+                    - name: PageMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md
+                    - name: PageOptions 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md
+                    - name: PageSubmitArgs 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md
+                    - name: PageTarget 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md
+                    - name: 파트 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md
+                    - name: PartDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
+                    - name: PartMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
+                    - name: 행 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
+                    - name: 값 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
+                    - name: ValueDesign 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
+                    - name: ValueMetadata 형식
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: 프로세스 자동화 프레임워크
+          items:
+            - name: 프로세스 자동화 프레임워크 개발
+              href: process-automation/process-automation-framework.md
+            - name: 형식 등록
+              href: process-automation/type-registration.md
+            - name: 시리즈 등록
+              href: process-automation/series-registration.md
+            - name: 프로세스 매개 변수
+              href: process-automation/process-parameters.md
+            - name: 사용자가 구성할 수 있는 쿼리
+              href: process-automation/user-queries.md
+            - name: 프로세스 실행
+              href: process-automation/run-process.md
+            - name: 결과 및 메시지 기록
+              href: process-automation/log-results.md
+            - name: 사용자 인터페이스 사용자 지정
+              href: process-automation/ui-customization.md
+        - name: Regression Suite Automation Tool
+          items:
+            - name: Regression Suite Automation Tool 개요
+              href: perf-test/rsat/rsat-overview.md
+            - name: 설치 및 구성
+              href: perf-test/rsat/rsat-install-configure.md
+            - name: Regression Suite Automation Tool 사용
+              href: perf-test/rsat/rsat-run.md
+            - name: Regression Suite Automation Tool 내에서 테스트 사례 유지
+              href: perf-test/rsat/rsat-maintain-test-cases.md
+            - name: 예상 값 유효성 검사
+              href: perf-test/rsat/rsat-validate-expected.md
+            - name: 테스트 사례 체인
+              href: perf-test/rsat/rsat-chain-test-cases.md
+            - name: 파생 테스트 사례
+              href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: 매개 변수 파일 업그레이드
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: Regression Suite Automation Tool 자습서
+              href: perf-test/rsat/rsat-tutorial.md
+            - name: 관리자가 아닌 사용자 구성
+              href: perf-test/rsat/rsat-configure-nonadmin.md
+            - name: 모범 사례
+              href: perf-test/rsat/rsat-best-practices.md
+            - name: Regression Suite Automation Tool을 사용한 데이터 불가지론적 테스트
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: 병렬 실행으로 RSAT(Regression Suite Automation Tool) 실행
+              href: perf-test/rsat/rsat-parallel-execution.md
+            - name: 문제 해결
+              href: perf-test/rsat/rsat-troubleshooting.md
+        - name: Lifecycle Services를 사용하여 솔루션 릴리스
+          items:
+            - name: 개발 및 릴리스
+              href: lcs-solutions/lcs-solutions-app-source.md
+            - name: 스테이징 및 게시
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
+            - name: 방법론 추가
+              href: lcs-solutions/methodologies-lcs-solutions.md
+            - name: 비즈니스 프로세스 모델러 라이브러리 설정
+              href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
+            - name: 코드 마이그레이션
+              href: lcs-solutions/code-migration-lcs-solutions.md
+            - name: 애플리케이션 유효성 검사
+              href: lcs-solutions/app-validation-lcs-solutions.md
+            - name: 데이터 패키지 처리 및 사용
+              href: lcs-solutions/process-data-packages-lcs-solutions.md
+            - name: 솔루션 데이터베이스 백업
+              href: lcs-solutions/database-backup-lcs-solutions.md
+            - name: 지역화 및 규제 기능
+              items:
+                - name: 세계화 리소스
+                  href: lcs-solutions/country-region.md
+                - name: 지역화 기능 분류
+                  href: lcs-solutions/classify-localization-features.md
+                - name: 국가/지역 컨텍스트 적용
+                  href: lcs-solutions/apply-country-context.md
+                - name: 기능 제목에 표시된 규제 인증 정보
+                  href: lcs-solutions/regulatory-certifications.md
+                - name: 규제 업데이트
+                  href: lcs-solutions/regulatory-watch-communication.md
+                - name: 지역화 모델 분리
+                  href: lcs-solutions/separate-localization-models.md
+                - name: 규제 경고 제출
+                  href: lcs-solutions/submit-localization-alerts.md
+        - name: 지원
+          items:
+            - name: Finance and Operations 및 Lifecycle Services 관련 지원 받기
+              href: lifecycle-services/lcs-support.md
+            - name: Dynamics 365 지원 개요
+              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
+            - name: 중국 21Vianet에서 운영하는 Finance 및 Operations 관련 지원 받기
+              href: lifecycle-services/21vianet-support.md
+            - name: 금융 및 운영 앱 관련 기술 지원 설정
+              href: lifecycle-services/support-experience.md
+            - name: 금융 및 운영 앱 관련 지원 환경 관리
+              href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: 프로덕션 지원 및 모니터링
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
+        - name: 시스템 관리
+          items:
+            - name: 시스템 관리 홈페이지
+              href: sysadmin/system-administration-home-page.md
+            - name: 약관 및 개인정보처리방침에 링크 추가
+              href: sysadmin/legal-terms-privacy-statement.md
+            - name: 라이선스 코드 및 구성 키 보고서
+              href: sysadmin/license-codes-configuration-keys-report.md
+            - name: 회사 간 데이터 공유
+              href: sysadmin/cross-company-data-sharing.md
+            - name: 유지 관리 모드
+              href: sysadmin/maintenance-mode.md
+            - name: 사전 구성된 시스템 계정
+              href: sysadmin/pre-configured-system-accounts.md
+            - name: Azure AD로 B2B 사용자 내보내기
+              href: sysadmin/implement-b2b.md
+            - name: 데이터 유지 관리
+              href: sysadmin/DataMaintenancePortal.md
+            - name: 보안
+              items:
+                - name: 역할 기반 보안
+                  href: sysadmin/role-based-security.md
+                - name: 보안 아키텍처
+                  href: sysadmin/security-architecture.md
+                - name: 금융 및 운영 앱 암호화
+                  href: sysadmin/encryption.md
+                - name: 세션 비활성 시간 제한 설정
+                  href: sysadmin/session-idle-timeout.md
+                - name: 기본 보안 보고서
+                  href: sysadmin/security-reports.md
+                - name: 새 사용자 생성
+                  href: sysadmin/tasks/create-new-users.md
+                - name: 사용자 세션 관리
+                  href: sysadmin/user-session-management.md
+                - name: Azure AD 조건부 액세스를 사용하여 위치별 액세스 차단
+                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
+                - name: 대량으로 사용자 가져오기
+                  href: sysadmin/tasks/import-bulk-users.md
+                - name: 직무 분리 설정
+                  href: sysadmin/tasks/set-up-segregation-duties.md
+                - name: 직무 분리 갈등 파악 및 해결
+                  href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
+                - name: 보안 역할에 사용자 할당
+                  href: sysadmin/tasks/assign-users-security-roles.md
+                - name: 데이터 관리를 사용하여 사용자 지정 보안 구성 가져오기 또는 내보내기
+                  href: sysadmin/import-export-customized-security.md
+                - name: 작업 녹화를 위한 보안 진단
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
+                - name: 확장 가능한 데이터 보안 정책
+                  href: sysadmin/extensible-data-security-policies.md
+                - name: 보안 정책 생성
+                  href: sysadmin/create-simple-security-policy.md
+            - name: 사용자 라이선싱 요구 사항 준수
+              href: sysadmin/stay-compliant-user-license-requirement.md
+            - name: 독립 소프트웨어 공급업체 라이선스 상태 보기
+              href: sysadmin/view-isv-license-status.md
+            - name: 프로세스 자동화
+              href: sysadmin/process-automation.md
+            - name: 일괄 처리
+              items:
+                - name: 일괄 처리 개요
+                  href: sysadmin/batch-processing-overview.md
+                - name: 일괄 처리 및 일괄 처리 서버
+                  href: sysadmin/batch-server-overview.md
+                - name: 일괄 처리 작업 생성
+                  href: sysadmin/tasks/create-batch-job.md
+                - name: 일괄 처리 다시 시도 사용
+                  href: sysadmin/retryable-batch.md
+                - name: 일괄 처리 작업 복사
+                  href: sysadmin/copy-batch-job.md
+                - name: 우선 순위 기반 일괄 처리 일정
+                  href: sysadmin/priority-based-batch-scheduling.md
+                - name: 활성 일괄 처리 기간
+                  href: sysadmin/activeperiod.md
+                - name: 활성 일괄 처리 기간의 일광 절약 시간 지원
+                  href: sysadmin/batch-active-period-dst.md
+                - name: 일괄 처리 관리자 보안 역할
+                  href: sysadmin/runby.md
+                - name: 일괄 처리 알림 구성
+                  href: sysadmin/alerts.md
+                - name: 향상된 일괄 처리 양식
+                  href: sysadmin/enhanced-forms.md
+                - name: 일괄 처리 기록 정리
+                  href: sysadmin/batch-history-cleanup.md
+                - name: 실행 중인 일괄 처리 작업 취소
+                  href: sysadmin/batch-abort.md
+                - name: 일괄 처리 OData API
+                  href: sysadmin/batch-odata-api.md
+            - name: 최적화 Advisor
+              items:
+                - name: 최적화 Advisor 개요
+                  href: sysadmin/optimization-advisor-overview.md
+                - name: 최적화 Advisor 규칙 생성
+                  href: sysadmin/create-rules-optimization-advisor.md
+            - name: 생산 중단 보고
+              href: lifecycle-services/report-production-outage.md
+            - name: 데이터베이스 로깅 구성 및 관리
+              href: sysadmin/configure-manage-database-log.md
+            - name: AOS 시작 시 OData 메타데이터 캐시 빌드
+              href: sysadmin/odata-warmup.md
+            - name: Azure Key Vault 클라이언트 설정
+              href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: 정리 루틴
+              href: sysadmin/cleanuproutines.md
+        - name: '업그레이드, 업데이트 및 핫픽스'
+          items:
+            - name: '업그레이드, 업데이트 및 핫픽스 리소스'
+              href: migration-upgrade/upgrade-home-page.md
+            - name: AX 2012에서 업그레이드
+              items:
+                - name: AX 2012에서 Finance and Operations로 업그레이드
+                  href: migration-upgrade/upgrade-overview-2012.md
+                - name: AX 2012 업그레이드 - 업그레이드 분석 도구를 사용하여 계획
+                  href: migration-upgrade/upgrade-analyzer-tool.md
+                - name: AX 2012 업그레이드 – 코드 업그레이드 서비스를 사용하여 활동 추정
+                  href: migration-upgrade/analyze-code-upgrade.md
+                - name: AX 2012 업그레이드 - 분석 데모 환경 배포
+                  href: migration-upgrade/analysis-sandbox.md
+                - name: AX 2012 업그레이드 - 개발 환경에서 데이터 업그레이드
+                  href: migration-upgrade/data-upgrade-2012.md
+                - name: AX 2012 업그레이드 - 데이터 업그레이드를 위한 업그레이드 전 체크리스트
+                  href: migration-upgrade/prepare-data-upgrade.md
+                - name: AX 2012에서 업그레이드 - 셀프 서비스 환경에서 데이터 업그레이드
+                  href: migration-upgrade/data-upgrade-self-service.md
+                - name: AX 2012 업그레이드 - 온-프레미스 환경
+                  href: migration-upgrade/on-prem-upgrade-2012.md
+                - name: AX 2012 업그레이드 - 단독형 테스트
+                  href: migration-upgrade/upgrade-cutover-testing.md
+                - name: AX 2012 업그레이드 - 업그레이드 후 작업
+                  href: migration-upgrade/app-validation-process.md
+                - name: AX 2012 업그레이드 - 기능 테스트 통과
+                  href: migration-upgrade/upgrade-functional-validation.md
+                - name: AX 2012 업그레이드 - 가동 준비
+                  href: migration-upgrade/upgrade-go-live-prep.md
+                - name: AX 2012 업그레이드 - 가동
+                  href: migration-upgrade/2012-upgrade-cutover.md
+                - name: AX 2012에서 업그레이드 - 데이터 업그레이드 FAQ
+                  href: migration-upgrade/upgrade-faq.md
+                - name: AX 2012에서 업그레이드에 영향을 주는 변경 사항
+                  items:
+                    - name: 고유한 계정 차트 구분 기호 생성
+                      href: migration-upgrade/chart-accounts-delimiter-unique.md
+                    - name: 프로젝트 리소스 일정 데이터 모델
+                      href: migration-upgrade/data-model-changes-resource-management.md
+                    - name: 워크플로 하위 시스템 변경 사항
+                      href: migration-upgrade/workflow-subsystem.md
+                    - name: 분석을 위해 큐브 대신 사용되는 집계 모델
+                      href: migration-upgrade/in-memory-real-time-aggregate-models.md
+                    - name: 업그레이드된 판매 큐브를 엔터티 저장소로 마이그레이션
+                      href: migration-upgrade/migrate-upgraded-cube-entity-store.md
+                    - name: 예산 계획 업그레이드
+                      href: migration-upgrade/upgrade-budget-planning.md
+            - name: AX 2009에서 데이터 마이그레이션
+              items:
+                - name: AX 2009에서 Finance and Operations로 데이터 마이그레이션
+                  href: migration-upgrade/data-migration-tool.md
+                - name: AX 2009 마이그레이션 - 데이터 마이그레이션 도구 설치
+                  href: migration-upgrade/install-dmt.md
+                - name: AX 2009 마이그레이션 - 맵 생성
+                  href: migration-upgrade/generate-maps.md
+                - name: AX 2009 마이그레이션 - 템플릿 생성
+                  href: migration-upgrade/create-package-templates-dmt.md
+                - name: AX 2009 마이그레이션 - 마이그레이션 그룹 생성
+                  href: migration-upgrade/create-definition.md
+                - name: AX 2009 마이그레이션 - 패키지 내보내기
+                  href: migration-upgrade/ax2009-upgrade-export-package.md
+                - name: AX 2009 마이그레이션 - 패키지 가져오기
+                  href: migration-upgrade/ax2009-upgrade-import-package.md
+            - name: 코드 마이그레이션 및 업그레이드
+              items:
+                - name: 코드 마이그레이션 및 업그레이드 홈페이지
+                  href: migration-upgrade/code-migration-home-page.md
+                - name: 코드 마이그레이션 준비
+                  href: migration-upgrade/prepare-migration.md
+                - name: Azure DevOps 매핑 구성
+                  href: migration-upgrade/configure-vso-solution.md
+                - name: 모델 분할
+                  href: dev-tools/model-split.md
+                - name: 대리자를 사용하여 모델 간 종속성 해결
+                  href: migration-upgrade/delegates-migration.md
+            - name: 최신 업데이트(클라우드)로 업그레이드
+              items:
+                - name: 최신 업데이트로 이동하는 프로세스
+                  href: migration-upgrade/upgrade-latest-update.md
+                - name: 단일 버전 경로
+                  items:
+                    - name: 최신 버전으로 셀프 서비스 업그레이드
+                      href: migration-upgrade/self-service-upgrade.md
+                    - name: 최신 버전으로 다시 빌드 및 업데이트
+                      href: migration-upgrade/appupdate-80-81.md
+                - name: 소프트웨어 수명 주기 정책 및 클라우드 릴리스
+                  href: migration-upgrade/versions-update-policy.md
+                - name: 환경에 최신 플랫폼 업데이트 적용
+                  href: migration-upgrade/upgrade-latest-platform-update.md
+                - name: 개발 또는 데모 환경에서 데이터 업그레이드
+                  href: migration-upgrade/upgrade-data-to-latest-update.md
+                - name: 개발 도구 업데이트
+                  href: dev-tools/update-development-tools.md
+                - name: 최신 업데이트에 대한 코드 컴파일 계획 및 준비
+                  href: migration-upgrade/compile-considerations.md
+            - name: 최신 업데이트(온-프레미스)로 업그레이드
+              items:
+                - name: 온-프레미스 배포에 업데이트 적용
+                  href: deployment/apply-updates-on-premises.md
+                - name: 온-프레미스 배포 다시 배포
+                  href: deployment/redeploy-on-prem.md
+                - name: 온-프레미스 환경을 위한 현재 위치 업그레이드 프로세스
+                  href: migration-upgrade/on-prem-upgrade.md
+            - name: 핫픽스
+              items:
+                - name: Lifecycle Services에서 업데이트 다운로드
+                  href: migration-upgrade/download-hotfix-lcs.md
+                - name: 클라우드 환경에 업데이트 적용
+                  href: deployment/apply-deployable-package-system.md
+                - name: 개발 환경에 메타데이터 핫픽스 설치
+                  href: migration-upgrade/install-metadata-hotfix-package.md
+                - name: 원박스 환경에서 Reporting Service 패치
+                  href: migration-upgrade/patch-reporting-service-environment.md
+                - name: Visual Studio 개발 도구 업데이트
+                  href: dev-tools/update-development-tools.md
+            - name: 사용 중단
+              items:
+                - name: 제거되거나 사용되지 않는 기능
+                  href: migration-upgrade/deprecated-features.md
+                - name: 메서드 및 메타데이터 요소 사용 중단
+                  href: migration-upgrade/deprecation-deletion-apis.md
+                - name: 사용되지 않는 API
+                  href: migration-upgrade/deprecated-apis.md
+        - name: 사용자 인터페이스 개발
+          items:
+            - name: 사용자 인터페이스 개발 홈페이지
+              href: user-interface/user-interface-development-home-page.md
+            - name: 자습서
+              items:
+                - name: 임대 요금 형식 양식 빌드
+                  href: user-interface/build-rental-charge-type-form.md
+                - name: 고객 양식 빌드
+                  href: user-interface/build-customer-form.md
+                - name: 탐색 빌드
+                  href: user-interface/build-navigation.md
+                - name: 작업 영역 수정
+                  href: user-interface/build-workspace.md
+            - name: 양식
+              items:
+                - name: 탐색 개념
+                  href: user-interface/page-navigation.md
+                - name: 웹 클라이언트의 페이지 레이아웃
+                  href: user-interface/page-layout.md
+                - name: Dynamics 기호 글꼴
+                  href: user-interface/symbol-font.md
+                - name: 저장된 보기
+                  href: ../fin-ops/get-started/saved-views.md
+                - name: 저장된 보기를 완전히 활용하는 양식 빌드
+                  href: user-interface/understanding-saved-views.md
+                - name: 사용자 지정 패턴을 사용하는 테스트 양식
+                  href: user-interface/testing-forms-custom-patterns.md
+                - name: 공유 가능한 보안 URL aksemfrl(딥 링크)
+                  href: user-interface/create-deep-links.md
+                - name: '양식, 제품 및 컨트롤의 접근성'
+                  href: user-interface/enable-accessibility.md
+                - name: 필드 설명 사용자 지정
+                  href: user-interface/customize-field-help.md
+            - name: 컨트롤
+              items:
+                - name: 작업 컨트롤
+                  href: user-interface/action-controls.md
+                - name: 입력 컨트롤 및 그리드 열 크기
+                  href: user-interface/sizing-input-controls-grid-columns.md
+                - name: 트리 컨트롤의 확인란 지원
+                  href: user-interface/check-box-tree-controls.md
+                - name: 필터링 옵션
+                  href: user-interface/filtering.md
+                - name: Power Apps Host 컨트롤
+                  href: user-interface/powerapps-host-control.md
+            - name: 창 관리
+              items:
+                - name: 컨텍스트 메뉴 코드 마이그레이션
+                  href: migration-upgrade/code-migration-context-menus.md
+                - name: 마우스 두 번 클릭 논리 마이그레이션
+                  href: migration-upgrade/code-migration-double-click.md
+                - name: 조회를 위한 상황별 데이터 입력
+                  href: user-interface/contextual-data-entry-lookups.md
+                - name: HierarchyViewer 컨트롤
+                  href: user-interface/hierarchy-viewer-control.md
+                - name: 조회 컨트롤
+                  href: user-interface/lookups-controls.md
+                - name: 파일 업로드 제어
+                  href: user-interface/file-upload-control.md
+                - name: 시스템 정의 버튼
+                  href: user-interface/system-defined-buttons.md
+                - name: 페이지 또는 그리드 이미지
+                  href: user-interface/images-form-grid.md
+                - name: '입력, 테이블 및 그리드 컨트롤의 글꼴 및 배경색'
+                  href: user-interface/specify-color-font-background-controls.md
+                - name: 오른쪽에서 왼쪽으로 쓰기 언어 지원 및 양방향 텍스트
+                  href: user-interface/bidirectional-support.md
+                - name: 작업 영역 타일 아이콘 생성
+                  href: user-interface/create-icons-workspace-tiles.md
+                - name: 확장 가능 컨트롤을 위한 공용 JavaScript API
+                  href: user-interface/public-javascript-apis.md
+                - name: 제어 체크리스트
+                  href: user-interface/control-checklist.md
+            - name: 메시지
+              items:
+                - name: 기능 설명
+                  href: user-interface/feature-callouts.md
+                - name: 슬라이더 및 MessageBox 대화 상자
+                  href: user-interface/slider-messagebox.md
+                - name: '메시지 센터, 메시지 표시줄 및 메시지 세부 정보 API'
+                  href: user-interface/messaging-api-center-bar-details.md
+                - name: '메시지 센터, 메시지 표시줄 및 메시지 세부 정보 FAQ'
+                  href: user-interface/messaging-user.md
+            - name: 양식 패턴 지침
+              items:
+                - name: 마이그레이션된 양식의 양식 패턴
+                  href: user-interface/select-form-pattern.md
+                - name: 양식 스타일 및 패턴
+                  href: user-interface/form-styles-patterns.md
+                - name: 양식 패턴을 지원하는 Visual Studio 추가 기능
+                  href: user-interface/form-pattern-add-ins.md
+            - name: 양식 패턴
+              items:
+                - name: 일반 양식 지침
+                  href: user-interface/general-form-guidelines.md
+                - name: 세부 정보 마스터 양식 패턴
+                  href: user-interface/details-master-form-pattern.md
+                - name: 세부 정보 트랜잭션 양식 패턴
+                  href: user-interface/details-transaction-form-pattern.md
+                - name: 양식 파트 섹션 목록 양식 패턴
+                  href: user-interface/section-list-form-pattern.md
+                - name: 목록 페이지 양식 패턴
+                  href: user-interface/list-page-form-pattern.md
+                - name: 일반 세부 정보 양식 패턴
+                  href: user-interface/simple-details-form-pattern.md
+                - name: 일반 목록 및 세부 정보 양식 패턴
+                  href: user-interface/simple-list-details-form-pattern.md
+                - name: 일반 목록 양식 패턴
+                  href: user-interface/simple-list-form-pattern.md
+                - name: 목차 양식 패턴
+                  href: user-interface/table-of-contents-form-pattern.md
+                - name: 이중 작업 양식 패턴
+                  href: user-interface/task-double-form-pattern.md
+                - name: 단일 작업 양식 패턴
+                  href: user-interface/task-single-form-pattern.md
+                - name: 마법사 양식 패턴
+                  href: user-interface/wizard-form-pattern.md
+                - name: 작업 영역 양식 패턴
+                  href: user-interface/workspace-form-pattern.md
+            - name: 보조 양식 패턴
+              items:
+                - name: 고급 선택 양식 패턴
+                  href: user-interface/advanced-selection-form-pattern.md
+                - name: 대화 상자 양식 패턴
+                  href: user-interface/dialog-form-pattern.md
+                - name: 드롭 대화 상자 양식 패턴
+                  href: user-interface/drop-dialog-form-pattern.md
+                - name: 조회 양식 패턴
+                  href: user-interface/lookup-form-pattern.md
+                - name: 팩트 상자 양식 패턴
+                  href: user-interface/factbox-form-patterns.md
+            - name: 하위 패턴
+              items:
+                - name: 사용자 지정 필터 그룹 하위 패턴
+                  href: user-interface/custom-filter-group-subpattern.md
+                - name: 차원 입력 제어 하위 패턴
+                  href: financial/dimension-entry-control-subpattern.md
+                - name: 차원 식 작성기 하위 패턴
+                  href: financial/dimension-expression-builder-subpattern.md
+                - name: 필드 및 필드 그룹 하위 패턴
+                  href: user-interface/fields-field-groups-subpattern.md
+                - name: 필터 및 도구 모음 하위 패턴
+                  href: user-interface/filters-toolbar-subpattern.md
+                - name: 텍스트 채우기 하위 패턴
+                  href: user-interface/fill-text-subpattern.md
+                - name: 수평 필드 및 버튼 그룹 하위 패턴
+                  href: user-interface/horizontal-fields-buttons-group-subpattern.md
+                - name: 이미지 미리 보기 하위 패턴
+                  href: user-interface/image-preview-subpattern.md
+                - name: 목록 패널 하위 패턴
+                  href: user-interface/list-panel-subpattern.md
+                - name: 중첩된 일반 목록 및 세부 정보 하위 패턴
+                  href: user-interface/nested-simple-list-details-subpattern.md
+                - name: 섹션 차트 양식 패턴
+                  href: user-interface/section-chart-form-pattern.md
+                - name: 섹션 Power BI 하위 패턴
+                  href: user-interface/section-powerbi-subpattern.md
+                - name: 섹션 관련 링크 하위 패턴
+                  href: user-interface/section-related-links-subpattern.md
+                - name: 섹션 누적 차트 하위 패턴
+                  href: user-interface/section-stacked-chart-subpattern.md
+                - name: 섹션 탭 목록 하위 패턴
+                  href: user-interface/section-tabbed-list-subpattern.md
+                - name: 섹션 타일 하위 패턴
+                  href: user-interface/section-tiles-subpattern.md
+                - name: 테이블 형식 필드 하위 패턴
+                  href: user-interface/tabular-fields-subpattern.md
+                - name: 도구 모음 및 필드 하위 패턴
+                  href: user-interface/toolbar-fields-subpattern.md
+                - name: 도구 모음 및 목록 하위 패턴
+                  href: user-interface/toolbar-list-subpattern.md
+                - name: 작업 영역 페이지 필터 그룹 하위 패턴
+                  href: user-interface/workspace-filter-group-subpattern.md
+            - name: 확장성 제어
+              items:
+                - name: 확장 가능한 컨트롤 빌드
+                  href: user-interface/build-extensible-control.md
+                - name: 확장 가능한 컨트롤을 위한 키보드 단축키
+                  href: user-interface/keyboard-shortcuts-controls.md
+                - name: 확장 가능한 제어 프로그래밍 참조
+                  href: user-interface/extensible-control-programming-reference.md
+                - name: 확장성 제어
+                  href: user-interface/control-extensibility.md
+                - name: 지역화 가능 레이블 생성
+                  href: user-interface/create-localizable-labels-client.md
+                - name: 확장 가능한 컨트롤 레이아웃 지침
+                  href: user-interface/extensible-controls-layout.md
+                - name: 작업 레코더가 컨트롤에 대해 생성하는 텍스트 제어
+                  href: user-interface/task-recorder-control-text.md
+            - name: 작업 영역 빌드
+              items:
+                - name: 운영 작업 영역 빌드
+                  href: user-interface/build-workspaces.md
+                - name: 작업 영역에 대한 타일 및 목록 캐싱
+                  href: user-interface/tile-list-caching-workspaces.md
+            - name: 작업 레코더
+              items:
+                - name: 작업 레코더 리소스
+                  href: user-interface/task-recorder.md
+                - name: 작업 레코더 빠른 참조
+                  href: user-interface/task-recorder-quick-reference.md
+                - name: 작업 녹화로 설명서 또는 학습 생성
+                  href: user-interface/task-recorder-training-docs.md
+    - name: Dynamics 365 Supply Chain Management
+      href: ../../supply-chain/index.md
+    - name: Dynamics 365 Finance
+      href: ../../finance/index.md
+    - name: Dynamics 365 Commerce
+      href: ../../commerce/index.md

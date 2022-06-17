@@ -1,0 +1,2916 @@
+- name: Dynamics 365 Commerce
+  items:
+    - name: Dynamics 365 Commerce
+      items:
+        - name: Dynamics 365 Commerce 홈페이지
+          href: index.md
+        - name: 새로운 기능 또는 변경된 사항
+          items:
+            - name: 금융 및 운영 앱의 새로운 기능 또는 변경된 사항
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
+            - name: Commerce의 새로운 기능 또는 변경된 사항
+              items:
+                - name: Commerce 홈페이지의 새로운 기능 또는 변경된 사항
+                  href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.26(2022년 5월)
+                  href: get-started/whats-new-commerce-10-0-26.md
+                - name: Commerce 10.0.25(2022년 4월)
+                  href: get-started/whats-new-commerce-10-0-25.md
+                - name: Commerce 10.0.24(2022년 2월)
+                  href: get-started/whats-new-commerce-10-0-24.md
+                - name: Commerce 10.0.23(2022년 1월)
+                  href: get-started/whats-new-commerce-10-0-23.md
+            - name: 제거되거나 사용되지 않는 기능
+              items:
+                - name: 에서 제거되거나 사용되지 않는 기능 홈페이지
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
+                - name: Finance and Operations에서 제거되거나 더 이상 사용되지 않는 기능
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
+                - name: Dynamics 365 Commerce에서 제거되거나 사용되지 않는 기능
+                  href: get-started/removed-deprecated-features-commerce.md
+            - name: 연기된 AX 2012 기능
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
+            - name: Microsoft Dynamics AX 2009 및 2012에 대한 일반 지원 종료
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
+        - name: 시작
+          items:
+            - name: 서비스 설명
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
+            - name: 구매하기 전에
+              href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
+            - name: One Version 서비스 업데이트
+              items:
+                - name: One Version 서비스 업데이트 개요
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: One Version 서비스 업데이트 FAQ
+                  href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
+                - name: Dynamics 365 Commerce를 포함한 업데이트 및 사용자 지정 코드 수명 주기 관리
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/commerce/toc.json
+                - name: 소프트웨어 수명 주기 정책 - 클라우드
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
+                - name: 소프트웨어 수명 주기 정책 - 온-프레미스
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/commerce/toc.json
+                - name: 서비스 업데이트 가용성
+                  href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
+                - name: 클라우드 환경에 업데이트 적용
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: 온-프레미스 배포에 업데이트 적용
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: 서비스 업데이트 구성
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: 서비스 업데이트 일시 중지
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: 서비스 업데이트에 대한 알림 받기
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: 데이터 작업 자동화
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
+                - name: One Version을 사용하여 ISV 솔루션 제공
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
+                - name: 사용자 승인 테스트 생성 및 자동화
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
+            - name: Dynamics 365 Commerce 평가 환경 설정
+              items:
+                - name: Dynamics 365 Commerce 평가 환경 개요
+                  href: cpe-overview.md
+                - name: Dynamics 365 Commerce 평가 환경 설정 프로비저닝
+                  href: provisioning-guide.md
+                - name: Dynamics 365 Commerce 평가 환경 설정 구성
+                  href: cpe-post-provisioning.md
+                - name: Dynamics 365 Commerce 평가 환경에서 BOPIS 구성
+                  href: cpe-bopis.md
+                - name: Dynamics 365 Commerce 평가 환경에 대한 선택적 기능 구성
+                  href: cpe-optional-features.md
+                - name: Dynamics 365 Commerce 평가 환경 FAQ
+                  href: cpe-faq.md
+            - name: 배포 고려 사항
+              items:
+                - name: 배포 옵션
+                  href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/commerce/toc.json
+                - name: 클라우드 및 온-프레미스 기능 비교
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/finance/toc.json
+                - name: 클라우드 배포
+                  href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: 클라우드 배포를 위한 시스템 요구 사항
+                  href: get-started/system-requirements.md
+                - name: 온-프레미스 배포
+                  href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
+                - name: 온-프레미스 배포를 위한 시스템 요구 사항
+                  href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
+                - name: 온-프레미스 환경의 소매 채널 구성 요소 설치 단계
+                  href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
+                - name: Finance + Operations (on-premises) 구매
+                  href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Commerce Data Exchange 구현 지침
+                  href: dev-itpro/implementation-considerations-cdx.md
+            - name: 지원 받기
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
+            - name: 업그레이드 및 N-1 지원
+              items:
+                - name: Commerce에 대한 업그레이드 및 N-1 지원
+                  href: dev-itpro/overview-upgrade-n-minus1.md
+                - name: '단계적 출시(N-1) 설치, 구성, 컷오버'
+                  href: dev-itpro/n-1-installation-configuration.md
+                - name: Retail 채널 확장을 최신 Retail SDK로 업그레이드
+                  href: dev-itpro/RetailSDK-update.md
+            - name: 설명서 리소스
+              items:
+                - name: 도움말 시스템
+                  href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: 도움말 시스템 연결
+                  href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
+                - name: 사용자 지정 도움말 개요
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: 필드 설명 보기 및 내보내기
+                  href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
+                - name: 작업 레코더
+                  href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/commerce/toc.json
+                - name: 작업 레코더로 설명서 또는 교육 생성
+                  href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
+                - name: 비디오
+                  href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
+            - name: 학습 카탈로그
+              items:
+                - name: 학습 카탈로그 홈페이지
+                  href: ./get-started/learning-catalog.md
+                - name: 비즈니스 의사 결정자
+                  href: ./get-started/learning-catalog-bdm.md?
+                - name: 비즈니스 사용자
+                  href: ./get-started/learning-catalog-business-user.md
+                - name: 구현 프로젝트 관리자
+                  href: ./get-started/learning-catalog-project-manager.md
+                - name: 관리자
+                  href: ./get-started/learning-catalog-administrator.md
+                - name: 개발자
+                  href: ./get-started/learning-catalog-developer.md
+                - name: 파트너 영업 및 마케팅
+                  href: ./get-started/learning-catalog-partner-sales.md
+                - name: 기능 컨설턴트
+                  href: ./get-started/learning-catalog-functional-consultant.md
+                - name: 솔루션 아키텍트
+                  href: ./get-started/learning-catalog-solution-architect.md
+            - name: 사용자 인터페이스 탐색
+              items:
+                - name: 사용자 인터페이스 요소
+                  href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/commerce/toc.json
+                - name: 접근성 기능
+                  href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/commerce/toc.json
+                - name: 기능 관리 개요
+                  href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: 클라이언트 FAQ
+                  href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: 작업 검색
+                  href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/commerce/toc.json
+                - name: 고급 필터링 및 쿼리 구문
+                  href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/commerce/toc.json
+                - name: 작업 영역 구성 및 필터링
+                  href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: 새 창에서 열기 기능을 사용하여 페이지를 나란히 표시
+                  href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/commerce/toc.json
+                - name: 키보드 단축키
+                  href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/commerce/toc.json
+                - name: 법인의 배너 또는 로고 이미지 변경
+                  href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/commerce/toc.json
+                - name: 탐색 검색
+                  href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/commerce/toc.json
+                - name: 사용자 경험 개인 설정
+                  href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
+                - name: 저장된 보기
+                  href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: 그리드 기능
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
+                - name: 사용자 지정 필드 생성 및 작업
+                  href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
+                - name: Power Apps에서 캔버스 앱 포함
+                  href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: 타사 앱 포함
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
+                - name: 조회를 사용하여 정보 찾기
+                  href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
+                - name: 세션 날짜 변경
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/commerce/toc.json
+                - name: 사용자가 선호하는 표준 시간대 설정
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
+                - name: Lifecycle Services 이해
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+            - name: 구현 수명 주기 관리
+              items:
+                - name: 구현 수명 주기 관리 홈페이지
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: 금융 및 운영 앱용 아키텍처
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                - name: 구현 프로젝트 온보딩
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
+                - name: 환경 계획
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
+                - name: 가동 준비
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
+                - name: 가동 FAQ
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: 서비스 요청 제출
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
+                - name: '구독, LCS 프로젝트, Azure AD 테넌트 FAQ'
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: 데이터 센터 간 환경 이동
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
+                - name: 계약 유형 간 라이선스 이동
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS 구현 프로젝트를 다른 Azure AD 테넌트로 이동
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS 구현 프로젝트를 온-프레미스에서 클라우드로 이동
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: 하나의 Azure AD 테넌트에 있는 여러 LCS 프로젝트 및 프로덕션 환경
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Finance and Operations Commerce 프로젝트 구현
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: '새로운 환경, Azure DevOps, 및 프로젝트에 대한 분기 설정'
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: Commerce 프로젝트에 대한 코드 및 환경 업데이트
+                  href: dev-itpro/updating-environments.md
+                - name: 테스트 및 성능 문제
+                  href: dev-itpro/retail-implementation-testing-performance.md
+        - name: 아키텍처 개요
+          items:
+            - name: 아키텍처
+              items:
+                - name: Dynamics 365 Commerce 아키텍처 개요
+                  href: commerce-architecture.md
+                - name: Dynamics 365 Commerce 인증 흐름
+                  href: arch-auth-flow.md
+                - name: 헤드리스 커머스 아키텍처
+                  href: dev-itpro/retail-server-architecture.md
+                - name: 매장 내 토폴로지 선택
+                  href: dev-itpro/retail-in-store-topology.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: Commerce Data Exchange 모범 사례
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange 및 상거래 채널 커뮤니케이션
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: Commerce Data Exchange 문제 해결
+                      href: dev-itpro/CDX-Troubleshooting.md
+                    - name: 기본 인덱스를 기준으로 Commerce Data Exchange 패키지 정렬
+                      href: CDX-package-sort.md
+                - name: Modern POS 아키텍처
+                  href: dev-itpro/retail-modern-pos-architecture.md
+                - name: Commerce 매장 내 기술 스택 현대화(백서)
+                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
+                - name: Commerce 오프라인 구현 및 문제 해결
+                  href: dev-itpro/implementation-considerations-offline.md
+                - name: 온라인 스토어 카탈로그 게시
+                  href: dev-itpro/retail-online-store-publishing-architecture.md
+                - name: Retail Channel Performance Power BI 콘텐츠
+                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
+                - name: PA-DSS(결제 애플리케이션 데이터 보안 표준) 인증
+                  href: dev-itpro/PA-DSS-Certification.md
+                - name: 온-프레미스 배포에서 사용 가능한 Commerce 기능
+                  href: retail-onprem.md
+            - name: 배포 및 핫픽스
+              items:
+                - name: Dynamics 365 Commerce에서 셀프 서비스 설치 프로그램 동기화
+                  href: dev-itpro/Synchronize-installers.md
+                - name: Commerce Scale Unit(자체 호스트형)
+                  href: dev-itpro/retail-store-system-begin.md
+                - name: Commerce Scale Unit(자체 호스트형) 구성 및 설치
+                  href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+                - name: Modern POS 구성 및 설치
+                  href: retail-modern-pos-device-activation.md
+                - name: Headquarters에서 계정 및 디바이스 관리
+                  href: set-up-activation-accounts-validate-devices-hq.md
+                - name: POS 디바이스 활성화
+                  href: dev-itpro/retail-device-activation.md
+                - name: 공유 환경에서 Cloud POS 보안 지원
+                  href: dev-itpro/secure-retail-cloud-pos.md
+                - name: Retail Hardware Station 구성 및 설치
+                  href: retail-hardware-station-configuration-installation.md
+                - name: 봉인된 Commerce 셀프 서비스 구성 요소 대량 배포
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
+                - name: 레거시 셀프 서비스 구성 요소 대량 배포
+                  href: dev-itpro/retail-mass-deployment.md
+                - name: 진단 및 문제 해결을 위한 Commerce 구성 요소 이벤트
+                  href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+                - name: 배포 가능한 패키지 적용
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: 새로운 Commerce 환경에서 시드 데이터 초기화
+                  href: enable-configure-retail-functionality.md
+        - name: 구현
+          items:
+            - name: 애플리케이션 수명 주기 관리
+              items:
+                - name: Dynamics 365 Commerce 구성 요소 버전 관리 요구 사항
+                  href: arch-component-versioning.md
+            - name: 가동 및 업데이트 권장 사항
+              items:
+                - name: 가동 및 업데이트 권장 사항 개요
+                  href: go-live/go-live-overview.md
+                - name: 성능
+                  items:
+                    - name: 이미지 최적화
+                      href: go-live/performance-optimize-images.md
+                    - name: 사용하지 않는 모듈을 제외하여 JavaScript 줄이기
+                      href: go-live/performance-reduce-javascript.md
+            - name: AX 2012 단계적 출시
+              items:
+                - name: Commerce에 대한 업그레이드 및 N-1 지원
+                  href: dev-itpro/overview-upgrade-n-minus1.md
+                - name: '단계적 출시(N-1) 설치, 구성, 컷오버 가이드'
+                  href: dev-itpro/n-1-installation-configuration.md
+        - name: 채널 설정
+          items:
+            - name: 채널 개요
+              href: channels-overview.md
+            - name: 채널 전제 조건
+              items:
+                - name: 채널 설정 전제 조건
+                  href: channels-prerequisites.md
+                - name: 일반 전제 조건
+                  items:
+                    - name: 조직 및 조직 계층 구조
+                      items:
+                        - name: 조직 및 조직 계층 구조 개요
+                          href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
+                        - name: 조직 계층 구조 계획
+                          href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
+                        - name: 법인 생성
+                          href: channels-legal-entities.md
+                        - name: 조직 계층 구조 설정
+                          href: channels-org-hierarchies.md
+                        - name: 운영 단위 생성
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json
+                        - name: 조직 구성 단위 간 관계 정의
+                          href: tasks/design-relationships-between-organizational-units.md
+                    - name: 창고 설정
+                      href: channels-setup-warehouse.md
+                    - name: 판매세 설정
+                      items:
+                        - name: 판매세 개요
+                          href: ../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/commerce/toc.json
+                        - name: 판매세 계산 방법
+                          href: ../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=/dynamics365/commerce/toc.json
+                        - name: 판매세 할당 및 재정의
+                          href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
+                        - name: 판매세 코드에 대한 전체 금액 및 간격 계산 옵션
+                          href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: 면세 계산
+                          href: tax-exempt-price-inclusive.md
+                        - name: 온라인 주문에 대한 판매세 구성
+                          href: sales-tax-config.md
+                    - name: 이메일 알림 프로필 설정
+                      href: email-notification-profiles.md
+                    - name: 숫자 시퀀스
+                      items:
+                        - name: 숫자 시퀀스 개요
+                          href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/retail/toc.json
+                        - name: 개별적으로 숫자 시퀀스 설정
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/retail/toc.json
+                        - name: 마법사를 사용하여 숫자 시퀀스 설정
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/retail/toc.json
+                    - name: 기본 고객 및 주소록 설정
+                      href: default-customer.md
+                - name: 소매 채널 전제 조건
+                  items:
+                    - name: 정보 코드 및 정보 코드 그룹
+                      href: info-codes-retail.md
+                    - name: 소매 기능 프로필 생성
+                      href: retail-functionality-profile.md
+                    - name: 새 주소록 생성
+                      href: new-address-book.md
+                    - name: 화면 레이아웃 개요
+                      href: pos-screen-layouts.md
+                - name: 온라인 채널 전제 조건
+                  items:
+                    - name: 온라인 기능 프로필 생성
+                      href: online-functionality-profile.md
+            - name: 소매 채널 설정
+              items:
+                - name: 소매 채널 설정
+                  href: channel-setup-retail.md
+                - name: 소매 작업자 구성
+                  href: tasks/worker.md
+                - name: 'MPOS(Modern Point of Sale), Cloud POS, Store Commerce'
+                  items:
+                    - name: Microsoft Dynamics 365 Commerce의 Store Commerce 앱(프리뷰)
+                      href: dev-itpro/store-commerce.md
+                    - name: 장치 관리 구현 지침
+                      href: implementation-considerations-devices.md
+                    - name: MPOS와 Cloud POS 중에서 선택
+                      href: MPOS-or-CPOS.md
+                    - name: 온라인 및·오프라인 POS 운영
+                      href: pos-operations.md
+                    - name: 맞춤형 Modern POS의 디바이스 활성화
+                      href: dev-itpro/retail-POS-activation-changes.md
+                    - name: POS 로그인을 위한 Azure Active Directory 인증 구성
+                      href: aad-pos-logon.md
+                    - name: POS의 제품 및 고객 검색
+                      href: POS-search-improvements.md
+                    - name: 주문 입력 시 제품 및 제품 변형 검색
+                      href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
+                    - name: 현금 관리 개선
+                      href: cash-mgmt.md
+                    - name: POS에서 거래 일시 중단 및 계속하기
+                      href: pos-suspend-recall-transactions.md
+                    - name: 오프라인 POS 기능
+                      href: pos-offline-functionality.md
+                    - name: 교대 및 현금 출납기 관리
+                      href: shift-drawer-management.md
+                    - name: 기프트 카드 잔액 현금화
+                      href: dev-itpro/gift-card-cash-out.md
+                    - name: 다른 매장에서 주문 배송
+                      href: charge-send.md
+                    - name: POS 배송 대화 상자에서 비운송업체 배달 모드 숨기기
+                      href: hide-non-carrier-modes.md
+                    - name: MPOS 및 Cloud POS용 작업 레코더 및 도움말
+                      href: task-recorder-retail-pos.md
+                    - name: 하드웨어 주변기기
+                      items:
+                        - name: 주변기기
+                          href: retail-peripherals-overview.md
+                        - name: 주변기기 시뮬레이터
+                          href: dev-itpro/retail-peripheral-simulator.md
+                        - name: POS에 주변기기 연결
+                          href: define-maintain-channel-clients-registers-hw-stations.md
+                        - name: POS 주변기기 및 서비스 상태 확인
+                          href: pos-healthcheck.md
+                        - name: 네트워크 주변기기 지원
+                          href: dev-itpro/network-peripherals.md
+                    - name: 화면 레이아웃
+                      items:
+                        - name: MPOS/CPOS의 데모 데이터 화면 레이아웃
+                          href: demo-data.md
+                        - name: POS 사용자 인터페이스 시각적 구성
+                          href: pos-screen-layouts.md
+                        - name: POS 레이아웃 디자이너 설치
+                          href: install-pos-layout-designer.md
+                        - name: 알림 설정 선택
+                          href: Notifications-POS.md
+                        - name: POS 애플리케이션 및 사용자 언어 설정
+                          href: pos-application-user-language-settings.md
+                        - name: MPOS용 이미지 설정 및 관리
+                          href: set-up-manage-images-retail-mpos.md
+                        - name: POS의 클라이언트 이미지
+                          href: pos-image.md
+                        - name: POS에서 URL 열기
+                          href: open-url-in-pos.md
+                    - name: 결제
+                      items:
+                        - name: 기프트 카드
+                          items:
+                            - name: 외부 기프트 카드 지원
+                              href: dev-itpro/gift-card.md
+                    - name: RSAT
+                      items:
+                        - name: Cloud POS용 테스트 레코더 및 Regression Suite Automation Tool
+                          href: dev-itpro/pos-rsat.md
+                    - name: 영업 사원
+                      items:
+                        - name: 판매 그룹을 사용하여 POS에서 수수료 추적
+                          href: pos-sales-groups-track-commissions.md
+                    - name: 디바이스 활성화
+                      items:
+                        - name: 'MPOS 구성, 설치, 활성화'
+                          href: retail-modern-pos-device-activation.md
+                        - name: MPOS 및 Cloud POS용 확장 로그온 기능 설정
+                          href: extended-logon.md
+                        - name: 활성화 계정 관리 및 디바이스 확인
+                          href: set-up-activation-accounts-validate-devices-hq.md
+                    - name: POS 레지스터에 대한 재무 차원 생성 및 레지스터에 차원 값 구성
+                      href: tasks/create-financial-dimensions-pos.md
+                    - name: POS 사용 권한 그룹 생성
+                      href: tasks/create-pos-permission-groups.md
+                    - name: POS 시각적 프로필 생성
+                      href: tasks/create-pos-visual-profile-2016-02.md
+                - name: Retail Hardware Station 구성 및 설치
+                  href: retail-hardware-station-configuration-installation.md
+                - name: 영수증
+                  items:
+                    - name: 영수증 형식 설정 및 디자인
+                      href: receipt-templates-printing.md
+                    - name: MPOS(Modern POS)에서 이메일 영수증 보내기
+                      href: email-receipts.md
+                    - name: 영수증 번호 다시 설정
+                      href: reset_receipt_number_sequence.md
+                    - name: 고객 영수증에 프로세서 신용 카드 영수증 포함
+                      href: dev-itpro/embed-cc-receipt.md
+                - name: 영업 담당자를 위한 기능 프로필 생성
+                  href: tasks/configure-functionality-profile-sales-representative.md
+                - name: 소매 채널에 대한 재무 차원 생성 및 매장에서 가치 구성
+                  href: tasks/create-financial-dimensions-retail-channels.md
+                - name: 전자 상거래 채널에서 일관된 배달 모드 처리 사용
+                  href: consistent-delivery-mode-handling.md
+            - name: 온라인 채널 설정
+              items:
+                - name: 온라인 채널 설정
+                  href: channel-setup-online.md
+            - name: 콜 센터 채널 설정
+              items:
+                - name: 콜 센터 영업 기능
+                  href: call-center-functionality.md
+                - name: 콜 센터 채널 설정
+                  href: channel-setup-callcenter.md
+                - name: 콜 센터 카탈로그
+                  href: call-center-catalogs.md
+                - name: 콜 센터 주문 처리 옵션 설정
+                  href: set-up-order-processing-options.md
+                - name: 콜 센터 배달 모드 및 요금 구성
+                  href: configure-call-center-delivery.md
+                - name: 사기 경고 설정 및 작업
+                  href: set-up-fraud-alerts.md
+            - name: 추가 채널 구성
+              items:
+                - name: 조직 계층 구조에 채널 추가
+                  href: channel-add-to-org-hierarchy.md
+                - name: 고급 자동 요금
+                  items:
+                    - name: 고급 자동 요금 구성 및 사용
+                      href: omni-auto-charges.md
+                    - name: 채널별 자동 요금 사용 및 구성
+                      href: auto-charges-by-channel.md
+                    - name: 일치하는 판매 라인에 헤더 요금 비례 배분
+                      href: pro-rate-charges-matching-lines.md
+                - name: 연속성 프로그램 관리
+                  items:
+                    - name: 콜 센터에 대한 연속성 프로그램 설정
+                      href: set-up-continuity-program.md
+                    - name: 연속성 일정 정의
+                      href: tasks/define-continuity-schedules.md
+                - name: 소매점 관리
+                  items:
+                    - name: 매장 영업 시간 생성 및 변경
+                      href: dev-itpro/store-hours.md
+                    - name: Commerce Scale Unit
+                      href: dev-itpro/retail-store-system-begin.md
+                - name: 콜 센터 관리
+                  items:
+                    - name: 콜 센터 주문 보류 구성 및 작업
+                      href: work-with-order-holds.md
+                - name: 결제
+                  items:
+                    - name: 결제 방법
+                      href: payment-methods.md
+                    - name: 콜 센터의 결제 방법
+                      href: work-with-payments.md
+                    - name: 콜 센터 환불 결제 처리
+                      href: call-center-refund-payments.md
+                    - name: '신용 카드 설정, 승인, 캡처'
+                      href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
+                    - name: POS에 대한 현금 액면가 구성
+                      href: cash-denominations.md
+                    - name: 신용 카드 처리 구성
+                      href: tasks/configure-credit-card-processing.md
+                    - name: POS에서 '변경 기한' 대화 상자 건너뛰기
+                      href: dev-itpro/skip-change-due.md
+                    - name: Adyen용 Dynamics 365 Payment Connector
+                      items:
+                        - name: Adyen용 Dynamics 365 Payment Connector 개요
+                          href: dev-itpro/adyen-connector.md
+                        - name: Adyen용 Dynamics 365 Payment Connector 설정
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: Adyen용 Dynamics 365 Payment Connector FAQ
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: Adyen용 Dynamics 365 Payment Connector 문제 해결
+                          href: dev-itpro/adyen-connector-troubleshoot.md
+                    - name: Adyen 커넥터로 온라인 결제 방법 저장
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: Adyen 커넥터를 사용하는 SCA(강력한 고객 인증)
+                      href: adyen_redirect.md
+                    - name: 프린터 및 현금 출납기 전용 결제 단말기 및 프롬프트
+                      href: pos-multi-hws.md
+                    - name: 기프트 카드 및 대변 전표 작업을 위한 원활한 오프라인 전환
+                      href: dev-itpro/seamless-offline-improvements.md
+                    - name: 급여 송장 시나리오 설정
+                      href: payinvoice.md
+                    - name: 중복 결제 방지
+                      href: duplicate-payment-protection.md
+                    - name: 옴니채널 결제 개요
+                      href: omni-channel-payments.md
+                    - name: 매장 내 픽업을 위해 사용 가능한 여러 결제 방법
+                      href: dev-itpro/multiple-payments-pickup.md
+                    - name: 옴니채널 Commerce 주문 결제
+                      href: dev-itpro/commerce-payments.md
+                    - name: 신용 카드 거래 데이터 보관
+                      href: dev-itpro/archive-cc-data.md
+                    - name: 하드웨어 스테이션 없이 신용 카드 처리
+                      href: dev-itpro/cnp-pos.md
+                    - name: PayPal용 Dynamics 365 Payment Connector
+                      href: paypal.md
+                    - name: 지갑 결제 지원
+                      href: wallets.md
+                    - name: 상점 체크 아웃 시 향상된 결제
+                      href: dev-itpro/enhanced-sca.md
+                    - name: 결제 FAQ
+                      href: dev-itpro/payments-retail.md
+                - name: 이메일 및 알림
+                  items:
+                    - name: 사용자 지정 레이아웃 및 템플릿을 사용하도록 영수증 이메일 구성
+                      href: configure-emailed-receipt-formats.md
+                    - name: 거래 및 영수증 이메일에 QR 코드 또는 바코드 추가
+                      href: add-qr-code-barcode-email.md
+                - name: 조직의 Bing 지도 관리
+                  href: dev-itpro/manage-bing-maps.md
+                - name: 고객 픽업을 위한 시간 슬롯 생성 및 업데이트
+                  href: dev-itpro/pickup-timeslots.md
+                - name: 견본으로 표시되도록 제품 크기 값 구성
+                  href: dev-itpro/dimensions-swatch.md
+        - name: 제품 및 서비스 상품화
+          items:
+            - name: '카테고리, 제품, 분류'
+              items:
+                - name: 제품 정보 개요
+                  href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
+                - name: 소매 제품 설정
+                  href: set-up-retail-products.md
+                - name: 제품 계층 구조
+                  items:
+                    - name: Commerce 계층 구조
+                      href: retail-hierarchies.md
+                    - name: 새 제품 계층 구조 생성
+                      href: create-product-hierarchy.md
+                    - name: 제품 카테고리 및 제품 관리
+                      href: category-management-product-creation.md
+                    - name: 엔터티 상품화를 위해 정렬 순서 변경
+                      href: custom-order-categories-nav-retail-prod-hierarchy.md
+                - name: 제품 크기
+                  items:
+                    - name: 제품 크기
+                      href: ../supply-chain/pim/product-dimensions.md?toc=/dynamics365/retail/toc.json
+                    - name: 변형 그룹 생성
+                      href: create-variant-group.md
+                - name: 새 제품 생성
+                  items:
+                    - name: Commerce에서 새 제품 생성
+                      href: create-new-product-commerce.md
+                    - name: 제품 카테고리 및 제품 관리
+                      href: category-management-product-creation.md
+                - name: 제품 특성
+                  items:
+                    - name: 특성 및 특성 그룹
+                      href: attribute-attributegroups-lifecycle.md
+                    - name: 채널 특성 정의
+                      href: tasks/define-channel-attributes.md
+                - name: 채널 계층 구조
+                  items:
+                    - name: 채널 탐색 계층 구조 생성
+                      href: create-channel-hierarchy.md
+                    - name: 채널 탐색 계층 구조를 사용하도록 채널 구성
+                      href: configure-channel-hierarchy.md
+                - name: 분류
+                  items:
+                    - name: 분류 관리
+                      href: assortments.md
+                    - name: 분류 설정
+                      href: set-up-assortments.md
+                    - name: 분류 관리
+                      href: tasks/manage-assortments-2016-11.md
+                - name: 바코드
+                  items:
+                    - name: 바코드 설정
+                      href: set-up-bar-codes.md
+                    - name: 바코드 마스크 설정
+                      href: set-up-bar-code-masks.md
+                - name: 보증
+                  items:
+                    - name: 연장 보증 생성 및 구성
+                      href: extended-warranty.md
+            - name: 가격 책정 및 할인
+              items:
+                - name: 할인
+                  href: retail-discounts-overview.md
+                - name: 판매 가격 관리
+                  href: price-management.md
+                - name: 가격 조정 및 할인
+                  href: price-adjustments-discounts.md
+                - name: 제품에 여러 할인 적용
+                  href: apply-multiple-retail-discounts.md
+                - name: 중복 할인의 최적 조합 확인
+                  href: optimal-combination-overlapping-discounts.md
+                - name: 채널별 할인 정의
+                  href: define-channel-specific-discounts.md
+                - name: 소매 제품에 대한 할인을 방지하기 위한 옵션
+                  href: prevent-discounts.md
+                - name: 입찰 기반 할인
+                  href: tender_based_discounts.md
+                - name: 배송 할인 개요
+                  href: retail-shipping-discount.md
+                - name: 구매 프로모션으로 선물 구성
+                  href: gift-with-purchase.md
+                - name: 쿠폰 설정
+                  href: retail-coupons.md
+                - name: POS에서 할인 표시
+                  href: discounts-pos.md
+                - name: 가격 보고서
+                  href: price-report.md
+                - name: 채널별 거래 계약 생성
+                  href: tasks/base-price-trade-agreements.md
+                - name: 카테고리 가격 책정 규칙을 사용하여 거래 계약 생성
+                  href: tasks/category-pricing-rules-trade-agreements.md
+                - name: 정확한 가격 및 할인 계산 연기
+                  href: delayed-price-calculation.md
+            - name: 추천
+              items:
+                - name: 제품 추천 개요
+                  href: product-recommendations.md
+                - name: Dynamics 365 Commerce 환경에서 Azure Data Lake Storage 사용
+                  href: enable-ADLS-environment.md
+                - name: 제품 추천 사용
+                  href: enable-product-recommendations.md
+                - name: 맞춤화된 추천
+                  items:
+                    - name: 맞춤화된 추천 사용
+                      href: personalized-recommendations.md
+                    - name: 맞춤화된 추천 옵트아웃
+                      href: personalization-gdpr.md
+                - name: '''유사한 디자인 쇼핑'' 추천 사용'
+                  href: shop-similar-looks.md
+                - name: '''유사한 설명 쇼핑'' 추천 사용'
+                  href: shop-similar-description.md
+                - name: POS 경험
+                  items:
+                    - name: POS에서 제품 추천 추가
+                      href: product.md
+                    - name: 거래 화면에 추천 추가
+                      href: add-recommendations-control-pos-screen.md
+                - name: AI-ML 기반 제품 추천 결과 조정
+                  href: modify-product-recommendation-results.md
+                - name: 선별된 제품 추천 수동으로 생성
+                  href: create-editorial-recommendation-lists.md
+                - name: 데모 데이터를 사용하여 추천 생성
+                  href: product-recommendations-demo-data.md
+                - name: 제품 추천 FAQ
+                  href: faq-recommendations.md
+            - name: 평점 및 리뷰
+              items:
+                - name: 평점 및 리뷰 개요
+                  href: ratings-reviews-overview.md
+                - name: 평좀 및 리뷰 사용 옵트인
+                  href: opt-in-ratings-reviews.md
+                - name: 평점 및 리뷰 관리
+                  href: manage-reviews.md
+                - name: 평점 및 리뷰 구성
+                  href: configure-ratings-reviews.md
+                - name: 제품 평점 동기화
+                  href: sync-product-ratings.md
+                - name: 중재자의 평점 및 리뷰 수동 게시 설정
+                  href: manual-publish-rating-reviews.md
+                - name: 평점 및 리뷰 가져오기 및 내보내기
+                  href: import-export-reviews.md
+                - name: 서비스 간(S2S) 인증 구성
+                  href: service-to-service-auth.md
+                - name: 평점 및 리뷰 FAQ
+                  href: ratings-reviews-faq.md
+            - name: 재고 관리
+              items:
+                - name: 재고
+                  items:
+                    - name: 매장 재고 관리
+                      href: work-with-store-inventory.md
+                    - name: 재고 버퍼 및 재고 수준 구성
+                      href: inventory-buffers-levels.md
+                    - name: POS에서 직렬화된 항목 작업
+                      href: pos-serialized-items.md
+                    - name: 구매자 푸시를 사용하여 유통 센터에서 매장으로 제품 푸시
+                      href: tasks/push-products-distribution-center-store-buyers-push.md
+                    - name: 크로스 도킹 및 구매자 푸시에 대한 규칙 및 매개 변수 설정
+                      href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: POS의 인바운드 재고 작업
+                      href: pos-inbound-inventory-operation.md
+                    - name: POS의 아웃바운드 재고 작업
+                      href: pos-outbound-inventory-operation.md
+                    - name: 소매 채널의 재고 가용성 계산
+                      href: calculated-inventory-retail-channels.md
+                    - name: POS의 재고 조회 작업
+                      href: pos-inventory-lookup-operation.md
+                - name: 구매 주문
+                  items:
+                    - name: 구매 주문 개요
+                      href: ../supply-chain/procurement/purchase-order-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: 구매 주문 생성
+                      href: ../supply-chain/procurement/purchase-order-creation.md?toc=/dynamics365/commerce/toc.json
+                    - name: 구매 주문에 대한 제품 영수증
+                      href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md?toc=/dynamics365/commerce/toc.json
+                    - name: 구매 주문 승인 및 확인
+                      href: ../supply-chain/procurement/purchase-order-approval-confirmation.md?toc=/dynamics365/commerce/toc.json
+                    - name: 구매 주문 승인 모바일 작업 영역
+                      href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                    - name: 구매 주문을 위한 제품 패키지 생성
+                      href: tasks/create-product-packages-purchase-orders.md
+        - name: 주문 관리
+          items:
+            - name: 고객 주문
+              items:
+                - name: POS의 고객 주문
+                  href: customer-orders-overview.md
+                - name: 하이브리드 고객 주문
+                  href: hybrid-customer-orders.md
+                - name: POS의 주문 회수 작업
+                  href: enhancedorderrecall.md
+                - name: 다중 픽업 배달 모드 사용
+                  href: multiple-pickup-modes.md
+                - name: POS에서 고객 주문 픽업 처리
+                  href: process-order-pickup-POS.md
+                - name: 비회원 체크 아웃을 위한 주문 조회 사용
+                  href: order-lookup-guest.md
+            - name: 판매 주문
+              items:
+                - name: 콜 센터 주문 생성
+                  href: tasks/create-call-center-orders.md
+                - name: 배달 모드별로 거래 이메일 사용자 지정
+                  href: customize-email-delivery-mode.md
+                - name: POS에서 배달 모드 변경
+                  href: POS-change-delivery-mode.md
+            - name: 분산 주문 관리
+              items:
+                - name: DOM 개요
+                  href: dom.md
+                - name: 비용 구성
+                  href: cost.md
+            - name: 주문 이행 및 처리
+              items:
+                - name: 매장 주문 이행
+                  href: order-fulfillment-overview.md
+                - name: 매장 주문 이행 설정
+                  href: order-fulfillment-pos-setup.md
+                - name: POS에서 주문 알림 표시
+                  href: notifications-pos.md
+                - name: 연속성 프로그램 판매 및 판매 주문 처리
+                  href: tasks/use-continuity-program.md
+                - name: POS에서 고객 체크 인 알림 사용
+                  href: enable-customer-check-in.md
+            - name: 반품 및 환불
+              items:
+                - name: POS에서 반품 생성
+                  href: POS-returns.md
+                - name: POS에서 일련 번호 제어 제품 반품
+                  href: POS-serial-returns.md
+                - name: 연결된 환불
+                  href: dev-itpro/linked-refunds.md
+                - name: Dynamics 365 Commerce Payment Connector for Adyen을 사용하여 연결 해제된 환불 처리
+                  href: dev-itpro/unlinked-refunds.md
+                - name: 매장의 분류에 포함되지 않은 제품 판매 및 반품
+                  href: sell-return-outside-assortments.md
+                - name: 반품 주문에 대한 교환 구성 및 처리
+                  href: orderexchanges.md
+                - name: 영수증이 없는 반품에 대한 결제 방법 제한
+                  href: payment-methods-restrictions.md
+                - name: 다수의 고객 주문 및 송장에서 항목 반품
+                  href: multireturn.md
+                - name: 채널에 대한 반품 및 환불 정책 생성 및 업데이트
+                  href: refund_policy_returns.md
+        - name: 고객 관리
+          items:
+            - name: 매장 고객 관리
+              href: customer-mgmt-stores.md
+            - name: 비동기 고객 생성 모드
+              href: async-customer-mode.md
+            - name: 비동기 고객을 동기 고객으로 전환
+              href: convert-async-to-sync.md
+            - name: 고객 유치
+              items:
+                - name: 고객 유치 개요
+                  href: clienteling-overview.md
+            - name: 로열티
+              items:
+                - name: 로열티 개요
+                  href: set-up-customer-loyalty-program.md
+                - name: 로열티 프로그램 정의
+                  href: tasks/define-loyalty-programs.md
+                - name: 로열티 보상 포인트 정의
+                  href: tasks/define-loyalty-reward-points.md
+                - name: 로열티 체계 정의
+                  href: tasks/define-loyalty-schemes.md
+                - name: 로열티 보상 포인트 프로세스 조정
+                  href: tasks/process-loyalty-reward-point-adjustments.md
+        - name: 재무 관리
+          items:
+            - name: 명세서 개요
+              href: retail-statements.md
+            - name: 명세서 계산을 위한 매장 거래 확인
+              href: valid-checker.md
+            - name: 소매 거래 일관성 검사기에서 규칙 사용 안 함
+              href: disable-consistency-check-rule.md
+            - name: 소매점 거래 편집 및 감사
+              items:
+                - name: 현금 판매 거래 및 현금 관리 거래 편집 및 감사
+                  href: edit-cash-trans.md
+                - name: 온라인 주문 및 비동기 고객 주문 거래 편집 및 감사
+                  href: edit-order-trans.md
+                - name: 소매 거래의 재무 차원 편집
+                  href: edit-financial-dim.md
+                - name: Excel 통합 문서를 만들어 소매 거래 편집
+                  href: create-excel-edit.md
+                - name: Excel 통합 문서에 필드를 추가해 소매 거래 편집
+                  href: add-fields-excel.md
+            - name: 소매점 거래를 위한 지속적인 피드 기반 주문 생성
+              href: trickle-feed.md
+            - name: '소매점에 대한 명세서 생성, 계산, 게시'
+              href: tasks/create-calculate-post-statement-retail-store.md
+            - name: 소매점의 재무 조정
+              href: fin-recon.md
+            - name: 명세서 게시 기능 개선
+              href: statement-posting-eod.md
+            - name: 개선된 일괄 추적 항목 처리
+              href: batch.md
+            - name: 소매 명세서에 영향을 미치는 결제 방법 설정 구성
+              href: tasks/payment-configurations-retail-statements.md
+            - name: 명세서 계산을 위한 작업 구성 및 실행
+              href: tasks/run-job-calculate-statements.md
+            - name: 명세서 게시를 위한 작업 구성 및 실행
+              href: tasks/run-job-post-statements.md
+            - name: 소매 명세서에 영향을 미치는 매장 설정 구성
+              href: tasks/store-configurations-retail-statements.md
+            - name: 온라인 판매 및 결제 게시
+              href: tasks/posting-online-sales-payments.md
+        - name: 작업자 작업 관리
+          items:
+            - name: 작업 관리 개요
+              href: task-mgmt-overview.md
+            - name: 작업 관리 구성
+              href: task-mgmt-configure.md
+            - name: 작업 목록 생성 및 작업 추가
+              href: task-mgmt-create-lists.md
+            - name: 매장 또는 직원에게 작업 목록 할당
+              href: task-mgmt-assign-lists.md
+            - name: POS의 작업 관리
+              href: task-mgmt-pos.md
+            - name: Dynamics 365 Commerce 및 Microsoft Teams 통합
+              items:
+                - name: Commerce 및 Teams 통합 개요
+                  href: commerce-teams-integration.md
+                - name: Commerce 및 Teams 통합 사용
+                  href: enable-teams-integration.md
+                - name: Commerce의 Provision Teams
+                  href: provision-teams-from-commerce.md
+                - name: Teams와 Commerce POS 간 작업 관리 동기화
+                  href: synchronize-tasks-teams-pos.md
+                - name: Teams에서 사용자 역할 관리
+                  href: manage-user-roles-teams.md
+                - name: Teams에 기존 팀이 있는 경우 매장 및 팀 매핑
+                  href: map-stores-existing-teams.md
+                - name: Commerce 및 Teams 통합 FAQ
+                  href: teams-integration-faq.md
+        - name: 전자 상거래 사이트 관리
+          items:
+            - name: 전자 상거래 사이트 개요
+              href: online-store-overview.md
+            - name: 전자 상거래 사이트 생성
+              items:
+                - name: 도메인 이름 구성
+                  href: configure-your-domain-name.md
+                - name: 새 전자 상거래 테넌트 배포
+                  href: deploy-ecommerce-site.md
+                - name: 전자 상거래 사이트 생성
+                  href: create-ecommerce-site.md
+                - name: 전자 상거래 사이트 복사
+                  href: copy-ecommerce-site.md
+                - name: Dynamics 365 Commerce 사이트와 온라인 채널 연결
+                  href: associate-site-online-store.md
+                - name: robots.txt 파일 관리
+                  href: manage-robots-txt-files.md
+                - name: URL 리디렉션 일괄 업로드
+                  href: upload-bulk-redirects.md
+                - name: Commerce에서 B2C 테넌트 설정
+                  href: set-up-B2C-tenant.md
+                - name: 사용자 로그인을 위한 사용자 지정 페이지 설정
+                  href: custom-pages-user-logins.md
+                - name: 고객 계정에 대한 ID 레코드의 자동 연결 사용
+                  href: identity-record-linking.md
+                - name: Commerce 환경에서 여러 B2C 테넌트 구성
+                  href: configure-multi-B2C-tenants.md
+                - name: Dynamics 365 Commerce의 도메인
+                  href: domains-commerce.md
+                - name: 콘텐츠 배달 네트워크 구현 옵션
+                  href: cdn-options.md
+                - name: CDN(콘텐츠 배달 네트워크) 지원 추가
+                  href: add-cdn-support.md
+                - name: 위치 기반 매장 검색 사용
+                  href: enable-store-detection.md
+                - name: 전자 상거래 디지털 기프트 카드
+                  href: digital-gift-cards.md
+                - name: 무료로 구매할 제품 구성
+                  href: configure-free-product.md
+                - name: Dynamics 365 Commerce 사이트의 브라우저 요구 사항
+                  href: browser-requirements.md
+            - name: 샘플 사이트 개요
+              items:
+                - name: 홈페이지 개요
+                  href: quick-tour-home-page.md
+                - name: 제품 세부 정보 페이지 개요
+                  href: quick-tour-pdp.md
+                - name: 장바구니 및 체크 아웃 페이지 개요
+                  href: quick-tour-cart-checkout.md
+                - name: 계정 관리 페이지 개요
+                  href: quick-tour-account-management.md
+            - name: 사이트 설정 관리
+              items:
+                - name: 작성 페이지 개요
+                  href: authoring-home-overview.md
+                - name: 사용자 및 역할 관리
+                  href: manage-ecommerce-users-roles.md
+                - name: 재고 설정 적용
+                  href: inventory-settings.md
+                - name: 장바구니에 제품 추가 설정 적용
+                  href: add-cart-settings.md
+                - name: 사이트에 대한 SEO(검색 엔진 최적화) 고려 사항
+                  href: search-engine-optimization-considerations.md
+                - name: CSP(콘텐츠 보안 정책) 관리
+                  href: manage-csp.md
+                - name: 웹 활동 이벤트 수집 옵트아웃
+                  href: web-activity-opt-out.md
+                - name: 측정 단위 설정 적용
+                  href: unit-of-measure.md
+                - name: 제품 크기에 대해 표시 설정 적용
+                  href: dimension-settings.md
+                - name: 전자 상거래 유지 관리 모드 사용 및 활성화
+                  href: enable-maintenance-mode.md
+            - name: 사이트 콘텐츠 관리
+              items:
+                - name: 콘텐츠를 추가하는 방법
+                  href: add-manage-content.md
+                - name: 페이지 모델 용어집
+                  href: page-elements-overview.md
+                - name: 문서 상태 및 수명 주기
+                  href: document-states-overview.md
+                - name: 게시 그룹 작업
+                  href: publish-groups.md
+                - name: 교차 채널 공유 설정 및 사용
+                  href: cross-channel-sharing.md
+                - name: 사이트 브랜딩 및 매장 세부 정보 추가
+                  items:
+                    - name: 로고 추가
+                      href: add-logo.md
+                    - name: 사이트 테마 선택
+                      href: select-site-theme.md
+                    - name: CSS 재정의 파일 작업
+                      href: css-override-files.md
+                    - name: 스타일 사전 설정 작업
+                      href: style-presets.md
+                    - name: 파비콘 추가
+                      href: add-favicon.md
+                    - name: 저작권 표시 추가
+                      href: add-copyright-notice.md
+                    - name: 언어 추가
+                      href: add-languages-to-site.md
+                    - name: 원격 분석을 지원하기 위해 사이트 페이지에 스크립트 코드 추가
+                      href: add-telemetry.md
+                - name: 모듈
+                  items:
+                    - name: 모듈 작업
+                      href: work-with-modules.md
+                - name: 조각
+                  items:
+                    - name: 조각 작업
+                      href: work-with-fragments.md
+                - name: 템플릿
+                  items:
+                    - name: 템플릿 및 레이아웃 개요
+                      href: templates-layouts-overview.md
+                    - name: 템플릿 작업
+                      href: work-with-templates.md
+                    - name: 사전 설정 레이아웃 작업
+                      href: work-with-layouts.md
+                - name: 페이지
+                  items:
+                    - name: 기존 사이트 페이지 수정
+                      href: modify-existing-page.md
+                    - name: 새 사이트 페이지 추가
+                      href: add-new-page.md
+                    - name: 페이지 레이아웃 선택
+                      href: select-page-layouts.md
+                    - name: SEO 메타데이터 관리
+                      href: manage-seo-metadata.md
+                    - name: '페이지 저장, 미리 보기, 게시'
+                      href: save-preview-publish-page.md
+                    - name: 제품 페이지 보강
+                      href: enrich-product-page.md
+                    - name: 카테고리 랜딩 페이지 보강
+                      href: enrich-category-page.md
+                    - name: 페이지 콘텐츠 접근성 확인
+                      href: verify-accessibility.md
+                    - name: URL 매개 변수를 기반으로 동적 전자 상거래 페이지 생성
+                      href: create-dynamic-pages.md
+                - name: 사이트 탐색
+                  items:
+                    - name: 사이트 탐색 사용자 지정
+                      href: customize-site-navigation.md
+                    - name: 페이지 URL 생성
+                      href: create-page-URL.md
+                - name: Adventure Works 테마
+                  items:
+                    - name: Adventure Works 테마 개요
+                      href: adventure-works-theme.md
+                    - name: Adventure Works 테마 설치
+                      href: install-adventure-works.md
+            - name: 디지털 자산 관리
+              items:
+                - name: DAM(디지털 자산 관리) 개요
+                  href: dam-overview.md
+                - name: 이미지 업로드
+                  href: dam-upload-images.md
+                - name: 비디오 업로드
+                  href: dam-upload-video.md
+                - name: 이미지 및 비디오 외 파일 업로드
+                  href: dam-upload-files.md
+                - name: 이미지 자르기
+                  href: dam-crop-images.md
+                - name: 이미지 초점 사용자 지정
+                  href: dam-custom-focal-point.md
+                - name: 정적 파일 업로드 및 처리
+                  href: upload-serve-static-files.md
+            - name: 사이트를 규정에 맞게 생성
+              items:
+                - name: 규정 준수 개요
+                  href: compliance-overview.md
+                - name: 접근성 기능
+                  href: accessibility.md
+                - name: 쿠키 규정 준수
+                  href: cookie-compliance.md
+                - name: 개인 정보 취급 방침 페이지 추가
+                  href: add-privacy-page.md
+                - name: 추적된 콘텐츠 변경 사항과 연결된 사용자 ID 바꾸기
+                  href: replace-IDs-tracked-changes.md
+            - name: 모듈 라이브러리
+              items:
+                - name: 모듈 라이브러리 개요
+                  href: starter-kit-overview.md
+                - name: 컨테이너 모듈
+                  items:
+                    - name: 컨테이너 모듈
+                      href: add-container-module.md
+                    - name: Accordion 모듈
+                      href: add-accordion.md
+                    - name: 탭 모듈
+                      href: add-tab.md
+                    - name: iFrame 모듈
+                      href: iframe-module.md
+                - name: 마케팅 모듈
+                  items:
+                    - name: 프로모션 배너 모듈
+                      href: add-alert.md
+                    - name: 캐러셀 모듈
+                      href: add-carousel.md
+                    - name: 텍스트 블록 모듈
+                      href: add-content-rich-block.md
+                    - name: 콘텐츠 차단 모듈
+                      href: add-hero-module.md
+                    - name: 비디오 플레이어 모듈
+                      href: add-video-player.md
+                    - name: 활성 이미지 모듈
+                      href: active-image-module.md
+                    - name: 이미지 목록 모듈
+                      href: image-list-module.md
+                    - name: 대화형 기능 모듈
+                      href: interactive-feature-module.md
+                    - name: 구독 모듈
+                      href: subscribe-module.md
+                    - name: 타일 목록 모듈
+                      href: tile-list-module.md
+                - name: 머리글 및 바닥글 모듈
+                  items:
+                    - name: 머리글 모듈
+                      href: author-header-module.md
+                    - name: 바닥글 모듈
+                      href: author-footer-module.md
+                - name: '페이지, 메타데이터, 스크립트 모듈'
+                  items:
+                    - name: 기본 페이지 모듈
+                      href: default-page-module.md
+                    - name: 페이지 요약 모듈
+                      href: page-summary-module.md
+                    - name: 메타태그 모듈
+                      href: metatags-module.md
+                    - name: 외부 및 인라인 스크립트 모듈
+                      href: script-module.md
+                - name: 제품 상세 페이지 모듈
+                  items:
+                    - name: Buy Box 모듈
+                      href: add-buy-box.md
+                    - name: 미디어 갤러리 모듈
+                      href: media-gallery-module.md
+                    - name: 평점 및 리뷰 모듈
+                      href: ratings-reviews-modules.md
+                    - name: 소셜 공유 모듈
+                      href: social-share-module.md
+                - name: 모듈 구매
+                  items:
+                    - name: 장바구니 모듈
+                      href: add-cart-module.md
+                    - name: 장바구니 아이콘 모듈
+                      href: cart-icon-module.md
+                    - name: 체크 아웃 모듈
+                      href: add-checkout-module.md
+                    - name: 결제 모듈
+                      href: payment-module.md
+                    - name: 배송 주소 모듈
+                      href: ship-address-module.md
+                    - name: 배달 옵션 모듈
+                      href: delivery-options-module.md
+                    - name: 픽업 정보 모듈
+                      href: pickup-info-module.md
+                    - name: 픽업용 체크 인 모듈
+                      href: check-in-pickup-module.md
+                    - name: 주문 세부 정보 모듈
+                      href: order-confirmation-module.md
+                    - name: 기프트 카드 모듈
+                      href: add-giftcard.md
+                    - name: 주문 조회 모듈
+                      href: order-lookup-module.md
+                - name: 매장 찾기 모듈
+                  items:
+                    - name: 지도 모듈
+                      href: map-module.md
+                    - name: 매장 선택기 모듈
+                      href: store-selector.md
+                - name: 계정 관리 모듈
+                  items:
+                    - name: 계정 관리 페이지 및 모듈
+                      href: account-management.md
+                - name: ID 관리 모듈
+                  items:
+                    - name: ID 관리 페이지 및 모듈
+                      href: identity-mgmt-modules.md
+                - name: 제품 컬렉션 모듈
+                  items:
+                    - name: 제품 컬렉션 모듈
+                      href: product-collection-module-overview.md
+                    - name: 빠른 보기 모듈
+                      href: quick-view-module.md
+                - name: 탐색 모듈
+                  items:
+                    - name: 이동 경로 모듈
+                      href: add-breadcrumb.md
+                    - name: 탐색 메뉴 모듈
+                      href: nav-menu-module.md
+                    - name: 사이트 선택기 모듈
+                      href: site-selector.md
+                    - name: 국가/지역 선택기 모듈
+                      href: country-region-picker-module.md
+                - name: 모듈 검색
+                  items:
+                    - name: 검색 결과 모듈
+                      href: search-result-module.md
+                - name: 규정 준수 모듈
+                  items:
+                    - name: 쿠키 동의 모듈
+                      href: cookie-consent-module.md
+            - name: 검색
+              items:
+                - name: 기본 카테고리 랜딩 페이지 및 검색 결과 페이지 개요
+                  href: category-search-page-overview.md
+                - name: 클라우드 기반 검색 개요
+                  href: cloud-powered-search-overview.md
+            - name: 보고
+              items:
+                - name: 온라인 채널 보고서 생성
+                  href: generate-reports.md
+            - name: 대상 지정
+              items:
+                - name: '디바이스, 시장, 지리적 위치 대상 지정'
+                  href: targeting-overview.md
+                - name: 지리 검색 및 리디렉션 설정
+                  href: geo-detection-redirection.md
+            - name: 실험
+              items:
+                - name: Dynamics 365 Commerce의 실험
+                  href: experimentation-overview.md
+                - name: 가설 식별 및 실험에 대한 메트릭 확인
+                  href: experimentation-identify.md
+                - name: 실험 설정
+                  href: experimentation-setup.md
+                - name: 실험 연결 및 편집
+                  href: experimentation-connect-edit.md
+                - name: 실험 미리 보기 및 게시
+                  href: experimentation-preview-publish.md
+                - name: 실험 실행 및 모니터링
+                  href: experimentation-run-monitor.md
+                - name: 변형 승격 및 실험 완료
+                  href: experimentation-review-complete.md
+                - name: 실험 상태 검토
+                  href: experimentation-status.md
+            - name: 오류 처리
+              items:
+                - name: 4xx/5xx 상태 코드 오류에 대한 사용자 지정 응답 페이지 작성
+                  href: build-pages-400-500-errors.md
+        - name: Fraud Protection
+          items:
+            - name: Dynamics 365 Commerce와 Dynamics 365 Fraud Protection 통합
+              href: dev-itpro/DFP.md
+        - name: B2B 전자 상거래
+          items:
+            - name: B2B 전자 상거래 사이트 설정
+              href: b2b/set-up-b2b-site.md
+            - name: 고객 계층 구조를 사용하여 B2B 비즈니스 파트너 관리
+              href: b2b/partners-customer-hierarchies.md
+            - name: B2B 전자 상거래 사이트에서 비즈니스 파트너 사용자 관리
+              href: b2b/manage-b2b-users.md
+            - name: Dynamics 365 Sales를 사용하여 B2B 전자 상거래 사이트에서 비즈니스 파트너 사용자 관리
+              href: b2b/prospect-management-sales.md
+            - name: B2B 웹 사이트 주문 빠르게 하기
+              href: b2b/quick-bulk-orders.md
+            - name: B2B 전자 상거래 웹 사이트의 송장 관리
+              href: b2b/invoice-management.md
+            - name: B2B 전자 상거래 사이트의 고객 계정 결제 방법 구성
+              href: b2b/payment-method.md
+            - name: B2B 전자 상거래 사이트의 제품 수량 한도 설정
+              href: b2b/quantity-limits.md
+        - name: 모니터링 및 분석
+          items:
+            - name: 판매 및 마진 실적 모니터링
+              href: monitor-sales-margin-performance.md
+            - name: 판매 동향 및 패턴 분석
+              href: analyze-sales-trends-patterns.md
+            - name: 제품별 판매 실적 평가
+              href: sales-performance-products.md
+            - name: 고객 및 제품 수익성 평가
+              href: assess-customer-product-profitability.md
+            - name: 매장 실적 분석
+              href: store-performance-information.md
+            - name: 'RFM(최근성, 빈도 및 금전적) 분석 설정'
+              href: set-up-rfm-analysis.md
+            - name: Dynamics 365 Commerce에서 Microsoft Clarity 설정
+              href: set-up-clarity.md
+            - name: Commerce 분석(프리뷰)
+              href: commerce-analytics.md
+        - name: 세계화
+          items:
+            - name: Commerce 채널의 회계 통합 개요
+              href: localizations/fiscal-integration-for-retail-channel.md
+            - name: Commerce 채널의 회계 통합 설정
+              href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: 회계 통합 샘플을 위한 빌드 파이프라인 설정
+              href: localizations/fiscal-integration-sample-build-pipeline.md
+            - name: 소매점용 사용자 정의 인증서 프로필
+              href: localizations/certificate-profiles-for-retail-stores.md
+            - name: RCS(Regulatory Configuration Service)
+              items:
+                - name: RCS(Regulatory Configuration Service) 개요
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: (RCS)  RCS(Regulatory Configuration Service) - 세계화 기능
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: RCS(Regulatory Configuration Service)에서 ER 구성을 생성하고 글로벌 리포지토리에 업로드
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                - name: RCS(Regulatory Configuration Service) – Lifecycle Services 스토리지 사용 중단
+                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Commerce에 ER 구성 다운로드
+                  items:
+                    - name: RCS에서 구성 다운로드
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: RCS에서 구성 가져오기
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                    - name: 글로벌 리포지토리(GR)
+                      items:
+                        - name: GR에서 구성 가져오기
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: 업데이트된 버전의 ER 구성 가져오기
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: GR에서 구성을 찾기 위한 향상된 필터링
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: GR에 구성 업로드
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: GR에서 구성 공유
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: RCS 글로벌 리포지토리에서 구성 중단
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
+            - name: 오스트리아
+              items:
+                - name: 오스트리아 회계 등록 서비스 통합 샘플
+                  href: localizations/emea-aut-fi-sample.md
+                - name: 오스트리아 회계 통합 샘플 배포 가이드라인(레거시)
+                  href: localizations/emea-aut-fi-sample-sdk.md
+            - name: 브라질
+              items:
+                - name: 브라질 Commerce 지역화
+                  href: localizations/latam-bra-commerce-localization.md
+                - name: 브라질 Commerce 지역화 설정 및 배포
+                  href: localizations/latam-bra-deployment.md
+                - name: 브라질 Commerce POS의 NFC-e 회계 문서 기능
+                  href: localizations/latam-bra-nfce.md
+                - name: 브라질 POS의 고객 정보 관리
+                  href: localizations/latam-bra-customer-information.md
+                - name: 브라질 Commerce POS의 NFC-e 문서 취소 및 반환
+                  href: localizations/latam-bra-nfce-cancel-return.md
+                - name: 오프라인 비상모드에서 발행된 NFC-e 문서의 등록이 연기됨
+                  href: localizations/latam-bra-nfce-contingency-mode.md
+                - name: Commerce Headquarters의 소매 명세서를 통해 브라질 회계 문서 게시
+                  href: localizations/latam-bra-retail-statements.md
+                - name: 브라질 Commerce POS의 CF-e 회계 문서 및 SAT 기능과의 통합
+                  href: localizations/latam-bra-cf-e-sat.md
+                - name: 브라질 Commerce POS의 Adyen용 Dynamics 365 Payment Connector
+                  href: localizations/latam-bra-adyen.md
+            - name: 동유럽
+              items:
+                - name: 공통
+                  items:
+                    - name: 동유럽 Commerce를 위한 사전 송장
+                      href: localizations/emea-eeu-advance-invoices-for-retail.md
+                    - name: 동유럽 Commerce를 위한 소액 현금 관리
+                      href: localizations/emea-eeu-petty-cash-for-retail.md
+                    - name: 동유럽 국가의 고객 송장 및 반품 판매 주문
+                      href: localizations/emea-eeu-retail-invoices.md
+                    - name: '체코, 헝가리, 폴란드의 금전 등록기 배포 지침'
+                      href: localizations/emea-eeu-deployment.md
+                - name: 체코
+                  items:
+                    - name: 체코 회계 등록 서비스 통합 샘플
+                      href: localizations/emea-cze-fi-sample.md
+                    - name: 체코 회계 통합 샘플 배포 가이드라인(레거시)
+                      href: localizations/emea-cze-fi-sample-sdk.md
+                - name: 폴란드
+                  items:
+                    - name: 폴란드 회계 프린터 통합 샘플
+                      href: localizations/emea-pol-fpi-sample.md
+                    - name: 폴란드 고객 정보 관리
+                      href: localizations/emea-pol-customer-information.md
+                    - name: 체코 회계 통합 샘플 배포 가이드라인(레거시)
+                      href: localizations/emea-pol-fpi-sample-sdk.md
+            - name: 프랑스
+              items:
+                - name: 금전 등록기 기능
+                  href: localizations/emea-fra-cash-registers.md
+                - name: 금전 등록기 배포 지침
+                  href: localizations/emea-fra-fi-deployment.md
+                - name: 회계 보관 및 데이터 무결성 확인
+                  href: localizations/emea-fra-fiscal-archive.md
+                - name: 프랑스 레거시 기능에서 마이그레이션
+                  href: localizations/emea-fra-fi-migration.md
+                - name: 금전 등록기 배포 지침(레거시)
+                  href: localizations/emea-fra-deployment.md
+            - name: 독일
+              items:
+                - name: 오스트리아 회계 등록 서비스 통합 샘플
+                  href: localizations/emea-deu-fi-sample.md
+                - name: 독일 회계 통합 샘플 배포 가이드라인(레거시)
+                  href: localizations/emea-deu-fi-sample-sdk.md
+            - name: 인도
+              items:
+                - name: 금전 등록기에 대한 물품용역세(GST) 통합
+                  href: localizations/apac-ind-cash-registers.md
+                - name: 금전 등록기 배포 지침
+                  href: localizations/apac-ind-loc-deployment-guidelines.md
+                - name: 인도 업그레이드 및 N-1 지원
+                  href: localizations/apac-ind-n-1-for-india.md
+                - name: 인도 QR 코드 생성 및 영수증에 인쇄
+                  href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: 전자 상거래 사이트에 대한 물품용역세(GST) 통합
+                  href: localizations/apac-ind-e-commerce.md
+            - name: 이탈리아
+              items:
+                - name: 이탈리아 회계 프린터 통합 샘플
+                  href: localizations/emea-ita-fpi-sample.md
+                - name: 이탈리아 고객 정보 관리
+                  href: localizations/emea-ita-customer-information.md
+                - name: 이탈리아 회계 통합 샘플 배포 가이드라인(레거시)
+                  href: localizations/emea-ita-fpi-sample-sdk.md
+            - name: 멕시코
+              items:
+                - name: 멕시코 글로벌 CFDI 전자 송장
+                  href: ../finance/localizations/latam-mex-global-cfdi-3-3.md?toc=/dynamics365/commerce/toc.json
+            - name: 노르웨이
+              items:
+                - name: 금전 등록기 기능
+                  href: localizations/emea-nor-cash-registers.md
+                - name: 금전 등록기 배포 지침
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: 금전 등록기 배포 지침(레거시)
+                  href: localizations/emea-nor-loc-deployment-guidelines.md
+            - name: 러시아
+              items:
+                - name: 러시아 Commerce 지역화
+                  href: localizations/rus-commerce-localization.md
+                - name: 러시아 Commerce 지역화 설정
+                  href: localizations/rus-commerce-setup.md
+                - name: 러시아 Commerce의 선급금
+                  href: localizations/rus-commerce-prepayments.md
+                - name: 러시아 Commerce POS의 기본 고객 주소 형식
+                  href: localizations/rus-simplified-address.md
+                - name: 러시아 회계 프린터 통합 샘플
+                  href: localizations/rus-fpi-sample.md
+                - name: 러시아 고객 정보 관리
+                  href: localizations/rus-customer-information.md
+            - name: 사우디아라비아
+              items:
+                - name: 사우디아라비아 QR 코드 생성 및 영수증에 인쇄
+                  href: localizations/emea-sau-qr-code.md
+            - name: 스웨덴
+              items:
+                - name: 금전 등록기 기능
+                  href: localizations/emea-swe-cash-registers.md
+                - name: 스웨덴 제어 장치 통합 샘플
+                  href: localizations/emea-swe-fi-sample.md
+                - name: 스웨덴 제어 장치 통합 샘플 배포 가이드라인(레거시)
+                  href: localizations/emea-swe-fi-sample-sdk.md
+                - name: 제어 장치와 Retail POS 통합을 위한 샘플(레거시)
+                  href: localizations/retail-sdk-control-unit-sample.md
+        - name: 보고 및 Power BI 통합
+          items:
+            - name: Power BI를 통한 보고 및 분석
+              href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
+            - name: 정보 액세스 및 보고
+              href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
+            - name: Power BI 개인 설정 옵션
+              items:
+                - name: Power BI 통합을 통해 사용 가능한 기능
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: Power BI 콘텐츠 고정
+                  href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
+                - name: Power BI 분석 작업 영역 선택
+                  href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
+            - name: Power BI 콘텐츠
+              items:
+                - name: Power BI 콘텐츠 홈페이지
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/commerce/toc.json
+                - name: 학습
+                  href: ../fin-ops-core/dev-itpro/analytics/learning-power-bi.md?toc=/dynamics365/commerce/toc.json
+                - name: 조직 교육
+                  href: ../fin-ops-core/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail Channel Performance
+                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
+            - name: 분석 작업 영역
+              items:
+                - name: 분석 작업 영역(Power BI Embedded 사용)
+                  href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: Power BI Embedded 통합
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: 분석 작업 영역에서 포함된 보고서 사용자 지정
+                  href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
+            - name: 문서 보고 및 인쇄
+              items:
+                - name: 문서 보고 서비스 개요
+                  href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: 지원되는 글꼴
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
+                - name: 온-프레미스 배포를 위해 SSRS 구성
+                  href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: 인쇄
+                  items:
+                    - name: 문서 인쇄 개요
+                      href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/commerce/toc.json
+                    - name: 네트워크 인쇄를 활성화하려면 Document Routing Agent를 설치해야 합니다
+                      href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/commerce/toc.json
+                    - name: Document Routing Agent 업그레이드
+                      href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/commerce/toc.json
+                    - name: 온-프레미스 환경에 네트워크 프린터 장치 설치
+                      href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/commerce/toc.json
+                    - name: '온-프레미스 배포에서 문서 생성, 게시, 인쇄'
+                      href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/commerce/toc.json
+                    - name: Document Routing Agent를 Windows 서비스로 실행
+                      href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/commerce/toc.json
+                - name: 사용 가능한 SQL Server Reporting Services 보고서
+                  href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/commerce/toc.json
+                - name: 보고서 디자인 템플릿 설치
+                  href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/commerce/toc.json
+            - name: 고급 사용자 관리 도구
+              items:
+                - name: 엔터티 저장소와 Power BI 통합
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
+                - name: 엔터티 저장소 유지 관리 후 문제 해결
+                  href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
+                - name: Power BI 통합 구성
+                  href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: 나만의 데이터베이스 가져오기
+                  href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
+                - name: PDF 뷰어를 사용하여 PDF 문서 미리 보기
+                  href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/commerce/toc.json
+            - name: 솔루션 생성 및 확장을 위한 개발자 도구
+              items:
+                - name: '분석, 집계 측정, KPI 모델링'
+                  href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/commerce/toc.json
+                - name: 모델 집계 데이터
+                  href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
+                - name: 집계 측정에 재무 차원 추가
+                  href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
+                - name: Power BI Desktop을 사용하여 분석 보고서 생성
+                  href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
+                - name: Power BI Embedded를 사용하여 작업 영역에 분석 추가
+                  href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: Power BI Embedded를 사용하여 분석 작업 영역과 보고서 보호
+                  href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: 보고 솔루션 생성
+                  href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/commerce/toc.json
+                - name: 확장을 사용하여 App Suite 보고서 사용자 지정
+                  href: ../fin-ops-core/dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/dynamics365/commerce/toc.json
+                - name: Application Suite 보고서 데이터 집합 확장
+                  href: ../fin-ops-core/dev-itpro/analytics/expand-app-suite-report-data-sets.md?toc=/dynamics365/commerce/toc.json
+                - name: 보고서 메뉴 항목을 확장하여 사용자 탐색 리디렉션
+                  href: ../fin-ops-core/dev-itpro/analytics/extend-report-menu-items.md?toc=/dynamics365/commerce/toc.json
+                - name: 비즈니스 문서를 위한 사용자 지정 디자인 생성
+                  href: ../fin-ops-core/dev-itpro/analytics/custom-designs-business-docs.md?toc=/dynamics365/commerce/toc.json
+                - name: 장기 실행 보고서의 시간 초과 방지
+                  href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/commerce/toc.json
+        - name: 전자 보고
+          items:
+            - name: 전자 보고 개요
+              href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
+            - name: 전자 보고 구성 요소
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/commerce/toc.json
+            - name: 구성
+              items:
+                - name: 구성 생성
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/commerce/toc.json
+                - name: 다른 구성 요소에 대한 ER 구성의 종속성 정의
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
+                - name: 전자 보고 솔루션의 구성 요소 준비
+                  items:
+                    - name: 도메인별 데이터 모델 디자인
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/commerce/toc.json
+                    - name: 애플리케이션별 메타데이터 준비
+                      items:
+                        - name: RCS에서 사용할 ER의 애플리케이션 메타데이터 준비
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/commerce/toc.json
+                        - name: ER 구성을 사용하여 RCS의 애플리케이션 메타데이터에 액세스
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: 연결된 애플리케이션을 사용하여 RCS의 애플리케이션 메타데이터에 액세스
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/commerce/toc.json
+                        - name: 모델 매핑 정의 및 데이터 원본 선택
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/commerce/toc.json
+                        - name: 선택한 데이터 원본에 데이터 모델 매핑
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/dynamics365/commerce/toc.json
+                        - name: 형식 구성 생성
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/commerce/toc.json
+                        - name: 생성된 형식의 구성 요소를 데이터 모델 요소에 매핑
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/commerce/toc.json
+                    - name: 대상 애플리케이션에서 준비된 ER 솔루션 테스트
+                      items:
+                        - name: RCS에서 구성 가져오기
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                        - name: 형식 구성을 사용하여 결제를 위한 전자 문서 생성
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/commerce/toc.json
+                    - name: 해당 형식의 새 기본 버전을 채택하여 형식 업그레이드
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/commerce/toc.json
+            - name: ER의 수식 디자이너
+              items:
+                - name: 수식 디자이너
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/commerce/toc.json
+                - name: 고급 수식 디자이너
+                  href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/commerce/toc.json
+            - name: 수식 언어 및 함수
+              items:
+                - name: 수식 언어
+                  href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: ER 수식에 지원되는 데이터 형식
+                  items:
+                    - name: 기본 데이터 형식
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
+                    - name: 복합 데이터 형식
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
+                - name: 함수
+                  items:
+                    - name: 컨테이너
+                      items:
+                        - name: 컨테이너 함수
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/commerce/toc.json
+                        - name: Base64StringToContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/commerce/toc.json
+                    - name: 날짜와 시간
+                      items:
+                        - name: 날짜 및 시간 함수
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: AddDays
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/commerce/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateTimeFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimeformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateTimeValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateToDateTime
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: DayOfYear
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dayofyear.md?toc=/dynamics365/commerce/toc.json
+                        - name: Days
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-days.md?toc=/dynamics365/commerce/toc.json
+                        - name: Now
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-now.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullDate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldate.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullDateTime
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: SessionNow
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/fcommerce/toc.json
+                        - name: SessionToday
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
+                        - name: Today
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
+                    - name: 목록
+                      items:
+                        - name: 목록 함수
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: AllItems
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitems.md?toc=/dynamics365/commerce/toc.json
+                        - name: AllItemsQuery
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitemsquery.md?toc=/dynamics365/commerce/toc.json
+                        - name: Count
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/commerce/toc.json
+                        - name: EmptyList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/commerce/toc.json
+                        - name: Enumerate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/commerce/toc.json
+                        - name: Filter
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/commerce/toc.json
+                        - name: First
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/commerce/toc.json
+                        - name: FirstOrNull
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/commerce/toc.json
+                        - name: Index
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/commerce/toc.json
+                        - name: IsEmpty
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/commerce/toc.json
+                        - name: List
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListJoin
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListOfFields
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListOfFirstItem
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/commerce/toc.json
+                        - name: OrderBy
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/commerce/toc.json
+                        - name: Reverse
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/commerce/toc.json
+                        - name: Split
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
+                        - name: SplitList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/commerce/toc.json
+                        - name: SplitListByLimit
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?toc=/dynamics365/commerce/toc.json
+                        - name: StringJoin
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: Where
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/commerce/toc.json
+                    - name: 논리
+                      items:
+                        - name: 논리 함수
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/commerce/toc.json
+                        - name: And
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/commerce/toc.json
+                        - name: Case
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/commerce/toc.json
+                        - name: Contains
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/commerce/toc.json
+                        - name: EndsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/commerce/toc.json
+                        - name: If
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/commerce/toc.json
+                        - name: Not
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/commerce/toc.json
+                        - name: Or
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/commerce/toc.json
+                        - name: StartsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/commerce/toc.json
+                        - name: ValueIn
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/commerce/toc.json
+                        - name: ValueInLarge
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valueinlarge.md?toc=/dynamics365/commerce/toc.json
+                    - name: 수학
+                      items:
+                        - name: 수학 함수
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/commerce/toc.json
+                        - name: Abs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/commerce/toc.json
+                        - name: Power
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/commerce/toc.json
+                        - name: Round
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundDown
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-rounddown.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundUp
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-roundup.md?toc=/dynamics365/commerce/toc.json
+                    - name: 레코드
+                      items:
+                        - name: 레코드 함수
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/commerce/toc.json
+                        - name: EmptyRecord
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/commerce/toc.json
+                    - name: 텍스트
+                      items:
+                        - name: 텍스트 함수
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/commerce/toc.json
+                        - name: Char
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
+                        - name: Concatenate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/commerce/toc.json
+                        - name: Format
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/commerce/toc.json
+                        - name: GetEnumValueByName
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/commerce/toc.json
+                        - name: GuidValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: JsonValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-jsonvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: Left
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-left.md?toc=/dynamics365/commerce/toc.json
+                        - name: Len
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-len.md?toc=/dynamics365/commerce/toc.json
+                        - name: Lower
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/commerce/toc.json
+                        - name: Mid
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/commerce/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumberFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumeralsToText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numeralstotext.md?toc=/dynamics365/commerce/toc.json
+                        - name: PadLeft
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-padleft.md?toc=/dynamics365/commerce/toc.json
+                        - name: QrCode
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
+                        - name: Replace
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/commerce/toc.json
+                        - name: Right
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/commerce/toc.json
+                        - name: Text
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
+                        - name: Translate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/commerce/toc.json
+                        - name: Trim
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-trim.md?toc=/dynamics365/commerce/toc.json
+                        - name: Upper
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-upper.md?toc=/dynamics365/commerce/toc.json
+                    - name: 데이터 수집
+                      items:
+                        - name: 데이터 수집 함수
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-data-collection.md?toc=/dynamics365/commerce/toc.json
+                        - name: CollectedList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-collectedlist.md?toc=/dynamics365/commerce/toc.json
+                        - name: CountIF
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countif.md?toc=/dynamics365/commerce/toc.json
+                        - name: CountIFs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countifs.md?toc=/dynamics365/commerce/toc.json
+                        - name: FormatElementName
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-formatelementname.md?toc=/dynamics365/commerce/toc.json
+                        - name: SumIF
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumif.md?toc=/dynamics365/commerce/toc.json
+                        - name: SumIFs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumifs.md?toc=/dynamics365/commerce/toc.json
+                    - name: 기타
+                      items:
+                        - name: 기타(비즈니스 도메인별) 함수
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-other.md?toc=/dynamics365/commerce/toc.json
+                        - name: CH_Bank_Mod_10
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/commerce/toc.json
+                        - name: CN_GBT_AdditionalDimensionID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-cngbtadditionaldimensionid.md?toc=/dynamics365/commerce/toc.json
+                        - name: ConvertCurrency
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-convertcurrency.md?toc=/dynamics365/commerce/toc.json
+                        - name: CurCredRef
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/commerce/toc.json
+                        - name: FA_Balance
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/commerce/toc.json
+                        - name: FA_Sum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/commerce/toc.json
+                        - name: GetCurrentCompany
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-getcurrentcompany.md?toc=/dynamics365/commerce/toc.json
+                        - name: ISOCredRef
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isocredref.md?toc=/dynamics365/commerce/toc.json
+                        - name: IsValidCharacterISO7064
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isvalidchariso7064.md?toc=/dynamics365/commerce/toc.json
+                        - name: Mod_97
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-mod97.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumSeqValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-numseqvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundAmount
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-roundamount.md?toc=/dynamics365/commerce/toc.json
+                        - name: TableName2ID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-tablename2id.md?toc=/dynamics365/commerce/toc.json
+                    - name: 형식 변환
+                      items:
+                        - name: 형식 변환 함수
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/commerce/toc.json
+                        - name: '유형: Int64Value'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/commerce/toc.json
+                        - name: '유형: IntValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: '유형: NumberValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: '유형: Value'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/commerce/toc.json
+                        - name: '컨테이너: Base64StringToContainer'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/commerce/toc.json
+                        - name: '날짜 및 시간: DateTimeValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: '날짜 및 시간: DateToDateTime'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: '날짜 및 시간: DateValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: '목록: List'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: '목록: ListOfFields'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
+                        - name: '목록: Split'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
+                        - name: '목록: StringJoin'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: '텍스트: Char'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
+                        - name: '텍스트: GuidValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: '텍스트: NumberFormat'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: '텍스트: QrCode'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
+                        - name: '텍스트: Text'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
+            - name: 다양한 형식의 아웃바운드 문서 생성을 위한 ER 형식 디자인
+              items:
+                - name: OPENXML 형식의 보고서를 생성하기 위한 구성 디자인
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: 발신 문서를 Excel 형식으로 생성하기 위한 구성 디자인
+                  items:
+                    - name: Excel 형식의 문서를 생성하기 위한 구성 디자인
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/commerce/toc.json
+                    - name: Excel 템플릿을 다시 적용하여 ER 형식 수정
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
+                    - name: 수평으로 확장 가능한 범위로 Excel 보고서에 열을 동적으로 추가
+                      items:
+                        - name: Excel 보고서에 동적으로 열을 추가하기 위한 형식 디자인
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
+                        - name: Excel 보고서에 동적으로 열을 추가하기 위한 형식 실행
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
+                    - name: Excel에서 생성된 문서의 페이지를 매기기 위한 ER 형식 디자인
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/commerce/toc.json
+                    - name: 동일한 Excel 페이지에서 행을 함께 유지하도록 ER 형식 디자인
+                      href: ../fin-ops-core/dev-itpro/analytics/er-keep-excel-rows-together.md?toc=/dynamics365/commerce/toc.json
+                - name: Word 형식의 보고서를 생성하기 위한 구성 디자인
+                  items:
+                    - name: Word 형식의 보고서를 생성하기 위해 새 ER 구성 디자인
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/commerce/toc.json
+                    - name: Word 형식으로 보고서를 생성하기 위해 Excel 템플릿과 함께 ER 구성을 재사용
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/commerce/toc.json
+                    - name: 생성된 보고서에서 Word 콘텐츠 제어 억제
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/commerce/toc.json
+                - name: PDF 템플릿을 작성하기 위한 구성 디자인
+                  href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/commerce/toc.json
+                - name: 이미지 및 셰이프 포함
+                  items:
+                    - name: 생성한 문서에 이미지 및 셰이프 포함
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/commerce/toc.json
+                    - name: 이미지 및 셰이프 포함의 예
+                      items:
+                        - name: 포함된 이미지가 있는 Office 형식의 보고서를 생성하기 위한 구성 디자인
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/commerce/toc.json
+                        - name: 포함된 이미지가 있는 Office 형식의 보고서를 생성하기 위한 구성 검토
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
+                        - name: 포함된 이미지가 있는 Office 형식의 보고서 생성
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
+                    - name: 페이지 머리글 또는 바닥글에 포함된 이미지가 있는 Excel 보고서를 생성하기 위해 ER 형식 디자인
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/commerce/toc.json
+                - name: 파일 크기 및 콘텐츠 수량에 따라 생성된 XML 파일 분할
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
+                - name: 생성된 파일에서 BOM 문자 억제
+                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/commerce/toc.json
+            - name: ER을 사용하여 애플리케이션 데이터 업데이트
+              items:
+                - name: 전자 문서 생성 및 애플리케이션 데이터 업데이트
+                  href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/commerce/toc.json
+                - name: 애플리케이션 데이터가 포함된 문서를 생성하기 위해 구성 가져오기
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: 애플리케이션 데이터가 포함된 문서를 생성하기 위해 구성 디자인
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/commerce/toc.json
+                - name: 애플리케이션 데이터로 문서를 생성하기 위해 모델 및 매핑 수정
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/dynamics365/commerce/toc.json
+                - name: 애플리케이션 데이터가 포함된 문서를 생성하기 위해 형식 수정
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/commerce/toc.json
+                - name: 애플리케이션 데이터가 있는 문서 생성
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/commerce/toc.json
+            - name: ER 솔루션을 사용하여 수신 파일에서 데이터 가져오기
+              items:
+                - name: 수신 문서를 다양한 형식으로 구문 분석
+                  href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/commerce/toc.json
+                - name: 수동으로 선택한 파일에서 데이터 가져오기 구성
+                  items:
+                    - name: 외부 XML 파일에서 데이터를 가져오기 위한 구성 생성
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
+                    - name: 일괄 처리 모드에서 수동으로 선택한 파일에서 데이터 가져오기
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
+                - name: SharePoint 위치 파일에서 일괄 처리 모드로 데이터 가져오기 구성
+                  href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
+                - name: XML 형식으로 파일 가져오기
+                  items:
+                    - name: 선택적 특성이 있는 XML 형식의 파일 가져오기
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/commerce/toc.json
+                    - name: 선택적 특성이 있는 XML 형식 파일을 가져오도록 ER 형식 구성
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/commerce/toc.json
+            - name: 구성 수명 주기
+              items:
+                - name: 구성 수명 주기 관리
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS(Lifecycle Services)
+                  items:
+                    - name: LCS에 구성 업로드
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
+                    - name: LCS에서 구성 가져오기
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
+                    - name: LCS에서 구성 다운로드
+                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
+                    - name: 구성 가져오기(LBD)
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: RCS(Regulatory Configuration Service)
+                  items:
+                    - name: RCS(Regulatory Configuration Service) 개요
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: Commerce에 ER 구성 다운로드
+                      items:
+                        - name: RCS에서 구성 다운로드
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                        - name: RCS에서 구성 가져오기
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                    - name: 글로벌 리포지토리(GR)
+                      items:
+                        - name: GR에서 구성 가져오기
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: 업데이트된 버전의 ER 구성 가져오기
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: GR에서 구성을 찾기 위한 향상된 필터링
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: GR에 구성 업로드
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: GR에서 구성 공유
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: RCS 글로벌 리포지토리에서 구성 중단
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
+            - name: 빠른 시작 가이드
+              items:
+                - name: 사용자 지정 전자 문서를 생성하기 위해 ER 형식 조정
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/commerce/toc.json
+                - name: 사용자 지정 보고서를 인쇄하기 위해 새로운 ER 솔루션 디자인
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/commerce/toc.json
+                - name: 사용자 지정 전자 문서를 생성하기 위해 ER 솔루션 조정
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start3-customize-report.md?toc=/dynamics365/commerce/toc.json
+            - name: 자습서
+              items:
+                - name: 데이터 원본 사용 방법 알아보기
+                  items:
+                    - name: 조인을 사용하여 여러 테이블에서 데이터 가져오기
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: RAW XML을 사용하여 콘텐츠 추가
+                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
+                    - name: 계산 필드 데이터 원본의 매개 변수화된 호출 지원
+                      items:
+                        - name: 사용자 경험 및 사용성 유지 관리 개선
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/commerce/toc.json
+                        - name: 데이터 액세스 성능 향상
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/commerce/toc.json
+                    - name: 회사 간 ER 데이터 원본
+                      href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: 재무 차원 세부 정보 데이터 원본 사용
+                      items:
+                        - name: 데이터 모델 디자인
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/commerce/toc.json
+                        - name: 재무 차원을 사용하도록 모델 매핑
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/commerce/toc.json
+                        - name: 보고서 디자인
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/commerce/toc.json
+                        - name: 보고서 실행
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/commerce/toc.json
+                    - name: 생성된 출력을 데이터 원본으로 사용하여 계산 및 합산 수행
+                      items:
+                        - name: 형식 생성
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/commerce/toc.json
+                        - name: 계산 및 합산을 수행하도록 형식 구성
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/commerce/toc.json
+                        - name: 계산 및 합산을 위해 출력 생성
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/commerce/toc.json
+                        - name: 형식을 실행하여 계산 및 합산 수행
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/commerce/toc.json
+                    - name: 문서 관계를 사용하여 문서 관리 파일에 액세스
+                      items:
+                        - name: 데이터 모델 준비
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/commerce/toc.json
+                        - name: 문서 관리 파일을 사용하도록 데이터 모델 확장
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/commerce/toc.json
+                        - name: 형식 생성
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/commercetoc.json
+                        - name: 형식을 실행하여 문서 관리 파일 사용
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
+                        - name: 문서 관리 파일을 사용하도록 형식 수정 및 실행
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
+                    - name: 바코드를 사용하여 바코드 이미지 생성
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER 애플리케이션별 매개 변수를 사용하도록 조회 데이터 원본 구성
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER 형식의 데이터 수집 데이터 원본 사용
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: 데이터 원본 디버그
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: 모델 매핑 구성
+                  items:
+                    - name: 국가 컨텍스트 종속 ER 모델 매핑 구성
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
+                    - name: 별도의 ER 구성에서 ER 모델 매핑 관리
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
+                    - name: 단일 모델 루트에 대한 여러 파생 매핑 관리
+                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/commerce/toc.json
+                - name: 형식 구성
+                  items:
+                    - name: 형식을 만들 때 모델 정의 선택
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
+                    - name: 법인별로 지정된 매개 변수를 사용하도록 ER 형식 구성
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
+                    - name: 법인별 ER 형식의 매개 변수 설정
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER 형식 요소의 실행 연기
+                      items:
+                        - name: 시퀀스 요소의 실행 연기
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/commerce/toc.json
+                        - name: XML 요소의 실행 연기
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/commerce/toc.json
+                    - name: 다국어 보고서 디자인
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/commerce/toc.json
+                    - name: 대용량 아웃바운드 문서 압축
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/commerce/toc.json
+                - name: 구성된 ER 구성 요소 검사
+                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/commerce/toc.json
+                - name: 데이터 바인딩의 상대 경로
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/commerce/toc.json
+            - name: Commerce에서 ER 솔루션 사용
+              items:
+                - name: 프레임워크 구성
+                  items:
+                    - name: 전자 보고 프레임워크 구성
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER 템플릿 백업 및 복구
+                      items:
+                        - name: ER 템플릿의 백업 스토리지
+                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/commerce/toc.json
+                        - name: ER 마이그레이션 정리
+                          href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/commerce/toc.json
+                    - name: 구성 제공을 만들어 활성으로 표시
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: 대상
+                  items:
+                    - name: 대상 개요
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/commerce/toc.json
+                    - name: 대상 형식
+                      items:
+                        - name: 대상 보관
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/commerce/toc.json
+                        - name: 이메일 대상
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/commerce/toc.json
+                        - name: 파일 대상
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/commerce/toc.json
+                        - name: Power BI 대상
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/commerce/toc.json
+                        - name: 프린터 대상
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/commerce/toc.json
+                        - name: 화면 대상
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/commerce/toc.json
+                    - name: 대상 구성
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
+                    - name: 작업 종속 대상 구성
+                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
+                    - name: 인쇄 관리 레코드별 ER 대상 구성
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/commerce/toc.json
+                - name: ER 형식에 대한 참조 설정
+                  href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
+                - name: 생성된 보고서 자동 확인
+                  items:
+                    - name: 생성된 보고서 결과를 추적하고 기준 값과 비교
+                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
+                    - name: 기준 값과 비교하기 위해 생성된 ER 보고서의 결과 추적 개선
+                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER로 테스트 자동화
+                      href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
+                - name: 전자 보고 구성을 사용하여 비즈니스 프로세스 자동화
+                  items:
+                    - name: 데이터를 Power BI로 가져오도록 ER 구성
+                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
+                    - name: 인쇄 가능한 무료 텍스트 인보이스(FTI) 양식 생성
+                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
+                - name: 효율적인 ER 솔루션 디자인
+                  items:
+                    - name: ER 형식의 실행을 추적하여 성능 문제 해결
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER 구성의 성능 문제 해결
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: BDM(비즈니스 문서 관리)
+                  items:
+                    - name: BDM 개요
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/commerce/toc.json
+                    - name: BDM의 새 문서 사용자 인터페이스
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/commerce/toc.json
+                    - name: BDM에서 비즈니스 문서 템플릿 편집
+                      items:
+                        - name: Microsoft Excel의 비즈니스 문서 템플릿에 새 필드 추가
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/commerce/toc.json
+                        - name: 비즈니스 문서 템플릿의 구조 업데이트
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/commerce/toc.json
+            - name: ER 프레임워크 API
+              items:
+                - name: 기본 제공 함수 목록 확장
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/commerce/toc.json
+                - name: API 변경 사항
+                  items:
+                    - name: 애플리케이션 업데이트 7.3
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/commerce/toc.json
+                    - name: 애플리케이션 업데이트 10.0.11
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
+                    - name: 애플리케이션 업데이트 10.0.17
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
+                    - name: 애플리케이션 업데이트 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
+                    - name: 애플리케이션 업데이트 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
+                    - name: 애플리케이션 업데이트 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
+                    - name: 애플리케이션 업데이트 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
+                - name: 생성된 문서의 사용자 지정 저장 위치 지정
+                  items:
+                    - name: 이벤트를 구독하여 구독 핸들러에게 응답 요청
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER 대상 생성을 사용자 지정 대상 팩토리에 위임
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
+                    - name: 생성된 문서에 대한 사용자 지정 대상 구현
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
+                - name: 소스 코드에서 USER INPUT PARAMETER 형식의 데이터 원본 값 시작
+                  href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
+                - name: 사용자가 명명된 ER 대상을 구성하고 사용할 수 있도록 코드 변경
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
+                - name: 인바운드 문서의 사용자 지정 ER 원본 구현
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
+        - name: 금융 및 운영(Dynamics 365) 모바일 앱
+          items:
+            - name: 모바일 앱 홈페이지
+              href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
+            - name: 모바일 작업 영역
+              items:
+                - name: 사용 가능한 모바일 작업 영역
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/dynamics365/commerce/toc.json
+                - name: 자산 관리
+                  href: ../supply-chain/asset-management/asset-management-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: 회사 디렉터리
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: 원가 관리
+                  href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: 지출 관리
+                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: 보유 재고
+                  href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: 송장 승인
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: 내 팀
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: 프로젝트 모바일 애플리케이션 개요
+                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: 프로젝트 시간 입력
+                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: 프로젝트 작업표
+                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/commerce/toc.json
+                - name: 구매 주문 승인
+                  href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: 판매 주문
+                  href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: 공급업체 협업
+                  href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+            - name: 모바일 작업 영역 게시
+              href: ../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+        - name: Office 통합
+          items:
+            - name: Office 통합 개요
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/commerce/toc.json
+            - name: Office 통합 자습서
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
+            - name: Excel에서 엔터티 데이터를 열고 Excel 추가 기능을 사용하여 업데이트
+              href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
+            - name: Excel에서 열기 환경 FAQ
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
+            - name: Excel에서 라인 열기 메뉴에 템플릿 추가
+              href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
+            - name: Microsoft Office에서 열기 메뉴 사용자 지정
+              href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
+            - name: 이메일 구성 및 보내기
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: 트랜잭선 이벤트용 이메일 템플릿 생성
+              href: email-templates-transactions.md
+            - name: 이메일 환경 개발
+              href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
+            - name: Office 통합 문제 해결
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/commerce/toc.json
+        - name: 조직 관리
+          items:
+            - name: 조직 관리 홈페이지
+              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/commerce/toc.json
+            - name: 숫자 시퀀스
+              items:
+                - name: 숫자 시퀀스 개요
+                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: 개별적으로 숫자 시퀀스 설정
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/commerce/toc.json
+                - name: 마법사를 사용하여 숫자 시퀀스 설정
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/commerce/toc.json
+            - name: 조직 및 조직 계층 구조
+              items:
+                - name: 조직 및 조직 계층 구조 개요
+                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
+                - name: 조직 계층 구조 계획
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
+                - name: 조직 계층 구조 생성
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json
+                - name: 법인 생성
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/commerce/toc.json
+                - name: 운영 단위 생성
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json
+            - name: 전체 주소록
+              items:
+                - name: 전체 주소록 개요
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: 전체 주소록 및 기타 주소록 계획
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
+                - name: 전체 주소록 구성
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: 주소 설정
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
+                - name: 주소록 FAQ
+                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
+                - name: 주소록 구성
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/commerce/toc.json
+            - name: 워크플로 시스템
+              items:
+                - name: 워크플로 시스템 개요
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/commerce/toc.json
+                - name: 워크플로 시스템 아키텍처
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/commerce/toc.json
+                - name: 워크플로 요소
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/commerce/toc.json
+                - name: 워크플로 동작
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/commerce/toc.json
+                - name: 워크플로 생성
+                  items:
+                    - name: 워크플로 생성 개요
+                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: 워크플로 속성 구성
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/commerce/toc.json
+                    - name: 수동 작업 구성
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: 자동화된 작업 구성
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: 승인 프로세스 구성
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: 승인 단계 구성
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: 지출 검토자 구성
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/commerce/toc.json
+                    - name: 수동 결정 구성
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: 조건부 결정 구성
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: 병렬 활동 구성
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: 병렬 분기 구성
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: 품목 워크플로 구성
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/commerce/toc.json
+                - name: 워크플로 메시지 처리 일괄 처리 작업을 중요로 구성
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/commerce/toc.json
+                - name: 워크플로에서 작업 항목 위임
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/commerce/toc.json
+                - name: 워크플로 기록 보기
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/commerce/toc.json
+                - name: 사용자에게 워크플로 관련 이메일을 보내도록 시스템 구성
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/commerce/toc.json
+                - name: 워크플로 유형
+                  items:
+                    - name: 워크플로 유형 생성
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/commerce/toc.json
+                    - name: 워크플로 유형 체크리스트
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/commerce/toc.json
+                    - name: 워크플로 범주 생성
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/commerce/toc.json
+                    - name: 워크플로 유형에 대한 쿼리 생성
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/commerce/toc.json
+                    - name: 새 워크플로 유형 생성
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/commerce/toc.json
+                    - name: 워크플로 문서 클래스 생성
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/commerce/toc.json
+                    - name: SubmitToWorkflow 클래스 생성
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: 워크플로 문서 클래스를 워크플로 유형과 연결
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/commerce/toc.json
+                - name: 워크플로 유형 보고서
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/commerce/toc.json
+                - name: 워크플로 FAQ
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/commerce/toc.json
+            - name: 경고
+              items:
+                - name: 경고 개요
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: 경고 규칙 생성
+                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/commerce/toc.json
+                - name: 경고 일괄 처리
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/commerce/toc.json
+                - name: 이메일로 클라이언트 경고 알림
+                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/commerce/toc.json
+            - name: 전자 서명
+              items:
+                - name: 전자 서명 개요
+                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: 전자 서명 설정
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/commerce/toc.json
+            - name: 사례 관리
+              items:
+                - name: 사례 관리 개요
+                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/commerce/toc.json
+                - name: '사례 보안, 프로세스, 범주 계획'
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/commerce/toc.json
+            - name: 레코드 템플릿
+              items:
+                - name: 레코드 템플릿 개요
+                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/commerce/toc.json
+                - name: 레코드 템플릿 생성
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/commerce/toc.json
+                - name: 레코드 템플릿을 사용하여 새 레코드 생성
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/commerce/toc.json
+            - name: 문서 관리 구성
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/commerce/toc.json
+            - name: 이메일 구성 및 보내기
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: 날짜/시간 데이터 및 표준 시간대
+              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
+        - name: 개발
+          items:
+            - name: 교차 솔루션
+              items:
+                - name: Commerce SDK 개요
+                  items:
+                    - name: 샘플 및 참조 패키지
+                      href: dev-itpro/retail-sdk/sdk-github.md
+                    - name: 레거시 소매 SDK 마이그레이션
+                      href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: Commerce 매장 내 기술 스택 현대화(백서)
+                      href: 'https://www.microsoft.com/download/details.aspx?id=103896'
+                - name: 환경 설정
+                  items:
+                    - name: 로컬 개발 환경
+                      href: dev-itpro/setup-local-dev-env.md
+                    - name: Commerce SDK 빌드 파이프라인(독립 패키징)
+                      href: dev-itpro/build-pipeline.md
+                - name: 결제
+                  items:
+                    - name: 결제 커넥터 배포
+                      href: dev-itpro/deploy-payment-connector.md
+                    - name: 결제 데이터 사용
+                      href: payment-connector-data-fields.md
+                    - name: 결제 SDK에서 팁 주기 지원
+                      href: dev-itpro/tipping.md
+                    - name: 주문 송장 발행을 위한 증분 캡처
+                      href: dev-itpro/incremental-capture.md
+                - name: 지역화
+                  items:
+                    - name: Commerce 확장 리소스 및 레이블 파일 사용자 지정
+                      href: dev-itpro/extension-resource-localization.md
+            - name: 헤드리스 커머스
+              items:
+                - name: API 및 참조
+                  items:
+                    - name: Commerce Scale Unit 고객 및 소비자 API
+                      href: dev-itpro/retail-server-customer-consumer-api.md
+                    - name: 외부 애플리케이션에서 Retail Server API 사용
+                      href: dev-itpro/consume-retail-server-api.md
+                    - name: Retail POS용 Typescript 및 C# 프록시
+                      href: dev-itpro/typescript-proxy-retail-pos.md
+                    - name: Commerce Runtime(CRT) 아키텍처 및 구성
+                      href: dev-itpro/commerce-runtime-overview.md
+                    - name: Commerce Runtime(CRT) 서비스
+                      href: dev-itpro/crt-services.md
+                - name: 새 기능 생성
+                  items:
+                    - name: Commerce Scale Unit API 생성
+                      href: dev-itpro/retail-server-icontroller-extension.md
+                    - name: Commerce Runtime(CRT) 확장성
+                      href: dev-itpro/commerce-runtime-extensibility.md
+                    - name: Application Insights에 확장 이벤트 기록
+                      href: dev-itpro/commerce-application-insights.md
+                    - name: 비동기 Commerce(CRT) API 생성
+                      href: dev-itpro/async-commerce-extension.md
+                    - name: 채널 데이터베이스 확장
+                      href: dev-itpro/channel-db-extensions.md
+                    - name: Commerce Data Exchange 확장 - 실시간 서비스
+                      href: dev-itpro/extend-commerce-data-exchange.md
+                - name: 기존 기능 확장
+                  items:
+                    - name: Commerce Runtime(CRT) 확장성 및 트리거
+                      href: dev-itpro/commerce-runtime-extensibility-trigger.md
+                    - name: 채널 데이터베이스의 사전 확장된 열
+                      href: dev-itpro/extended-columns.md
+                    - name: 확장을 통한 사용자 지정 Commerce Data Exchange 동기화 사용
+                      href: dev-itpro/cdx-extensibility.md
+                    - name: Commerce Store 영수증 확장
+                      href: dev-itpro/retail-sdk/retail-sdk-samples.md
+                    - name: 고객 특성
+                      href: dev-itpro/customer-attributes.md
+                    - name: 주문 특성
+                      href: dev-itpro/order-attributes.md
+                    - name: 소매 채널의 암호 관리
+                      href: dev-itpro/manage-secrets.md
+                - name: 샘플
+                  items:
+                    - name: 트리거를 사용하여 트랜잭션 차단
+                      href: dev-itpro/trigger-example-blocking-transaction.md
+                    - name: 폐기된 장바구니를 감지하고 고객에게 알림 보내기
+                      href: dev-itpro/abandoned-cart-sample-app.md
+                    - name: 로열티 확장 샘플
+                      href: dev-itpro/retail-sdk/loyalty-extension-sample.md
+                    - name: 주문 이행 중 포장 전표에 대한 확장 지점
+                      href: dev-itpro/extensions-shipping-carrier-integration.md
+                - name: 패키징 및 배포
+                  items:
+                    - name: Cloud Scale Unit 확장 제거
+                      href: dev-itpro/retail-sdk/remove-csu-package.md
+            - name: Store Commerce
+              items:
+                - name: 개요
+                  items:
+                    - name: POS 확장 개요
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: POS 확장 개념 및 용어
+                      href: dev-itpro/pos-extension/pos-extension-basics.md
+                    - name: POS 확장을 Commerce SDK로 마이그레이션
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                - name: 환경 설정
+                  items:
+                    - name: 로컬 개발 환경
+                      href: dev-itpro/setup-local-dev-env.md
+                    - name: POS 확장 패키지 프로젝트 생성
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: Modern POS 확장 패키지용 .appx 파일 생성
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: POS 확장 디버그
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
+                - name: API 및 참조
+                  items:
+                    - name: POS 확장 패키지 정보 보기
+                      href: dev-itpro/view-pos-extension-package-details.md
+                    - name: POS API
+                      href: dev-itpro/pos-apis.md
+                    - name: 확장에서 POS 컨트롤 사용
+                      href: dev-itpro/pos-extension/controls-pos-extension.md
+                    - name: POS 듀얼 디스플레이 보기 확장
+                      href: dev-itpro/pos-dual-display-extension.md
+                    - name: POS에서 사용자 지정 헤드리스 커머스 API 및 엔터티 사용
+                      href: dev-itpro/pos-extension/consume-apis-pos.md
+                    - name: POS 확장에서 외부 또는 타사 라이브러리 사용
+                      href: dev-itpro/pos-extension/knockout-pos-extension.md
+                - name: 새 기능 생성
+                  items:
+                    - name: POS 작업 생성
+                      href: dev-itpro/add-pos-operations.md
+                    - name: POS에서 사용자 지정 보기 생성
+                      href: dev-itpro/pos-extension/custom-pos-view.md
+                    - name: 새 하드웨어 장치를 만들고 POS와 통합
+                      href: dev-itpro/hardware-device-extension.md
+                    - name: 결제 단말기를 위한 엔드투엔드 결제 통합 생성
+                      href: dev-itpro/end-to-end-payment-extension.md
+                    - name: 결제 단말기 확장에 대한 사용자 지정 지역화 오류 메시지 생성
+                      href: dev-itpro/payment-custom-error-messages.md
+                    - name: 결제 커넥터에 대한 중복 결제 보호 사용
+                      href: dev-itpro/duplicate-payments-protection.md
+                - name: 기존 기능 확장
+                  items:
+                    - name: POS 보기를 확장하여 사용자 지정 열 및 앱 바 단추 추가
+                      href: dev-itpro/pos-view-extension.md
+                    - name: POS 보기를 확장하여 사용자 지정 컨트롤 추가
+                      href: dev-itpro/pos-control-non-screen.md
+                    - name: POS 헤더 바 확장
+                      href: dev-itpro/pos-header-bar.md
+                    - name: POS 알림 확장
+                      href: dev-itpro/extend-pos-notification.md
+                    - name: POS 요청 처리기 재정의
+                      href: dev-itpro/pos-handler.md
+                    - name: POS 트리거
+                      href: dev-itpro/pos-trigger-printing.md
+                    - name: POS 장바구니 보기
+                      items:
+                        - name: POS 장바구니 보기 이벤트 및 처리기
+                          href: dev-itpro/cart-view-handlers.md
+                        - name: POS 합계 창에 사용자 지정 필드 추가
+                          href: dev-itpro/custom-field-pos-totals.md
+                        - name: POS 거래 그리드에 사용자 지정 열 추가
+                          href: dev-itpro/pos-custom-transaction-column.md
+                        - name: POS 장바구니 보기에 사용자 지정 컨트롤 추가
+                          href: dev-itpro/pos-custom-transaction.md
+                    - name: POS 보기에 사용자 지정 컨트롤 추가
+                      href: dev-itpro/pos-custom-control.md
+                    - name: POS 결제 확장
+                      href: dev-itpro/pos-payment-extension.md
+                - name: 패키징 및 배포
+                  items:
+                    - name: MPOS 확장 패키지 생성
+                      href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                    - name: MPOS(MSIX) 확장 패키지에 서명하는 코드
+                      href: dev-itpro/pos-extension/mpos-extension-signing.md
+                    - name: Cloud POS 확장 패키지 생성
+                      href: dev-itpro/pos-extension/cpos-extension-package.md
+            - name: 전자 상거래
+              items:
+                - name: 개요
+                  items:
+                    - name: 온라인 채널 확장성 개요
+                      href: e-commerce-extensibility/overview.md
+                    - name: 전자 상거래 아키텍처 개요
+                      href: e-commerce-extensibility/architectural-overview.md
+                    - name: 전자 상거래 구성 요소
+                      href: e-commerce-extensibility/ecommerce-components.md
+                    - name: 전자 상거래 온라인 확장성 개발 시작
+                      href: e-commerce-extensibility/sdk-getting-started.md
+                    - name: 시스템 요구 사항
+                      href: e-commerce-extensibility/system-requirements.md
+                - name: 환경 설정
+                  items:
+                    - name: 개발 환경
+                      href: e-commerce-extensibility/setup-dev-environment.md
+                    - name: 개발 환경(.env) 파일 구성
+                      href: e-commerce-extensibility/configure-env-file.md
+                    - name: Commerce 클라우드 환경에 대한 전자 상거래 개발 환경 구성
+                      href: e-commerce-extensibility/debug-tier-1.md
+                - name: API 및 참조
+                  items:
+                    - name: CLI 명령 참조
+                      href: e-commerce-extensibility/cli-command-reference.md
+                    - name: 모듈의 구조
+                      items:
+                        - name: 모듈 개요
+                          href: e-commerce-extensibility/modules-overview.md
+                        - name: 모듈 정의 파일
+                          href: e-commerce-extensibility/module-definition-file.md
+                        - name: 모듈 React 구성 요소 파일
+                          href: e-commerce-extensibility/module-react-file.md
+                        - name: 모듈 보기 파일
+                          href: e-commerce-extensibility/module-view-file.md
+                        - name: 모듈 데이터 파일
+                          href: e-commerce-extensibility/module-data-file.md
+                        - name: 모듈 모의 파일
+                          href: e-commerce-extensibility/module-mock-file.md
+                        - name: 모듈 테스트 파일
+                          href: e-commerce-extensibility/module-test-file.md
+                        - name: 모듈 props.autogenerated.ts 파일
+                          href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                        - name: 모듈 구성 사전 설정
+                          href: e-commerce-extensibility/module-config-presets.md
+                - name: 새 기능 생성
+                  items:
+                    - name: 모듈
+                      items:
+                        - name: 새 모듈 생성
+                          href: e-commerce-extensibility/create-new-module.md
+                        - name: 모듈 구성 필드 추가
+                          href: e-commerce-extensibility/add-module-config-fields.md
+                        - name: 모듈 미리 보기 및 디버그
+                          href: e-commerce-extensibility/test-module.md
+                        - name: 모듈 모의로 모듈 테스트
+                          href: e-commerce-extensibility/test-module-mock.md
+                        - name: 페이지 모의을 사용하여 모듈 테스트
+                          href: e-commerce-extensibility/test-page-mock.md
+                        - name: 컨테이너 모듈
+                          href: e-commerce-extensibility/container-modules.md
+                        - name: 레이아웃 컨테이너 모듈 생성
+                          href: e-commerce-extensibility/create-layout-container.md
+                        - name: 페이지 컨테이너 모듈 생성
+                          href: e-commerce-extensibility/create-page-containers.md
+                        - name: 모듈 지역화
+                          href: e-commerce-extensibility/localize-module.md
+                        - name: 고급
+                          items:
+                            - name: 요청 속성 개체
+                              href: e-commerce-extensibility/request-properties-object.md
+                            - name: 앱 설정
+                              href: e-commerce-extensibility/app-settings.md
+                            - name: 사용 설정된 기능을 기반으로 사이트 빌더 전역 구성 설정 구성
+                              href: e-commerce-extensibility/config-settings-for-features.md
+                            - name: 플랫폼 설정 파일
+                              href: e-commerce-extensibility/platform-settings.md
+                            - name: 쿠키 API 개요
+                              href: e-commerce-extensibility/cookie-api-overview.md
+                            - name: 대화형 구성 요소 개요
+                              href: e-commerce-extensibility/interactive-components.md
+                            - name: 로컬 개발 중 로그인 상태 모의
+                              href: e-commerce-extensibility/mock-sign-in.md
+                            - name: 컨텍스트에 따라 표시되는 모듈 속성 구성
+                              href: e-commerce-extensibility/configure-properties-context.md
+                            - name: CultureInfoFormatter 클래스를 사용하여 모듈 전역화
+                              href: e-commerce-extensibility/globalize-modules.md
+                            - name: 보안 키 관리를 위해 Azure Key Vault 설정
+                              href: e-commerce-extensibility/set-up-key-vault.md
+                            - name: 이미지 구성 요소
+                              href: e-commerce-extensibility/image-component.md
+                    - name: 데이터 작업
+                      items:
+                        - name: 데이터 작업 개요
+                          href: e-commerce-extensibility/data-actions.md
+                        - name: 데이터 작업 캐시 옵션
+                          href: e-commerce-extensibility/data-action-cache.md
+                        - name: 모의로 데이터 작업 테스트
+                          href: e-commerce-extensibility/test-data-action-mocks.md
+                        - name: 페이지 로드 데이터 작업
+                          href: e-commerce-extensibility/page-load-data-action.md
+                        - name: 이벤트 기반 데이터 작업
+                          href: e-commerce-extensibility/event-based-data-actions.md
+                        - name: 코어 데이터 작업
+                          href: e-commerce-extensibility/core-data-actions.md
+                        - name: Commerce Scale Unit API 호출
+                          href: e-commerce-extensibility/call-retail-server-apis.md
+                        - name: Retail Server 확장 API 호출
+                          href: e-commerce-extensibility/call-retail-extension-api.md
+                        - name: 고급
+                          items:
+                            - name: 체인 데이터 작업
+                              href: e-commerce-extensibility/chain-data-actions.md
+                            - name: 일괄 데이터 작업
+                              href: e-commerce-extensibility/batch-data-actions.md
+                            - name: 관찰 가능한 데이터 작업
+                              href: e-commerce-extensibility/create-observable-data-action.md
+                            - name: 모듈 전체 상태 공유
+                              href: e-commerce-extensibility/share-state-across-modules.md
+                            - name: 데이터 작업 캐시 설정
+                              href: e-commerce-extensibility/data-action-cache-settings.md
+                            - name: AJAX를 사용해서버 측 데이터 작업 호출
+                              href: e-commerce-extensibility/data-actions-with-ajax.md
+                    - name: 테마
+                      items:
+                        - name: 테마 개요
+                          href: e-commerce-extensibility/theming.md
+                        - name: 테마 생성
+                          href: e-commerce-extensibility/create-theme.md
+                        - name: 테마 설정 구성
+                          href: e-commerce-extensibility/configure-theme-settings.md
+                        - name: 테마 스타일 사전 설정 구성
+                          href: e-commerce-extensibility/theme-style-presets.md
+                        - name: 사용자 지정 코드에 사용자 지정 리소스 추가
+                          href: e-commerce-extensibility/add-custom-resources.md
+                    - name: 스크립트 삽입
+                      items:
+                        - name: 스크립트 인젝터
+                          href: e-commerce-extensibility/script-injector.md
+                    - name: 커넥터
+                      items:
+                        - name: 커넥터 구성 및 사용
+                          href: e-commerce-extensibility/connectors.md
+                - name: 기존 기능 확장
+                  items:
+                    - name: 모듈
+                      items:
+                        - name: 모듈 라이브러리 모듈 복제
+                          href: e-commerce-extensibility/clone-starter-module.md
+                        - name: 모듈 정의 확장
+                          href: e-commerce-extensibility/extend-module-definition.md
+                        - name: 모듈 라이브러리 정적 문자열 변경
+                          href: e-commerce-extensibility/change-module-library-strings.md
+                    - name: 데이터 작업
+                      items:
+                        - name: 데이터 작업 재정의
+                          href: e-commerce-extensibility/data-action-overrides.md
+                        - name: 데이터 작업 후크
+                          href: e-commerce-extensibility/data-action-hooks.md
+                    - name: 테마
+                      items:
+                        - name: 모듈 확장을 추가하도록 테마 확장
+                          href: e-commerce-extensibility/theme-module-extensions.md
+                        - name: 테마에서 모듈 라이브러리 구성 요소 재정의
+                          href: e-commerce-extensibility/override-theme-component.md
+                        - name: 기본 테마에서 테마 확장
+                          href: e-commerce-extensibility/extend-theme.md
+                        - name: 테마 모듈 문자열 변경
+                          href: e-commerce-extensibility/change-theme-module-strings.md
+                - name: 패키징 및 배포
+                  items:
+                    - name: 구성을 패키지화하고 온라인 환경에 배포
+                      href: e-commerce-extensibility/package-deploy.md
+                    - name: SDK 및 모듈 라이브러리 업데이트
+                      href: e-commerce-extensibility/sdk-updates.md
+                    - name: Azure DevOps 코드 공유 설정 및 빌드 파이프라인 생성
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
+                - name: '모범 사례, 성능, FAQ'
+                  items:
+                    - name: Dynamics 365 Commerce 개발 모범 사례
+                      href: e-commerce-extensibility/best-practices-dev.md
+                    - name: Dynamics 365 Commerce 온라인 SDK FAQ
+                      href: e-commerce-extensibility/sdk-faq.md
+                    - name: Dynamics 365 Commerce 개발 디버깅 모범 사례
+                      href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: 메모리 누수에 대한 전자 상거래 사이트 페이지 테스트
+                      href: e-commerce-extensibility/memory-leak-detection.md
+                    - name: 성능
+                      items:
+                        - name: 페이지 캐싱 구성
+                          href: e-commerce-extensibility/page-caching.md
+                        - name: 데이터 작업 인스턴스 캐시
+                          href: e-commerce-extensibility/instance-cache.md
+                        - name: 모듈 CSS 최적화
+                          href: e-commerce-extensibility/module-css-optimization.md
+                    - name: 원격 분석 및 분석
+                      items:
+                        - name: 원격 분석 로거
+                          href: e-commerce-extensibility/telemetry-logger.md
+            - name: Commerce HQ
+              items:
+                - name: 패키징 및 배포
+                  items:
+                    - name: Finance and Operations 배포를 위한 Commerce 결제 패키지 생성
+                      href: dev-itpro/payment-connector-package.md
+            - name: 소매 SDK(레거시)
+              items:
+                - name: 개요
+                  items:
+                    - name: 소매 소프트웨어 개발 키트(SDK)
+                      href: dev-itpro/retail-sdk/retail-sdk-overview.md
+                    - name: 소매 소프트웨어 개발 키트(SDK) 확장성 샘플
+                      href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+                    - name: 소매 SDK FAQ
+                      href: dev-itpro/retail-sdk/sdk-faq.md
+                    - name: Visual Studio 2015에서 Visual Studio 2017로 Retail SDK 마이그레이션
+                      href: dev-itpro/retail-sdk/migrate-sdk.md
+                - name: 환경 설정
+                  items:
+                    - name: 관리자 액세스 권한이 없는 클라우드 호스트형 환경에서 개발
+                      href: dev-itpro/cloud-dev-box.md
+                    - name: 소매 SDK 빌드 파이프라인
+                      href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: POS 샘플 실행
+                      href: dev-itpro/pos-run-samples.md
+                - name: 참조
+                  items:
+                    - name: 전자 상거래 플랫폼 소프트웨어 개발 키트(SDK)
+                      href: dev-itpro/ecommerce-platform-sdk.md
+                    - name: 온라인 스토어 구성
+                      href: dev-itpro/configure-online-store.md
+                    - name: 인증 공급자 구성
+                      href: dev-itpro/configure-authentication-providers.md
+                - name: 패키징 및 배포
+                  items:
+                    - name: 배포 가능한 패키지 생성
+                      href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+                    - name: 코드 서명 인증서로 MPOS appx에 서명
+                      href: dev-itpro/pos-app-signing-certificate.md
+                    - name: Android 및 iOS에서 POS 하이브리드 앱 설정
+                      href: dev-itpro/hybridapp.md
+                    - name: Retail Experience 앱에 브랜딩 생성 및 적용
+                      href: dev-itpro/create-retail-experience-app.md
+        - name: 문제 해결
+          items:
+            - name: 주문 처리
+              items:
+                - name: 결제 유형은 신용 카드 오류여야 함
+                  href: troubleshoot/payment-type-credit-card-error.md
+                - name: 온라인 주문에 대한 세금이 잘못 계산됨
+                  href: troubleshoot/tax-miscalculated-online-order.md
+                - name: 기본 결제 서비스와 관련된 주문 동기화 오류
+                  href: troubleshoot/synchronization-error.md
+            - name: 결제 처리
+              items:
+                - name: 반품 주문에 대한 환불이 거부됨
+                  href: troubleshoot/refund-declined.md
+                - name: Adyen용 Dynamics 365 Payment Connector
+                  items:
+                    - name: Adyen용 Dynamics 365 Payment Connector 문제 해결
+                      href: troubleshoot/adyen-support.md
+                    - name: 다음 결제를 위해 저장 옵션이 표시되지 않음
+                      href: troubleshoot/next-payment-link-not-appearing.md
+                    - name: 체크 아웃 시 신용 카드 기입 페이지에 오류가 표시됨
+                      href: troubleshoot/credit-card-entry-form-error.md
+                    - name: 주문이 청구되거나 배송되기 전에 지불이 자동으로 정산됨
+                      href: troubleshoot/payments-auto-settled.md
+            - name: 전자 상거래 사이트 관리
+              items:
+                - name: 초기 배포 중에 사이트 빌더에 대한 보안 그룹을 구성할 수 없음
+                  href: troubleshoot/security-group-site-builder.md
+                - name: 사이트 빌더에 제품 및 카테고리가 표시되지 않음
+                  href: troubleshoot/products-categories-unavailable.md
+                - name: 환경 복사 후 제품 및 카테고리가 누락됨
+                  href: troubleshoot/missing-products-categories.md
+                - name: 테스트 또는 개발 중 상점에 대한 액세스 제한
+                  href: troubleshoot/restrict-access-storefront.md
+                - name: 로그인 링크가 전자 상거래 사이트로 다시 리디렉션됨
+                  href: troubleshoot/sign-in-redirects-back.md
+                - name: Commerce Headquarters에 고객 레코드가 표시되지 않음
+                  href: troubleshoot/customer-record-not-appearing.md
+                - name: 픽업 옵션이 표시되지 않음
+                  href: troubleshoot/pickup-store-link-missing.md
+                - name: 매장 목록에 소매점이 나타나지 않음
+                  href: troubleshoot/pickup-store-missing.md
+                - name: 재고가 없는 항목을 체크 아웃할 수 있음
+                  href: troubleshoot/items-without-inventory-checked-out.md
+                - name: 평점 및 리뷰 솔루션을 사용하도록 설정하지 않은 경우 이 활성화되지 않은 경우 검색 결과 및 카테고리 페이지에 평점 구체화가 표시되지 않음
+                  href: troubleshoot/hide-ratings-refiner.md
+            - name: 고객 관리
+              items:
+                - name: 새로운 고객 생성 시 환영 이메일이 발송되지 않음
+                  href: troubleshoot/email-not-sent-when-new-customer-created.md
+            - name: SDK 문제 해결
+              items:
+                - name: 계층 1 Retail Server VM에 대해 디버그하도록 전자 상거래 개발 환경 설정
+                  href: troubleshoot/set-up-dev-environment-debugging.md
+    - name: 금융 및 운영 앱 개발 및 관리
+      href: ../fin-ops-core/dev-itpro/index.md
+    - name: Dynamics 365 Finance
+      href: ../finance/index.md
+    - name: Dynamics 365 Supply Chain Management
+      href: ../supply-chain/index.md

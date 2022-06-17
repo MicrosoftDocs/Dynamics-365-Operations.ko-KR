@@ -1,0 +1,10 @@
+- name: Dynamics 365
+  tocHref: /dynamics365/
+  topicHref: /dynamics365/index
+- name: Dynamics 365
+  tocHref: /power-platform/
+  topicHref: /dynamics365/index
+  items:
+    - name: Finance and Operations을 위한 개발 및 관리
+      tocHref: /power-platform/admin
+      topicHref: /dynamics365/unified-operations/dev-itpro/
