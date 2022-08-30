@@ -4,120 +4,88 @@
       items:
         - name: Dynamics 365 Human Resources 홈페이지
           href: index.md
-        - name: 인프라 릴리스 10.0.25
-          href: hr-infrastructure.md
-        - name: Dynamics 365 Human Resources 병합 인프라의 새로운 기능 또는 변경된 사항
-          href: ./get-started/hr-whats-new-changed-10-0-25.md
+        - name: 새로운 기능 또는 변경된 사항
+          items:
+            - name: 금융 및 운영 앱의 새로운 기능 또는 변경된 사항
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+            - name: Human Resources의 새로운 기능 또는 변경된 기능
+              items:
+                - name: Human Resources 10.0.29(인프라 병합)
+                  href: ./get-started/whats-new-changed-10-0-29.md
+                - name: Human Resources 10.0.28(인프라 병합)
+                  href: ./get-started/whats-new-changed-10.0.28.md
+                - name: Human Resources 10.0.27(인프라 병합)
+                  href: ./get-started/hr-whats-new-changed-10-0-27.md
+                - name: Human Resources 10.0.26(인프라 병합)
+                  href: ./get-started/hr-whats-new-changed-10-0-26.md
+                - name: Human Resources 10.0.25(인프라 병합)
+                  href: ./get-started/hr-whats-new-changed-10-0-25.md
+                - name: Dynamics 365 Human Resources(독립형) 새로운 기능
+                  items:
+                    - name: Dynamics 365 Human Resources(독립 실행형) 아카이브 2021의 새로운 기능
+                      href: hr-admin-whats-new.md
+                    - name: 2021년 11월 29일
+                      href: hr-whats-new-2021-11-29.md
+                    - name: 2021년 10월 5일
+                      href: hr-whats-new-2021-10-04.md
+                    - name: 2021년 9월 20일
+                      href: hr-whats-new-2021-09-20.md
+                    - name: 2021년 9월 6일
+                      href: hr-whats-new-2021-09-06.md
+                    - name: 2021년 8월 23일
+                      href: hr-whats-new-2021-08-23.md
+                    - name: 2021년 8월 9일
+                      href: hr-whats-new-2021-08-09.md
+                    - name: 2021년 7월 26일
+                      href: hr-whats-new-2021-07-26.md
+                    - name: 2021년 7월 12일
+                      href: hr-whats-new-2021-07-12.md
+                    - name: 2021년 6월 22일
+                      href: hr-whats-new-2021-06-22.md
+                    - name: 2021년 5월 20일
+                      href: hr-whats-new-2021-05-20.md
+                    - name: 2021년 5월 3일
+                      href: hr-whats-new-2021-05-03.md
+                    - name: 2021년 4월 19일
+                      href: hr-whats-new-2021-04-19.md
+                    - name: 2021년 4월 5일
+                      href: hr-whats-new-2021-04-05.md
+                    - name: 2021년 3월 22일
+                      href: hr-whats-new-2021-03-22.md
+                    - name: 2021년 3월 8일
+                      href: hr-whats-new-2021-03-08.md
+                    - name: 2021년 2월 22일
+                      href: hr-whats-new-2021-02-22.md
+                    - name: 2021년 1월 28일
+                      href: hr-whats-new-2021-01-28.md
+                    - name: 2021년 1월 21일
+                      href: hr-whats-new-2021-01-21.md
+                - name: 제거되거나 사용되지 않는 기능
+                  items:
+                    - name: 에서 제거되거나 사용되지 않는 기능 홈페이지
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                    - name: Dynamics 365 Human Resources에서 제거되거나 사용되지 않는 기능
+                      href: get-started/removed-deprecated-features-hr.md
         - name: 시작
           items:
-            - name: 새로운 기능
-              href: hr-admin-whats-new.md
-            - name: 2021년 새로운 기능 또는 변경된 사항 보관
-              items:
-                - name: 2021년 11월 29일
-                  href: hr-whats-new-2021-11-29.md
-                - name: 2021년 10월 5일
-                  href: hr-whats-new-2021-10-04.md
-                - name: 2021년 9월 20일
-                  href: hr-whats-new-2021-09-20.md
-                - name: 2021년 9월 6일
-                  href: hr-whats-new-2021-09-06.md
-                - name: 2021년 8월 23일
-                  href: hr-whats-new-2021-08-23.md
-                - name: 2021년 8월 9일
-                  href: hr-whats-new-2021-08-09.md
-                - name: 2021년 7월 26일
-                  href: hr-whats-new-2021-07-26.md
-                - name: 2021년 7월 12일
-                  href: hr-whats-new-2021-07-12.md
-                - name: 2021년 6월 22일
-                  href: hr-whats-new-2021-06-22.md
-                - name: 2021년 5월 20일
-                  href: hr-whats-new-2021-05-20.md
-                - name: 2021년 5월 3일
-                  href: hr-whats-new-2021-05-03.md
-                - name: 2021년 4월 19일
-                  href: hr-whats-new-2021-04-19.md
-                - name: 2021년 4월 5일
-                  href: hr-whats-new-2021-04-05.md
-                - name: 2021년 3월 22일
-                  href: hr-whats-new-2021-03-22.md
-                - name: 2021년 3월 8일
-                  href: hr-whats-new-2021-03-08.md
-                - name: 2021년 2월 22일
-                  href: hr-whats-new-2021-02-22.md
-                - name: 2021년 1월 28일
-                  href: hr-whats-new-2021-01-28.md
-                - name: 2021년 1월 21일
-                  href: hr-whats-new-2021-01-21.md
-            - name: 2020년 새로운 기능 보관
-              items:
-                - name: 2020년 12월 2일
-                  href: hr-whats-new-2020-12-02.md
-                - name: 2020년 10월 22일
-                  href: hr-whats-new-2020-10-22.md
-                - name: 2020년 10월 6일
-                  href: hr-whats-new-2020-10-06.md
-                - name: 2020년 9월 26일
-                  href: hr-whats-new-2020-09-26.md
-                - name: 2020년 9월 16일
-                  href: hr-whats-new-2020-09-16.md
-                - name: 2020년 9월 3일
-                  href: hr-whats-new-2020-09-03.md
-                - name: 2020년 8월 20일
-                  href: hr-whats-new-2020-08-20.md
-                - name: 2020년 8월 6일
-                  href: hr-whats-new-2020-08-06.md
-                - name: 2020년 7월 23일
-                  href: hr-whats-new-2020-07-23.md
-                - name: 2020년 7월 8일
-                  href: hr-whats-new-2020-07-08.md
-                - name: 2020년 6월 25일
-                  href: hr-whats-new-2020-06-23.md
-                - name: 2020년 6월 11일
-                  href: hr-whats-new-2020-06-11.md
-                - name: 2020년 5월 28일
-                  href: hr-whats-new-2020-05-28.md
-                - name: 2020년 5월 14일
-                  href: hr-whats-new-2020-05-14.md
-                - name: 2020년 5월 1일
-                  href: hr-whats-new-2020-05-01.md
-                - name: 2020년 4월 13일
-                  href: hr-whats-new-2020-04-13.md
-                - name: 2020년 4월 3일
-                  href: hr-whats-new-2020-04-03.md
-                - name: 2020년 3월 24일
-                  href: hr-whats-new-2020-03-24.md
-                - name: 2020년 3월 19일
-                  href: hr-whats-new-2020-03-19.md
-                - name: 2020년 3월 10일
-                  href: hr-whats-new-2020-03-10.md
-                - name: 2020년 3월 3일
-                  href: hr-whats-new-2020-03-03.md
-                - name: 2020년 2월 25일
-                  href: hr-whats-new-2020-02-25.md
-                - name: 2020년 2월 18일
-                  href: hr-whats-new-2020-02-18.md
-                - name: 2020년 2월 12일
-                  href: hr-whats-new-2020-02-12.md
-                - name: 2020년 2월 7일
-                  href: hr-whats-new-2020-02-07.md
-                - name: 2020년 2월 3일
-                  href: hr-whats-new-2020-02-03.md
             - name: 개요
               href: hr-admin-overview.md
             - name: 시스템 요구 사항
               href: hr-admin-system-requirements.md
             - name: 인스턴스 설정 및 관리
               items:
-                - name: Human Resources 프로비저닝
-                  href: hr-admin-setup-provision.md
-                - name: 인스턴스 복사
-                  href: hr-admin-setup-copy-instance.md
-                - name: 인스턴스 제거
-                  href: hr-admin-setup-remove-instance.md
-                - name: 업데이트 프로세스
-                  href: hr-admin-setup-update-process.md
+                - name: 금융 및 운영 인프라에 Human Resources 프로비전
+                  href: hr-admin-setup-provision-fo.md
+                - name: 독립형 인프라에 Human Resources 프로비전
+                  items:
+                    - name: Human Resources 프로비전
+                      href: hr-admin-setup-provision.md
+                    - name: 인스턴스 복사
+                      href: hr-admin-setup-copy-instance.md
+                    - name: 인스턴스 제거
+                      href: hr-admin-setup-remove-instance.md
+                    - name: 업데이트 프로세스
+                      href: hr-admin-setup-update-process.md
             - name: 데이터 통합 설정
               items:
                 - name: 데이터 통합 기술 선택
@@ -143,91 +111,91 @@
                 - name: Office와 통합
                   items:
                     - name: Office 통합 자습서
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?context=/dynamics365/context/human-resources
                     - name: Excel에서 항목 데이터 업데이트
-                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?context=/dynamics365/context/human-resources
                     - name: Excel에서 열기 환경 FAQ
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?context=/dynamics365/context/human-resources
                     - name: Office 통합 문제 해결
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?context=/dynamics365/context/human-resources
                 - name: 데이터 관리 구성
                   items:
                     - name: 데이터 관리 프레임워크 개요
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?context=/dynamics365/context/human-resources
                     - name: 데이터 엔터티
                       items:
                         - name: 데이터 엔터티 개요
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?context=/dynamics365/context/human-resources
                         - name: 구성 데이터 프로젝트
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?context=/dynamics365/context/human-resources
                     - name: 회사 또는 법인 간 구성 데이터 복사
                       items:
                         - name: 구성 데이터 복사 개요
-                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?context=/dynamics365/context/human-resources
                         - name: 구성 데이터 패키지
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                         - name: 구성 데이터 패키지(2017년 7월 릴리스만 해당)
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                         - name: 구성 데이터 템플릿
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?context=/dynamics365/context/human-resources
                         - name: 엔터티에 대한 변경 내용 추적
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?context=/dynamics365/context/human-resources
                         - name: 표준 데이터 항목 관련 정보 찾기
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?context=/dynamics365/context/human-resources
                         - name: 여러 워크시트가 있는 데이터 템플릿
-                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?context=/dynamics365/context/human-resources
                         - name: 엔터티에 대한 변경 내용 추적 사용
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?context=/dynamics365/context/human-resources
                         - name: 구성 키 및 데이터 엔터티
-                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?context=/dynamics365/context/human-resources
                         - name: 구성 데이터 패키지
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                     - name: 데이터 가져오기 및 내보내기 작업
                       items:
                         - name: 데이터 가져오기 및 내보내기 작업 개요
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?context=/dynamics365/context/human-resources
                         - name: 일반 분개장 엔터티를 사용하여 쿠폰 가져오기 모범 사례
-                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?context=/dynamics365/context/human-resources
                     - name: 데이터 엔터티 개발
                       items:
                         - name: 데이터 엔터티에 대한 설계 원칙 및 모범 사례
-                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?context=/dynamics365/context/human-resources
                         - name: 새 데이터 엔터티 생성
-                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?context=/dynamics365/context/human-resources
                         - name: 데이터 엔터티 속성
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?context=/dynamics365/context/human-resources
                         - name: 계산 열 및 가상 필드 생성
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?context=/dynamics365/context/human-resources
                         - name: 교차 회사 행동
-                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?context=/dynamics365/context/human-resources
                         - name: 국가/지역 코드 처리
-                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?context=/dynamics365/context/human-resources
                         - name: 상속 패턴
-                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?context=/dynamics365/context/human-resources
                         - name: 데이터 엔터티 마법사 규칙
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?context=/dynamics365/context/human-resources
                         - name: 메타데이터 속성
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?context=/dynamics365/context/human-resources
                         - name: '유효성 검사, 기본값 및 매핑되지 않은 필드'
-                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?context=/dynamics365/context/human-resources
                         - name: 보안 및 데이터 엔터티
-                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?context=/dynamics365/context/human-resources
                         - name: 타사 서비스 테스트 유틸리티 사용
-                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?context=/dynamics365/context/human-resources
                         - name: 재무 차원을 노출하는 읽기 전용 엔터티 생성
-                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?context=/dynamics365/context/human-resources
                     - name: 나만의 데이터베이스 가져오기
-                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?context=/dynamics365/context/human-resources
                     - name: BYOD 일괄 처리 작업 최적화
                       href: hr-admin-integration-byod-batch-jobs.md
                     - name: 자동화된 엔터티 저장소 새로 고침
-                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?context=/dynamics365/context/human-resources
                     - name: 데이터 작업 자동화
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/human-resources
                     - name: 데이터 유효성 검사 체크리스트 작업 영역
-                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?context=/dynamics365/context/human-resources
                     - name: 데이터 관리 오류 설명
-                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?context=/dynamics365/context/human-resources
                     - name: 기능 관리
                       href: hr-admin-manage-features.md
                     - name: 데이터베이스 로깅 구성 및 관리
@@ -278,6 +246,8 @@
                   href: hr-admin-go-live-faq.md
                 - name: Human Resources 인프라 병합 FAQ
                   href: hr-infrastructure-merge-faq.md
+                - name: Human Resources 고객 마이그레이션 FAQ
+                  href: customer-migration.md
                 - name: 설명서 리소스
                   items:
                     - name: 도움말 시스템
@@ -498,8 +468,6 @@
               href: hr-personnel-positions.md
             - name: 작업 시간 일정 생성
               href: hr-personnel-create-working-time-calendar.md
-            - name: 구직자 모집
-              href: hr-personnel-recruit.md
             - name: 인사 조치 FAQ
               href: hr-personnel-actions-faq.md
             - name: 워크플로를 사용하여 직원 정보 관리
@@ -509,7 +477,7 @@
             - name: 직위에 대한 보고 관계 수정
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: 간소화된 직원 입력
-              href: ../talent/streamlined-employee-entry.md?toc=/dynamics365/human-resources/toc.json
+              href: stream-employee-entry.md
             - name: 근로자 정보 입력
               href: hr-personnel-enter-worker-information.md
             - name: 고용이 없는 근로자
@@ -534,26 +502,36 @@
               href: hr-personnel-set-up-injury-illness-information.md
             - name: 직원 부상 및 질병 정보 유지
               href: hr-personnel-maintain-employee-injury-illness-information.md
-            - name: 후보 모집
+            - name: 채용
               items:
-                - name: 모집 프로세스 관리
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: 일괄 고용 프로젝트
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: 일괄 고용 프로젝트 생성
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: 지원자 및 지원 데이터를 수동으로 입력
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: 작업 요청 개발 및 열기
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: 직위 설정
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: 채용을 통해 후보 고용
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: 채용을 통해 기존 직원 고용
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: 후보 선택 도구 식별 및 배포
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+                - name: 개요
+                  href: ../human-resources/hr-recruit-overview.md
+                - name: 구인 프로젝트
+                  items:
+                    - name: 모집 프로젝트 프로세스 관리
+                      href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: 구인 프로젝트 설정
+                      href: hr-personnel-develop-open-job-requisition.md
+                    - name: 지원자 및 지원 데이터를 수동으로 입력
+                      href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
+                    - name: 작업 요청 개발 및 열기
+                      href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
+                    - name: 직위 설정
+                      href: ../human-resources/hr-personnel-set-up-positions.md
+                    - name: 채용을 통해 후보 고용
+                      href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
+                    - name: 채용을 통해 기존 직원 고용
+                      href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
+                    - name: 후보 선택 도구 식별 및 배포
+                      href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+                    - name: 일괄 고용 프로젝트
+                      href: ../human-resources/hr-personnel-mass-hire-projects.md
+                    - name: 일괄 고용 프로젝트 생성
+                      href: ../human-resources/hr-personnel-create-mass-hire-project.md
+                - name: 구인 요청(통합 인프라)
+                  items:
+                    - name: 구직자 모집
+                      href: hr-personnel-recruit.md
         - name: 작업 관리
           href: hr-task-mgmt.md
         - name: 휴가 및 결근
@@ -628,6 +606,10 @@
                   href: hr-benefits-setup-parameters-per-company.md
                 - name: 모든 회사에 대한 복리후생 관리 및 직원 셀프 서비스 매개 변수 설정
                   href: hr-benefits-setup-parameters.md
+                - name: 수명 이벤트에 대한 관리자 권한 구성
+                  href: admin-life-events.md
+                - name: 복리후생에 대한 이메일 알림 구성
+                  href: hr-email-notifications.md
                 - name: 자격 규칙 및 옵션 구성
                   href: hr-benefits-setup-eligibility-rules.md
                 - name: 개인 연락처 자격 옵션 구성
@@ -664,6 +646,10 @@
                   items:
                     - name: 복리후생 계획 설정
                       href: hr-benefits-plans-setup.md
+                    - name: 작업자 복리후생 계획 만들기
+                      href: hr-benefits-plans-worker.md
+                    - name: 미래의 수명 이벤트 설정
+                      href: hr-benefits-plans-future-life-events.md
                     - name: 자유 선택 크레딧 프로그램 설정
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: 복리후생 계획 처리
@@ -844,8 +830,10 @@
               href: hr-admin-integration-common-data-service.md
             - name: Dataverse 가상 테이블 구성
               href: hr-admin-integration-common-data-service-virtual-entities.md
-            - name: 재무와 통합 구성
+            - name: Finance와 통합 구성
               href: hr-admin-integration-finance.md
+            - name: Human Resources에서 다른 환경으로의 링크 생성
+              href: configure-links.md
             - name: Dayforce와 통합 구성
               href: hr-admin-integration-dayforce.md
             - name: 정기 데이터 내보내기 앱 생성
@@ -870,8 +858,12 @@
           items:
             - name: 인증
               href: hr-developer-api-authentication.md
-            - name: 엔티티
+            - name: 엔터티
               items:
+                - name: 직무 세부 정보
+                  href: hr-admin-integration-api-job-detail.md
+                - name: 고용 유형 옵션
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: MyLeaveRequests 개요

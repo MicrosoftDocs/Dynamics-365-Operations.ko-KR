@@ -1,6 +1,6 @@
 ---
 title: Office에서 재무 분개장 템플릿 열기
-description: 이 항목에서는 Microsoft Excel 템플릿을 사용하여 사용자 지정 재무 분개장을 작성할 때 발생할 수 있는 문제점들에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Excel 템플릿을 사용하여 사용자 지정 재무 분개장을 작성할 때 발생할 수 있는 문제점들에 대해 설명합니다.
 author: kweekley
 ms.date: 05/14/2021
 ms.topic: index-page
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8c0c8d8e2e9b1978523bea378f4e231d9ebe3d1e8ccdc11ad8578eac16b067cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a29ab1cb2980ebfed6c6fa6409538bc802849156
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896351"
 ---
 # <a name="open-financial-journal-templates-in-office"></a>Office에서 재무 분개장 템플릿 열기
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 Microsoft Excel 템플릿을 사용하여 사용자 지정 재무 분개장을 작성할 때 발생할 수 있는 문제점들에 대해 설명합니다.
+이 문서에서는 Microsoft Excel 템플릿을 사용하여 사용자 지정 재무 분개장을 작성할 때 발생할 수 있는 문제점들에 대해 설명합니다.
 
 ## <a name="symptom"></a>증상
 

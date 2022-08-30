@@ -1,6 +1,6 @@
 ---
 title: DOM(분산 주문 관리)
-description: 이 항목에서는 Dynamics 365 Commerce에서 제공하는 DOM(분산 주문 관리) 기능에 대해 설명합니다.
+description: 이 문서에서는 Dynamics 365 Commerce에서 제공하는 DOM(분산 주문 관리) 기능에 대해 설명합니다.
 author: josaw1
 ms.date: 02/08/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8452959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878516"
 ---
 # <a name="distributed-order-management-dom"></a>DOM(분산 주문 관리)
 
 [!include [banner](includes/banner.md)]
 
-이 항목에서는 Microsoft Dynamics 365 Commerce에서 제공하는 DOM(분산 주문 관리) 기능에 대해 설명합니다.
+이 문서에서는 Microsoft Dynamics 365 Commerce에서 제공하는 DOM(분산 주문 관리) 기능에 대해 설명합니다.
 
 DOM은 공급망 네트워크에서 주문 이행을 극대화하는 데 도움이 되는 옴니채널 주문 이행 최적화 솔루션입니다. DOM을 사용하면 올바른 출처에서 정확한 시간에 올바른 수량의 제품을 고객에게 배송할 수 있습니다. 또한 DOM은 수익을 극대화하고 비용을 최소화하며 서비스 수준 요구 사항을 충족하는 데도 도움이 됩니다.
 

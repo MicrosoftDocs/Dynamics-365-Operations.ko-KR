@@ -1,6 +1,6 @@
 ---
 title: 고객 워크플로
-description: 이 항목에서는 고객 워크플로에 관한 정보를 제공합니다. 고객의 특정 필드를 변경한 후 해당 변경 사항을 고객에게 추가하기 전 승인을 위해 워크플로를 사용하여 보냅니다.
+description: 이 문서에서는 고객 워크플로에 관한 정보를 제공합니다. 고객의 특정 필드를 변경한 후 해당 변경 사항을 고객에게 추가하기 전 승인을 위해 워크플로를 사용하여 보냅니다.
 author: abruer
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c74f18997b390d70b5012199fab1adc9734994f4
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 883e77b5480a52201673e58a641c7180009a129c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "8452917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864429"
 ---
 # <a name="customer-workflow"></a>고객 워크플로
 

@@ -1,30 +1,30 @@
 ---
 title: 수익 인정 번들
-description: 이 항목에서는 수취 계정의 수익 인정 기능에 포함된 번들 기능에 대해 설명합니다. 번들은 하나의 부모 항목과 다수의 구성 요소 항목으로 구성됩니다.
-author: kweekley
+description: 이 문서에서는 수취 계정의 수익 인정 기능에 포함된 번들 기능에 대해 설명합니다. 번들은 하나의 부모 항목과 다수의 구성 요소 항목으로 구성됩니다.
+author: bking
 ms.date: 01/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 272261f9ba189bec55e856aa617bf5716e3f4fa261ef7bfd7269184a09a51a2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b33906fd1907ce476eec5ba36ab243aa072cf6f
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452833"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348302"
 ---
 # <a name="revenue-recognition-bundles"></a>수익 인정 번들
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 수취 계정의 수익 인정 기능에 포함된 번들 기능에 대해 설명합니다. 번들은 하나의 부모 항목과 다수의 구성 요소 항목으로 구성됩니다. 부모 항목은 판매 주문 건에 입력되므로 주문 입력이 더 효율적입니다. 그러나 이 항목은 여러 구성 요소 항목으로 확대됩니다. 포장 전표 등의 내부 문서에는 여러 구성 요소 항목들이 나열됩니다. 그러나 외부 문서에서는 부모 항목만 표시됩니다.
+이 문서에서는 수취 계정의 수익 인정 기능에 포함된 번들 기능에 대해 설명합니다. 번들은 하나의 부모 항목과 다수의 구성 요소 항목으로 구성됩니다. 부모 항목은 판매 주문 건에 입력되므로 주문 입력이 더 효율적입니다. 그러나 이 항목은 여러 구성 요소 항목으로 확대됩니다. 포장 전표 등의 내부 문서에는 여러 구성 요소 항목들이 나열됩니다. 그러나 외부 문서에서는 부모 항목만 표시됩니다.
 
 > [!NOTE]
 > 온라인, POS(Point of Sale) 및 콜 센터 등 Microsoft Dynamics 365 Commerce 채널은 수익 인정(번들 기능을 포함)을 지원하지 않습니다. 여기에는 Dynamics 365 Supply Chain Management 및 Dynamics 365 Sales를 위한 잠재 고객-현금 솔루션도 포함됩니다. 수익 인정을 사용하도록 구성된 항목들은 Commerce 채널 또는 잠재 고객-현금 솔루션에서 생성된 주문 또는 거래에 추가하면 안 됩니다.

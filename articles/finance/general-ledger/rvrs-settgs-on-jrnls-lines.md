@@ -1,6 +1,6 @@
 ---
 title: 분개장 및 라인 설정 취소
-description: 이 항목에서는 게시된 거래에 일반 분개장에 입력된 반대 기입이 포함되지 않는 이유를 설명합니다.
+description: 이 문서에서는 게시된 거래에 일반 분개장에 입력된 반대 기입이 포함되지 않는 이유를 설명합니다.
 author: kweekley
 ms.date: 04/29/2021
 ms.topic: index-page
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-5-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d0659fbd814d3fb86b2f4a1ecb6162614ab8a4f125029fbb04f08cc5fb52b45c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e36a3ea1736e4d7f60a5a6ce588ad3e66c950c14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899846"
 ---
 # <a name="reverse-settings-on-journals-and-lines"></a>분개장 및 라인 설정 취소
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 게시된 거래에 일반 분개장에 입력된 반대 기입이 포함되지 않는 이유를 설명합니다.  
+이 문서에서는 게시된 거래에 일반 분개장에 입력된 반대 기입이 포함되지 않는 이유를 설명합니다.  
 
 ## <a name="symptom"></a>증상
 

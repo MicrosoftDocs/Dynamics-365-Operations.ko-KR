@@ -1,32 +1,32 @@
 ---
 title: 온라인 주문 및 비동기 고객 주문 거래 편집 및 감사
-description: 이 항목에서는 Microsoft Dynamics 365 Commerce에서 온라인 주문 및 비동기 고객 주문 거래 건들을 편집하고 감사하는 방법에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Commerce에서 온라인 주문 및 비동기 고객 주문 거래 건들을 편집하고 감사하는 방법에 대해 설명합니다.
 author: josaw1
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 99ad5be36587a3f726f5b40cccfdd30ab0ef48e1a87563a884f83264f40842fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: ''
+ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.search.industry: Retail
+ms.openlocfilehash: dac7ffe6d62aaea11f2f5af0476db446b091938b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452803"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287682"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>온라인 주문 및 비동기 고객 주문 거래 편집 및 감사
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 Microsoft Dynamics 365 Commerce에서 온라인 주문 및 비동기 고객 주문 거래 건들을 편집하고 감사하는 방법에 대해 설명합니다.
+이 문서에서는 Microsoft Dynamics 365 Commerce에서 온라인 주문 및 비동기 고객 주문 거래 건들을 편집하고 감사하는 방법에 대해 설명합니다.
 
 ## <a name="overview"></a>개요
 

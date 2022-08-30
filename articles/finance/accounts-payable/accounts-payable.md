@@ -1,6 +1,6 @@
 ---
 title: 지급 계정 홈페이지
-description: 이 주제에서는 지급 계정에 대해 간단히 설명합니다.
+description: 이 문서에서는 지급 계정에 대해 간단히 설명합니다.
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "8452899"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946105"
 ---
 # <a name="accounts-payable-home-page"></a>지급 계정 홈페이지
 
 [!include [banner](../includes/banner.md)]
 
-이 주제에서는 지급 계정에 대해 간단히 설명합니다. 
+이 문서에서는 지급 계정에 대해 간단히 설명합니다. 
 
 공급업체 송장은 수동으로 입력하거나 데이터 엔터티를 통해 전자 양식으로 받을 수 있습니다. 송장을 입력하거나 받은 후에는 송장 승인 분개장이나 **공급업체 송장** 페이지에서 송장을 검토하고 승인할 수 있습니다. 송장 매칭, 공급업체 송장 정책 및 워크플로를 사용하여 검토 프로세스를 자동화하여, 특정 기준을 충족하는 송장은 자동으로 승인되고 나머지 송장은 승인된 사용자가 검토하도록 플래그를 지정할 수 있습니다.
 
@@ -126,13 +126,13 @@ ms.locfileid: "8452899"
 
 #### <a name="blogs"></a>블로그
 
-[Microsoft Dynamics 365 블로그](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 및 [Microsoft Dynamics 365 Finance - 재무 블로그](https://community.dynamics.com/365/financeandoperations/b/financials)에서 지급 계정 및 기타 솔루션에 관한 의견과 뉴스 및 기타 정보를 확인할 수 있습니다.
+[Microsoft Dynamics 365 블로그](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 및 [Microsoft Dynamics 365 Finance - 금융 블로그](https://community.dynamics.com/365/financeandoperations/b/financials)에서 지급 계정 및 기타 솔루션에 대한 의견, 뉴스 및 기타 정보를 찾을 수 있습니다.
 
-[Microsoft Dynamics 운영 파트너 커뮤니티 블로그](https://community.dynamics.com/partner/b/operationspartnercommunityblog)에서 Microsoft Dynamics 파트너는 단일 리소스를 통해 Dynamics 365의 새로운 소식과 동향을 확인할 수 있습니다.
+[Microsoft Dynamics Operations 파트너 커뮤니티 블로그](https://community.dynamics.com/partner/b/operationspartnercommunityblog)에서 Microsoft Dynamics 파트너는 단일 리소스를 통해 Dynamics 365의 새로운 소식과 동향을 확인할 수 있습니다.
 
 #### <a name="community-blogs"></a>커뮤니티 블로그
 
-[Dynamics 365 Finance에서 지급 계정을 관리하는 방법](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
+[Dynamics 365 Finance에서 미지급을 관리하는 방법](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
 #### <a name="task-guides"></a>작업 가이드
 애플리케이션 내에서 작업 가이드 형태로 추가 도움말이 제공됩니다. 작업 가이드에 액세스하려면 아무 페이지에서 도움말 버튼을 클릭하세요.

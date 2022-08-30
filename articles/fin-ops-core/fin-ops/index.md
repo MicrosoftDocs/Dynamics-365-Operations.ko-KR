@@ -1,31 +1,31 @@
 ---
 title: 금융 및 운영 애플리케이션 설명서
 description: 금융 및 운영 앱용 설명서.
-author: tonyafehr
+author: josaw1
 ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: tfehr
-ms.custom: intro-internal
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: tfehr
+ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.custom: intro-internal
+ms.search.form: DefaultDashboard
+ms.openlocfilehash: 784207d6e7500319e06b8d092e464fb7c5a7180d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8452950"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291707"
 ---
 # <a name="finance-and-operations-application-documentation"></a>금융 및 운영 애플리케이션 설명서
 
 [!include [banner](includes/banner.md)]
 
-이 항목의 리소스를 사용하여 최종 사용자, 개발자 및 IT 전문가를 위한 훌륭한 콘텐츠를 찾고 재무 및 운영 응용 프로그램을 비즈니스에 적합하게 만드는 방법을 알아보십시오. 
+이 문서의 리소스를 사용하여 최종 사용자, 개발자 및 IT 전문가를 위한 훌륭한 콘텐츠를 찾고 금융 및 운영 애플리케이션을 비즈니스에 적합하게 만드는 방법을 알아보세요. 
 
 이 콘텐츠의 대부분은 관련 제품인 Dynamics 365 Commerce와 Dynamics 365 Human Resources에도 적용됩니다. 
 
@@ -41,7 +41,7 @@ ms.locfileid: "8452950"
 <h3><a href="get-started/before-you-buy.md">구매하기 전에</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">프리뷰 구독 신청</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">배포 옵션 선택</a></p>
- <p><a href="get-started/purchase-on-premises.md">Finance and Operations(온-프레미스) 구매</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Finance and Operations (on-premises) 구매</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">구현 수명 주기</a></h3>
 <p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
@@ -143,3 +143,4 @@ ms.locfileid: "8452950"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

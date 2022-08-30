@@ -1,30 +1,30 @@
 ---
 title: 수익 인정 재할당 - 시나리오 1
-description: 이 항목에서는 판매 주문을 두 개 입력했지만 하나만 확인되는 재할당 시나리오를 살펴봅니다. 세 개 이상의 판매 주문이 확인된 상태인 경우에 동일한 시나리오에서 유사한 결과가 생성됩니다.
-author: kweekley
+description: 이 문서에서는 판매 주문을 두 개 입력했지만 하나만 확인되는 재할당 시나리오를 살펴봅니다. 세 개 이상의 판매 주문이 확인된 상태인 경우에 동일한 시나리오에서 유사한 결과가 생성됩니다.
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d63082553f8625a9953b0a85d59a4949a37c92770ce2a41a43d78cf0266f3b85
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 92af49d9446fd9ed3310d8d0d50af902e7a7e693
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452830"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348330"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>수익 인정 재할당 - 시나리오 1
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 판매 주문을 두 개 입력했지만 하나만 확인되는 재할당 시나리오를 살펴봅니다. 세 개 이상의 판매 주문이 확인된 상태인 경우에 동일한 시나리오에서 유사한 결과가 생성됩니다.
+이 문서에서는 판매 주문을 두 개 입력했지만 하나만 확인되는 재할당 시나리오를 살펴봅니다. 세 개 이상의 판매 주문이 확인된 상태인 경우에 동일한 시나리오에서 유사한 결과가 생성됩니다.
 
 이 시나리오의 경우 **총계정원장 매개 변수** 페이지의 **수익 인정** 탭에서 **수취 계정에 송장 수정 게시** 옵션이 **아니요** 로 설정되어 있습니다(**수익 인정 \> 설정 \> 총계정원장 매개 변수**).
 

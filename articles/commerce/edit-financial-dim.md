@@ -1,32 +1,32 @@
 ---
 title: 소매 거래의 재무 차원 편집
-description: 이 항목에서는 Microsoft Dynamics 365 Commerce에서 소매 거래에 대한 재무 차원을 편집하는 방법에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Commerce에서 소매 거래에 대한 재무 차원을 편집하는 방법에 대해 설명합니다.
 author: josaw1
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d5fee5f5dfee73ddb9fbcf8a33df66c29f9438b49136181633b989d1a02ef4f5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: ''
+ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.search.industry: Retail
+ms.openlocfilehash: b382907cd79a13319601dd694261319875565947
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452806"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268399"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>소매 거래의 재무 차원 편집
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 Microsoft Dynamics 365 Commerce에서 소매 거래에 대한 재무 차원을 편집하는 방법에 대해 설명합니다.
+이 문서에서는 Microsoft Dynamics 365 Commerce에서 소매 거래에 대한 재무 차원을 편집하는 방법에 대해 설명합니다.
 
 ## <a name="edit-financial-dimensions"></a>재무 차원 편집
 

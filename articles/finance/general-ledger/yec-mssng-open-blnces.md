@@ -1,6 +1,6 @@
 ---
 title: 연말 결산 누락 개시 잔액
-description: 이 항목에서는 연도를 결산할 때 개시 잔액이 누락될 수 있는 이유와 누락된 경우 해당 잔액을 복구하는 방법을 설명합니다.
+description: 이 문서에서는 연도를 결산할 때 개시 잔액이 누락될 수 있는 이유와 누락된 경우 해당 잔액을 복구하는 방법을 설명합니다.
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4478f2b46f984c97ff01588098d64953dedf476e7f3f76aeecb29a0ff0074b9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894852"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>연말 결산 누락 개시 잔액
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 연도를 결산할 때 개시 잔액이 누락될 수 있는 이유와 누락된 경우 해당 잔액을 복구하는 방법을 설명합니다.
+이 문서에서는 연도를 결산할 때 개시 잔액이 누락될 수 있는 이유와 누락된 경우 해당 잔액을 복구하는 방법을 설명합니다.
 
 ### <a name="symptom"></a>증상
 
@@ -36,7 +36,7 @@ ms.locfileid: "8452746"
 
 **이전 결산 실행 취소** 필드가 **예** 로 설정되어 있으면 동일한 회계 연도에 대한 전년도 결산이 반전됩니다. 연말 결산을 반전하는 프로세스를 실행하면 결산 잔액과 개시 잔액에 대한 모든 기입이 마치 해당 연도가 결산된 적이 없는 것처럼 삭제됩니다. 쿠폰도 삭제됩니다. 연말 결산 프로세스는 자동으로 다시 실행되지 않습니다. 프로세스를 다시 시작해야 합니다. 이번에는 **이전 결산 실행 취소** 옵션을 **아니요** 로 업데이트합니다.
 
-이 시나리오는 연말 결산 FAQ 항목에서 다룹니다. 자세한 내용은 [연말 활동 FAQ](faq-year-end-activities.md)를 참조하세요.
+이 시나리오는 연말 결산 FAQ 문서에서 다룹니다. 자세한 내용은 [연말 활동 FAQ](faq-year-end-activities.md)를 참조하세요.
 
 ### <a name="symptom"></a>증상
 

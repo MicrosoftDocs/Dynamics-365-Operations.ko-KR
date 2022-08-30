@@ -1,30 +1,30 @@
 ---
 title: 수익 인정 재할당 - 시나리오 4
-description: 이 항목에서는 부분적으로 송장이 발행된 기존 판매 주문에서 라인이 제거되는 재할당 시나리오를 살펴봅니다. 이 시나리오는 라인이 판매 주문에서 제거되었는지, 취소된 상태로 설정되었는지 여부에 관계없이 동일한 결과를 생성합니다.
-author: kweekley
+description: 이 문서에서는 부분적으로 송장이 발행된 기존 판매 주문에서 라인이 제거되는 재할당 시나리오를 살펴봅니다. 이 시나리오는 라인이 판매 주문에서 제거되었는지, 취소된 상태로 설정되었는지 여부에 관계없이 동일한 결과를 생성합니다.
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b9aada2c110ea3b7e70157e6edce9647bbfd28fe307654e10f6d38585090563
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ec28460319e7bfabe82261ee4ed7861c4b6eb11
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452794"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348272"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>수익 인정 재할당 - 시나리오 4
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 부분적으로 송장이 발행된 기존 판매 주문에서 라인이 제거되는 재할당 시나리오를 살펴봅니다. 이 시나리오는 라인이 판매 주문에서 제거되었는지, 취소된 상태로 설정되었는지 여부에 관계없이 동일한 결과를 생성합니다.
+이 문서에서는 부분적으로 송장이 발행된 기존 판매 주문에서 라인이 제거되는 재할당 시나리오를 살펴봅니다. 이 시나리오는 라인이 판매 주문에서 제거되었는지, 취소된 상태로 설정되었는지 여부에 관계없이 동일한 결과를 생성합니다.
 
 이 시나리오의 경우 **총계정원장 매개 변수** 페이지의 **수익 인정** 탭에서 **수취 계정에 송장 수정 게시** 옵션이 **아니요** 로 설정되어 있습니다(**수익 인정 \> 설정 \> 총계정원장 매개 변수**).
 

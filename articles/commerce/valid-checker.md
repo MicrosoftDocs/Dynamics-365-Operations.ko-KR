@@ -1,6 +1,6 @@
 ---
 title: 명세서 계산을 위한 매장 거래 확인
-description: 이 항목에서는 Microsoft Dynamics 365 Commerce에서 매장 거래를 확인하는 기능에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Commerce에서 매장 거래를 확인하는 기능에 대해 설명합니다.
 author: analpert
 ms.date: 01/31/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 4be40189777a37495f185467050b61af47b684d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8452956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890517"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>명세서 계산을 위한 매장 거래 확인
 
 [!include [banner](includes/banner.md)]
 
-이 항목에서는 Microsoft Dynamics 365 Commerce에서 매장 거래를 확인하는 기능에 대해 설명합니다. 유효성 검사 프로세스는 명세서 게시 프로세스를 통해 선별되기 전에 게시 오류를 발생시키는 거래를 식별하고 표시합니다.
+이 문서에서는 Microsoft Dynamics 365 Commerce에서 매장 거래를 확인하는 기능에 대해 설명합니다. 유효성 검사 프로세스는 명세서 게시 프로세스를 통해 선별되기 전에 게시 오류를 발생시키는 거래를 식별하고 표시합니다.
 
 명세서를 게시하려 하면 상거래 테이블의 데이터가 일치하지 않아 유효성 검사 프로세스가 실패할 수 있습니다. 다음은 이러한 불일치를 유발할 수 있는 몇 가지 요인의 예입니다.
 

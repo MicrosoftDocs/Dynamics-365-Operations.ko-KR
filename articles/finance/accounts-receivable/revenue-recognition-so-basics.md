@@ -1,24 +1,24 @@
 ---
 title: 판매 주문에 대한 수익 인정
-description: 이 항목에서는 판매 주문 및 송장에서 수익을 인정하기 위한 기본 기능에 대해 설명합니다. 수익 인정은 판매 주문 건에서 사용할 수 있으며, 판매 주문 건으로부터 생성된 해당 송장에서도 사용할 수 있습니다.
-author: kweekley
+description: 이 문서에서는 판매 주문 및 송장에서 수익을 인정하기 위한 기본 기능에 대해 설명합니다. 수익 인정은 판매 주문 건에서 사용할 수 있으며, 판매 주문 건으로부터 생성된 해당 송장에서도 사용할 수 있습니다.
+author: bking
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1807e00f5f93bf9359da710af7c9a1f6de652e7ae78cf9604351af969b057b11
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb031b41c07aaff06b41830fb0c322503e9f27ec
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452773"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348243"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>판매 주문에 대한 수익 인정
 
@@ -27,10 +27,10 @@ ms.locfileid: "8452773"
 > [!NOTE]
 > 수익 인정 기능은 기능 관리를 통해 켤 수 없습니다. 이 기능을 켜려면 구성 키를 사용해야 합니다.
 
-이 항목에서는 판매 주문 및 송장에서 수익을 인정하기 위한 기본 기능에 대해 설명합니다. 수익 인정은 판매 주문 건에서 사용할 수 있으며, 판매 주문 건으로부터 생성된 해당 송장에서도 사용할 수 있습니다. 판매 주문은 시간 및 자재 프로젝트를 통해 생성할 수도 있습니다.
+이 문서에서는 판매 주문 및 송장에서 수익을 인정하기 위한 기본 기능에 대해 설명합니다. 수익 인정은 판매 주문 건에서 사용할 수 있으며, 판매 주문 건으로부터 생성된 해당 송장에서도 사용할 수 있습니다. 판매 주문은 시간 및 자재 프로젝트를 통해 생성할 수도 있습니다.
 
 > [!NOTE]
-> 이 항목의 그림에서는 해당 개념을 더 잘 보여주기 위해 열을 숨기거나 그리드에 추가했습니다. 따라서 그림의 페이지 및 데이터는 제품에서 보는 것과 다를 수 있습니다.
+> 이 문서의 그림에서는 해당 개념을 더 잘 보여주기 위해 열을 숨기거나 그리드에 추가했습니다. 따라서 그림의 페이지 및 데이터는 제품에서 보는 것과 다를 수 있습니다.
 
 ## <a name="enter-a-sales-order"></a>판매 주문 입력
 

@@ -1,28 +1,28 @@
 ---
 title: 현금 및 은행 관리 홈페이지
 description: 현금 및 은행 관리를 사용하여 법인의 은행 계좌 및 은행 계좌와 연결된 금융 상품을 관리할 수 있습니다.
-author: roschlom
+author: angelad116
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "21941"
 - intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de37cc3df673a672a091ffe90ca543fae77bc9d5
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: e49c9f514e79552dda2e7a6e10c7d84fa2560c2e
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "8452926"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151974"
 ---
 # <a name="cash-and-bank-management-home-page"></a>현금 및 은행 관리 홈페이지
 
@@ -89,9 +89,9 @@ ms.locfileid: "8452926"
 
 #### <a name="blogs"></a>블로그
 
-[Microsoft Dynamics 365 블로그](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 및 [Microsoft Dynamics 365 Finance and Operations - Financials 블로그](https://community.dynamics.com/365/financeandoperations/b/financials)에서 다양한 의견과 뉴스 및 기타 정보를 확인할 수 있습니다.
+[Microsoft Dynamics 365 블로그](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)와 [Microsoft Dynamics 365 금융 및 운영 - 재무 블로그](https://community.dynamics.com/365/financeandoperations/b/financials)에서 의견, 뉴스 및 기타 정보를 찾을 수 있습니다.
 
-[Microsoft Dynamics 운영 파트너 커뮤니티 블로그](https://community.dynamics.com/partner/b/operationspartnercommunityblog)에서 Microsoft Dynamics 파트너는 단일 리소스를 통해 Dynamics 365의 새로운 소식과 동향을 확인할 수 있습니다.
+[Microsoft Dynamics Operations 파트너 커뮤니티 블로그](https://community.dynamics.com/partner/b/operationspartnercommunityblog)에서 Microsoft Dynamics 파트너는 단일 리소스를 통해 Dynamics 365의 새로운 소식과 동향을 확인할 수 있습니다.
 
 #### <a name="task-guides"></a>작업 가이드
 Finance 내에서 작업 가이드 형태로 추가 도움말이 제공됩니다. 작업 가이드에 액세스하려면 아무 페이지에서 도움말 버튼을 클릭하세요.
@@ -102,3 +102,4 @@ Finance 내에서 작업 가이드 형태로 추가 도움말이 제공됩니다
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

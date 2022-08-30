@@ -1,6 +1,6 @@
 ---
 title: 공유 숫자 시퀀스를 사용하여 고객 복사
-description: 이 항목에서는 공유 숫자 시퀀스를 사용하여 고객을 다른 법인에 복사하지만 고객 ID는 그대로 유지하는 방법에 대해 설명합니다.
+description: 이 문서에서는 공유 숫자 시퀀스를 사용하여 고객을 다른 법인에 복사하지만 고객 ID는 그대로 유지하는 방법에 대해 설명합니다.
 author: abruer
 ms.date: 08/31/2018
 ms.topic: index-page
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0a93f0519b292c12ea31a8faf3bff051fc111216
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 54639356007198f256f0d80fce9bfa2013f7b2b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "8452911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899989"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>공유 숫자 시퀀스를 사용하여 고객 복사
 

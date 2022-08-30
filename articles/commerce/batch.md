@@ -1,6 +1,6 @@
 ---
 title: 개선된 일괄 추적 항목 처리
-description: 이 항목에서는 Microsoft Dynamics 365 Commerce에서의 명세서 전기 프로세스 중에 실행되는 일괄 추적 항목의 개선된 처리에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Commerce에서의 명세서 전기 프로세스 중에 실행되는 일괄 추적 항목의 개선된 처리에 대해 설명합니다.
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "8452890"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881882"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>개선된 일괄 추적 항목 처리
 
 [!include [banner](includes/banner.md)]
 
-이 항목에서는 Microsoft Dynamics 365 Commerce에서의 명세서 전기 프로세스 중에 실행되는 일괄 추적 항목의 개선된 처리에 대해 설명합니다.
+이 문서에서는 Microsoft Dynamics 365 Commerce에서의 명세서 전기 프로세스 중에 실행되는 일괄 추적 항목의 개선된 처리에 대해 설명합니다.
 
 Dynamics 365 Commerce POS(Point of Sale)의 경우에는 판매 시점에 일괄 추적 항목의 배치 번호를 캡처할 수 없습니다. 그러나 고객 주문 또는 명세서 전기를 통해 Commerce Headquarters에 판매가 전기되는 구성의 경우, Commerce에서는 일괄 추적 항목에 대한 유효한 배치 번호가 존재하고 송장 발행 프로세스 중에 사용된다고 예상합니다.
 

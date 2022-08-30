@@ -1,38 +1,36 @@
 ---
 title: Power BI를 이용한 보고 및 분석 홈페이지
-description: 이 항목에서는 사용 가능한 비즈니스 인텔리전스 및 보고 도구를 탐색하는 데 사용할 수 있는 리소스를 설명합니다.
+description: 이 문서에서는 사용 가능한 비즈니스 인텔리전스 및 보고 도구를 탐색하는 데 사용할 수 있는 리소스를 설명합니다.
 author: sericks007
 ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1c0ee254a5300cfc84eb434e4785b6eceacf0375b983b33991445443957a33
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 27681,  ""intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: c8465347cf27cd68efb0a3c4ab8459a384cfb462
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452704"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291922"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Power BI를 이용한 보고 및 분석 홈페이지
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 사용 가능한 비즈니스 인텔리전스(BI) 및 보고 도구를 탐색하는 데 사용할 수 있는 리소스를 설명합니다.
+이 문서에서는 사용 가능한 BI(비즈니스 인텔리전스) 및 보고 도구를 탐색하는 데 사용할 수 있는 리소스를 설명합니다.
 
 ## <a name="get-started"></a>시작
 - [정보 액세스 및 보고](information-access-reporting.md)
 - [테크 토크: 보고 옵션](https://www.youtube.com/watch?v=NzZONjKs5xA)(비디오)
-- [Finance and Operations: Power BI 분석 및 보고 서비스 블로그](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting)(블로그)
+- [금융 및 운영: Power BI 분석 및 보고 서비스 블로그](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting)(블로그)
 
 ## <a name="analytical-workspaces"></a>분석 작업 영역
 작업 영역은 Microsoft Power BI에서 지원하는 풍부한 인포그래픽과 시각 자료를 사용할 수 있습니다. 이러한 인포그래픽과 시각 자료에는 타사에서 제공하는 다양한 컨트롤이 포함됩니다. 따라서 작업 영역은 사용자에게 매우 시각적인 상호 작용 환경을 제공하게 됩니다.

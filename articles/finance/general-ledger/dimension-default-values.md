@@ -1,6 +1,6 @@
 ---
 title: 재무 분개장의 기본 재무 차원
-description: 이 항목에서는 재무 분개장을 통해 입력된 거래 건에서 재무 차원 값이 설정되는 방법을 정의하는 규칙에 대해 설명합니다. 또한 고정 차원이 사용되는 시나리오에 대한 세부 정보도 제공합니다.
+description: 이 문서에서는 재무 분개장을 통해 입력된 거래 건에서 재무 차원 값이 설정되는 방법을 정의하는 규칙에 대해 설명합니다. 또한 고정 차원이 사용되는 시나리오에 대한 세부 정보도 제공합니다.
 author: kweekley
 ms.date: 09/04/2021
 ms.topic: index-page
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransDaily, LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 327bc27f068e1f9eefacc6b5defa27044cb1a77e
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 8d0fcf836e22207baae562801fb082d735df0f96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "8452887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907931"
 ---
 # <a name="default-financial-dimensions-on-financial-journals"></a>재무 분개장의 기본 재무 차원
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 (재고 분개장 또는 프로젝트 분개장이 아닌) 재무 분개장을 통해 입력된 거래 건에서 재무 차원 값이 설정되는 방법을 정의하는 규칙에 대해 설명합니다. 또한 고정 차원이 사용되는 시나리오에 대한 세부 정보도 제공합니다.
+이 문서에서는 (재고 분개장 또는 프로젝트 분개장이 아닌) 재무 분개장을 통해 입력된 거래 건에서 재무 차원 값이 설정되는 방법을 정의하는 규칙에 대해 설명합니다. 또한 고정 차원이 사용되는 시나리오에 대한 세부 정보도 제공합니다.
 
 ## <a name="symptom"></a>증상
 

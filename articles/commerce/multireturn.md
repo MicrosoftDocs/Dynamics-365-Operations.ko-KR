@@ -1,6 +1,6 @@
 ---
 title: 다수의 고객 주문 및 송장에서 항목 반품
-description: 이 항목에서는 Dynamics 365 Commerce의 여러 고객 주문 및 송장에서 반품을 실행하는 기능에 대해 설명합니다.
+description: 이 문서에서는 Dynamics 365 Commerce의 여러 고객 주문 및 송장에서 반품을 실행하는 기능에 대해 설명합니다.
 author: josaw1
 ms.date: 08/27/2020
 ms.topic: index-page
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 410a78dca29f1d723a5b5ef43836d07ec5502a567ec81098241fafeb6354373b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65ef700db5a81c49a962fd388af54e7811c088d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890325"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>다수의 고객 주문 및 송장에서 항목 반품
 

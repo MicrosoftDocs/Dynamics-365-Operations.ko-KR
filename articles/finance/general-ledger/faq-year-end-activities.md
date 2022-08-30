@@ -1,6 +1,6 @@
 ---
 title: 연말 활동 FAQ
-description: 이 항목에는 연도를 마감할 때 발생할 수 있는 질문과 연말 결산 활동에 도움이 될만한 답변이 각각 나열되어 있습니다.
+description: 이 문서에는 연도를 마감할 때 발생할 수 있는 질문과 연말 결산 활동에 도움이 될만한 답변이 각각 나열되어 있습니다.
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kweekley
+ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
-ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "8452932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865744"
 ---
 # <a name="year-end-activities-faq"></a>연말 활동 FAQ 
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에는 연도를 마감할 때 발생할 수 있는 질문과 연말 결산 활동에 도움이 될만한 답변이 각각 나열되어 있습니다. 이 항목의 정보는 주로 총계정원장 및 지급 계정에 대한 연말 결산 활동과 관련된 질문에 중점을 둡니다.
+이 문서에는 연도를 마감할 때 발생할 수 있는 질문과 연말 결산 활동에 도움이 될만한 답변이 각각 나열되어 있습니다. 이 문서의 정보는 주로 총계정원장 및 지급 계정에 대한 연말 결산 활동과 관련된 질문에 중점을 둡니다.
 
 ## <a name="general-ledger-year-end-enhancements"></a>총계정원장 연말 개선 사항 
 버전 10.0.20에서는 버전 10.0.25부터 기본적으로 사용되는 연말 결산 개선 사항이 도입되었습니다. 조직에서 10.0.25 이전 버전을 사용하는 경우, 연말 결산 프로세스를 시작하기 전에 이 기능을 활성화하는 것이 좋습니다. 이 기능을 사용하려면 먼저 시스템에서 켜져 있어야 합니다. 관리자는 기능 관리 작업 영역을 사용하여 해당 기능의 상태를 확인하고 필요하다면 기능을 켤 수 있습니다. 여기서 기능은 다음과 같은 방식으로 나열됩니다.
@@ -75,7 +75,7 @@ ms.locfileid: "8452932"
 [![재무 차원 집합.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>연말 결산 템플릿 구성
-연말 결산 템플릿을 활용하면 조직은 손익 잔액을 이익 잉여금으로 이전할 때 유지할 재무 차원 수준을 선택할 수 있습니다. 설정을 통해 조직은 잔액을 이익 잉여금으로 이전할 때 세부 재무 차원을 유지할 수 있으며(**모두 결산**) 또는 금액을 단일 차원 값으로 요약할 수 있습니다(**단일 결산**). 이는 각 재무 차원에 대해 정의할 수 있습니다. 이러한 설정에 관한 자세한 내용은 [연말 결산](year-end-close.md) 항목을 참조하십시오.
+연말 결산 템플릿을 활용하면 조직은 손익 잔액을 이익 잉여금으로 이전할 때 유지할 재무 차원 수준을 선택할 수 있습니다. 설정을 통해 조직은 잔액을 이익 잉여금으로 이전할 때 세부 재무 차원을 유지할 수 있으며(**모두 결산**) 또는 금액을 단일 차원 값으로 요약할 수 있습니다(**단일 결산**). 이는 각 재무 차원에 대해 정의할 수 있습니다. 이러한 설정에 관한 자세한 내용은 [연말 결산](year-end-close.md) 문서를 참조하세요.
 
 조직의 요구 사항을 평가하고 가능하다면 **단일 결산** 연말 결산 옵션을 사용하여 가능한 한 많은 차원을 결산 처리해 성능을 개선하는 것이 좋습니다. 단일 차원 값(빈 값일 수도 있음)으로 결산함으로써 시스템은 이익 잉여금 계정 항목에 대한 잔액을 산정할 때 덜 세부적인 내역을 계산합니다.
 

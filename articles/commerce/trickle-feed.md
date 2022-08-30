@@ -1,6 +1,6 @@
 ---
 title: 소매점 거래를 위한 지속적인 피드 기반 주문 생성
-description: 이 항목에서는 Microsoft Dynamics 365 Commerce에서 매장 거래에 대한 지속적인 피드 기반 주문 생성에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Commerce에서 매장 거래에 대한 지속적인 피드 기반 주문 생성에 대해 설명합니다.
 author: analpert
 ms.date: 01/11/2021
 ms.topic: index-page
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 0f0ee361df8c565761e79f5b0ecf519c149f2ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "8452935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873254"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>소매점 거래를 위한 지속적인 피드 기반 주문 생성
 

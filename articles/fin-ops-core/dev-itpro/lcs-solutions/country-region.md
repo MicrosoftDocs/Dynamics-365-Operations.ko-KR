@@ -1,25 +1,25 @@
 ---
 title: 세계화 리소스
-description: 이 항목에는 국가/지역별 기능 및 제품에 대해 자세히 알아볼 수 있는 리소스 목록이 포함되어 있습니다.
-author: kfend
+description: 이 문서에는 국가/지역별 기능 및 제품에 대해 자세히 알아볼 수 있는 리소스 목록이 포함되어 있습니다.
+author: sericks007
 ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.custom: 104173
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 104173
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 22b81f93a6879e1a380c8d6c3b5c554ca6bd5dc5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452758"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288705"
 ---
 # <a name="globalization-resources"></a>세계화 리소스
 
@@ -34,7 +34,7 @@ ms.locfileid: "8452758"
 
 금융 및 운영 앱에서는 [제품 지역화 및 번역 기능 가이드](https://aka.ms/dynamics_365_international_availability_deck)에 문서화된 국가/지역별 기능을 제공합니다. 이 기능은 활성 법인의 기본 주소를 기반으로 활성화됩니다. 
 
-이 항목에는 다음을 수행하는 데 도움이 될 수 있는 리소스 목록이 포함되어 있습니다. 
+이 문서에는 다음을 수행하는 데 도움이 될 수 있는 리소스 목록이 포함되어 있습니다. 
 - 개발도상국/지역별 솔루션에 대해 자세히 알아봅니다.
 - 국가/지역별 업데이트를 받습니다.
 - 규제 경고를 제출하고 검토합니다.
@@ -133,3 +133,4 @@ ms.locfileid: "8452758"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

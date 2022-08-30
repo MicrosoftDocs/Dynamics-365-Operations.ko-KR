@@ -1,32 +1,32 @@
 ---
 title: Excel 통합 문서를 만들어 소매 거래 편집
-description: 이 항목에서는 Microsoft Dynamics 365 Commerce에서 소매 거래를 편집할 수 있도록 Excel 통합 문서를 만드는 방법을 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Commerce에서 소매 거래를 편집할 수 있도록 Excel 통합 문서를 만드는 방법을 설명합니다.
 author: josaw1
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bfc3f6898087445e0276994ceeb52c178785bf3604fa163939327e99a0564f64
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: ''
+ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.search.industry: Retail
+ms.openlocfilehash: 93e0053c38c9595cab59947e4b65b0b4aa966380
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452776"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270213"
 ---
 # <a name="create-an-excel-workbook-to-edit-retail-transactions"></a>Excel 통합 문서를 만들어 소매 거래 편집
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 Microsoft Dynamics 365 Commerce에서 소매 거래를 편집할 수 있도록 Excel 통합 문서를 만드는 방법을 설명합니다.
+이 문서에서는 Microsoft Dynamics 365 Commerce에서 소매 거래를 편집할 수 있도록 Excel 통합 문서를 만드는 방법을 설명합니다.
 
 ## <a name="overview"></a>개요
 

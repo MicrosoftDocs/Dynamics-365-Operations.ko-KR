@@ -1,24 +1,24 @@
 ---
 title: 이연 수익 인정
-description: 이 항목에서는 수익 인정 기능을 사용하여 수익을 인식하는 방법에 관한 정보를 제공합니다.
-author: kweekley
+description: 이 문서에서는 수익 인정 기능을 사용하여 수익을 인식하는 방법에 관한 정보를 제공합니다.
+author: bking
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f6b221104d7012d82a0021b6d8f9cc10fe44cb7b8f3473ab8e7ae7a89be0a5e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c749415ecd6a0cda8a29e19998c295afa2ef5fd5
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452731"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348214"
 ---
 # <a name="recognize-deferred-revenue"></a>이연 수익 인정
 
@@ -27,7 +27,7 @@ ms.locfileid: "8452731"
 > [!NOTE]
 > 수익 인정 기능은 기능 관리를 통해 켤 수 없습니다. 이 기능을 켜려면 구성 키를 사용해야 합니다.
 
-이 항목에서는 수익 인정 일정에서 수익을 인정하는 프로세스에 대해 설명합니다. 판매 주문에 대해 송장이 기장된 후 수익 일정이 있는 각 판매 주문 라인에 대해 수익 인정 일정이 생성됩니다. 라인의 수익 일정은 라인의 수익을 이연해야 하는지 여부를 결정하는 데 사용됩니다.
+이 문서에서는 수익 인정 일정에서 수익을 인정하는 프로세스에 대해 설명합니다. 판매 주문에 대해 송장이 기장된 후 수익 일정이 있는 각 판매 주문 라인에 대해 수익 인정 일정이 생성됩니다. 라인의 수익 일정은 라인의 수익을 이연해야 하는지 여부를 결정하는 데 사용됩니다.
 
 ## <a name="view-revenue-recognition-schedule-details"></a>수익 인정 일정 세부 정보 보기
 

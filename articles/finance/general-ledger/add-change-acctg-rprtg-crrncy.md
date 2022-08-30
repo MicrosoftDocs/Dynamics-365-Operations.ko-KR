@@ -1,6 +1,6 @@
 ---
 title: 회계 또는 보고 통화 변경
-description: 이 항목에서는 회계 또는 통화 보고를 변경하거나 원장 설정에 통화 보고를 추가하는 방법에 대해 설명합니다.
+description: 이 문서에서는 회계 또는 통화 보고를 변경하거나 원장 설정에 통화 보고를 추가하는 방법에 대해 설명합니다.
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1fd641d4f60d8ff9710c89f43777f7fd8f378dbc6c73d773ac103f9d9f68e60e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "8452824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904618"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>회계 또는 보고 통화 변경
 
 [!include [banner](../includes/banner.md)]
 
-이 항목에서는 회계 또는 통화 보고를 변경하거나 원장 설정에 통화 보고를 추가하는 방법에 대해 설명합니다.
+이 문서에서는 회계 또는 통화 보고를 변경하거나 원장 설정에 통화 보고를 추가하는 방법에 대해 설명합니다.
 
 ## <a name="symptom"></a>증상
 
@@ -73,7 +73,7 @@ ms.locfileid: "8452824"
 10. **선택한 법인** 영역에서 **템플릿 추가** 를 선택합니다.
 11. 사용할 템플릿을 선택합니다. 새 법인에 제안된 템플릿에는 **025 - 총계정원장** 과 **재무** 가 있습니다. 사용 가능한 다른 템플릿을 모두 검토하여 자신의 요구 사항에 맞는 템플릿이 있는지 확인하면 도움이 됩니다.
 12. **법인에 복사** 를 선택하여 선택된 법인을 만들고 대상 법인으로 복사하는 배치 프로세스를 시작합니다.
-13. 프로세스가 완료되면, 거래가 전기되기 전에 원장으로 이동하여 이 항목의 앞부분에서 설명한 방법에 따라 회계 및 통화 보고를 업데이트합니다.
+13. 프로세스가 완료되면, 거래가 전기되기 전에 원장으로 이동하여 이 문서의 앞부분에서 설명한 방법에 따라 회계 및 통화 보고를 업데이트합니다.
 
 회계 또는 통화 보고를 변경하기 위해 새 법인을 만들었다면, 기초 잔액이 이전 법인의 통화에서 새 통화로 환산되었는지 확인하세요.
 

@@ -1,29 +1,27 @@
 ---
 title: 재무 보고 FAQ
-description: 이 항목에서는 재무 보고에 대해 자주 묻는 몇 가지 질문에 대한 답변을 제공합니다.
-author: jiwo
+description: 이 문서에서는 재무 보고에 대해 자주 묻는 몇 가지 질문에 대한 답변을 제공합니다.
+author: jinniew
 ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 5981946a4bba2c58402f4cf566bfa008de67363b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "8452902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901374"
 ---
 # <a name="financial-reporting-faq"></a>재무 보고 FAQ
 
-이 항목에서는 재무 보고에 대해 자주 묻는 질문에 대한 답변을 제공합니다.
+이 문서에서는 재무 보고에 대해 자주 묻는 질문에 대한 답변을 제공합니다.
 
 ## <a name="how-do-i-restrict-access-to-a-report-by-using-tree-security"></a>트리 보안을 사용하여 보고서에 대한 액세스를 제한하려면 어떻게 하나요?
 
