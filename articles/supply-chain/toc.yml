@@ -3413,13 +3413,11 @@
                       href: warehousing/packing-work.md
                     - name: 단기 불출 항목 재할당 설정
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: 예외 처리를 위한 창고 작업 취소
-                      href: warehousing/cancel-warehouse-work.md
                     - name: 시스템 지향 작업 시퀀싱
                       href: warehousing/system-directed-work-sequencing.md
-                    - name: 라인 그룹화 선택
+                    - name: 불출 라인 그룹화
                       href: warehousing/pick-line-grouping.md
-                    - name: 웨어하우스 슬로팅
+                    - name: 창고 슬로팅
                       href: warehousing/warehouse-slotting.md
                     - name: 위치 지시문 재고 불출 에이징
                       href: warehousing/location-directive-inventory-picking-aging.md
@@ -3431,6 +3429,10 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: 아웃바운드 워크로드 시각화
                       href: warehousing/outbound-workload-visualization.md
+                    - name: 수동으로 판매 및 이전 라인 불출 예외 처리
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: 예외 처리를 위한 창고 작업 취소
+                      href: warehousing/cancel-warehouse-work.md
                 - name: 보충
                   items:
                     - name: 보충 개요

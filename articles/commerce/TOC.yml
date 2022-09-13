@@ -12,6 +12,8 @@
               items:
                 - name: Commerce 홈페이지의 새로운 기능 또는 변경된 사항
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.30(2022년 11월)
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29(2022년 10월)
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28(2022년 7월)
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: 채널별 할인 정의
                   href: define-channel-specific-discounts.md
-                - name: 소매 제품에 대한 할인을 방지하기 위한 옵션
-                  href: prevent-discounts.md
                 - name: 입찰 기반 할인
                   href: tender_based_discounts.md
                 - name: 배송 할인
                   href: shipping-discount.md
                 - name: 구매 프로모션으로 선물 구성
                   href: gift-with-purchase.md
-                - name: 쿠폰 설정
-                  href: retail-coupons.md
-                - name: POS에서 할인 표시
-                  href: discounts-pos.md
+                - name: 쿠폰
+                  href: coupons.md
+                - name: 가격 설정
+                  href: price-settings.md
                 - name: 가격 보고서
                   href: price-report.md
                 - name: 채널별 거래 계약 생성
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: POS의 재고 조회 작업
                       href: pos-inventory-lookup-operation.md
+                    - name: 재고 인식 제품 목록
+                      href: inventory-aware-product-listing.md
                 - name: 구매 주문
                   items:
                     - name: 구매 주문 개요

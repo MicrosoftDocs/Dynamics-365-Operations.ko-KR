@@ -14,6 +14,8 @@
               items:
                 - name: 플랫폼 업데이트의 새로운 기능 또는 변경된 사항 홈페이지
                   href: get-started/whats-new-home-page.md
+                - name: 버전 10.0.30용 플랫폼 업데이트(2022년 11월)
+                  href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: 버전 10.0.29용 플랫폼 업데이트(2022년 10월)
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: 버전 10.0.28용 플랫폼 업데이트(2022년 8월)

@@ -12,6 +12,8 @@
               items:
                 - name: Finance 홈페이지의 새로운 기능 또는 변경된 사항
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.30(11월)
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29(10월)
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28(8월)
@@ -1134,10 +1136,12 @@
                   items:
                     - name: 회계 분포
                       href: accounts-payable/accounting-distributions.md
-                    - name: 총계정원장으로 보조 원장 대체
+                    - name: 보조 원장을 총계정원장으로 이전
                       href: general-ledger/subledger-transfer.md
                     - name: 회계 소스 탐색기
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: 회계 보류 중인 문서
+                      href: general-ledger/documents-pending-accounting.md
             - name: 보고 및 문의
               items:
                 - name: 분개장 기입 및 거래 보기
