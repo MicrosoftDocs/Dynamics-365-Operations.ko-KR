@@ -734,6 +734,8 @@
                   href: enable-ADLS-environment.md
                 - name: 제품 추천 사용
                   href: enable-product-recommendations.md
+                - name: 대체 데이터 흐름 설정
+                  href: set-up-alternate-data-flow.md
                 - name: 맞춤화된 추천
                   items:
                     - name: 맞춤화된 추천 사용
@@ -2319,7 +2321,7 @@
                 - name: 원가 관리
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/commerce
                 - name: 지출 관리
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fcommerce%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/commerce/toc.json
                 - name: 보유 재고
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/commerce
                 - name: 송장 승인
@@ -2327,11 +2329,11 @@
                 - name: 내 팀
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/commerce
                 - name: 프로젝트 모바일 애플리케이션 개요
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fcommerce%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/commerce/toc.json
                 - name: 프로젝트 시간 입력
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fcommerce%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/commerce/toc.json
                 - name: 프로젝트 작업표
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fcommerce%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/commerce/toc.json
                 - name: 구매 주문 승인
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/commerce
                 - name: 판매 주문

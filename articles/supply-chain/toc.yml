@@ -12,6 +12,8 @@
               items:
                 - name: Supply Chain Management의 새로운 기능 또는 변경된 사항 홈페이지
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.30(2022년 11월)
+                  href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29(2022년 10월)
                   href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28(2022년 8월)
@@ -1719,6 +1721,28 @@
                   href: inventory/inventory-visibility-api.md
                 - name: Inventory Visibility 팁
                   href: inventory/inventory-visibility-tips.md
+        - name: Sensor Data Intelligence
+          items:
+            - name: Sensor Data Intelligence 홈페이지
+              href: sensor-data-intelligence/sdi-home-page.md
+            - name: 시스템에 대한 Sensor Data Intelligence 켜기
+              href: sensor-data-intelligence/sdi-enable-feature.md
+            - name: Azure에 IoT 솔루션 배포
+              href: sensor-data-intelligence/sdi-deploy-iot-solution-on-azure.md
+            - name: Sensor Data Intelligence 매개 변수
+              href: sensor-data-intelligence/sdi-parameters.md
+            - name: 테스트를 위해 시뮬레이션된 센서 설정
+              href: sensor-data-intelligence/sdi-set-up-simulated-sensor.md
+            - name: 자산 가동 중지 시간 시나리오
+              href: sensor-data-intelligence/sdi-scenario-asset-downtime.md
+            - name: 자산 유지 관리 시나리오
+              href: sensor-data-intelligence/sdi-scenario-asset-maintenance.md
+            - name: 머신 상태 시나리오
+              href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
+            - name: 제품 품질 시나리오
+              href: sensor-data-intelligence/sdi-scenario-product-quality.md
+            - name: 생산 지연 시나리오
+              href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: IoT 인텔리전스
           items:
             - name: IoT 인텔리전스 홈페이지
@@ -1940,7 +1964,7 @@
                 - name: 원가 관리
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: 지출 관리
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: 보유 재고
                   href: inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: 송장 승인
@@ -1948,11 +1972,11 @@
                 - name: 내 팀
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: 프로젝트 모바일 애플리케이션 개요
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/supply-chain/toc.json
                 - name: 프로젝트 시간 입력
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: 프로젝트 작업표
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/supply-chain/toc.json
                 - name: 구매 주문 승인
                   href: procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: 판매 주문
@@ -3463,7 +3487,7 @@
                       href: warehousing/small-parcel-shipping.md
                 - name: 배송 통합 정책
                   items:
-                    - name: 배송 통합 정책
+                    - name: 배송 통합 정책 개요
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: 배송 통합 정책 구성
                       href: warehousing/configure-shipment-consolidation-policies.md

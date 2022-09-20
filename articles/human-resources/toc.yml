@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Human Resources의 새로운 기능 또는 변경된 기능
               items:
+                - name: Human Resources 10.0.30(인프라 병합)
+                  href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29(인프라 병합)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28(인프라 병합)
@@ -478,9 +480,11 @@
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: 간소화된 직원 입력
               href: stream-employee-entry.md
+            - name: 헤더 컨트롤 개인화
+              href: hr-worker-header-control.md
             - name: 근로자 정보 입력
               href: hr-personnel-enter-worker-information.md
-            - name: 고용이 없는 근로자
+            - name: 고용되지 않은 작업자
               href: hr-personnel-workers-without-employment.md
             - name: 근로자에게 상품 대여
               href: hr-personnel-loan-item-worker.md
