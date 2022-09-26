@@ -18,11 +18,9 @@
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28(8월)
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27(7월)
-                  href: get-started/whats-new-changed-10-0-27.md
             - name: 제거되거나 사용되지 않는 기능
               items:
-                - name: 에서 제거되거나 사용되지 않는 기능 홈페이지
+                - name: 제거되거나 사용되지 않는 기능 홈페이지
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?context=/dynamics365/context/finance
                 - name: Dynamics 365 Finance에서 제거되거나 더 이상 사용되지 않는 기능
                   href: get-started/removed-deprecated-features-finance.md
@@ -1450,8 +1448,10 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: 캐나다 통합판매세 계산
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: 세계화
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio 개요
+              href: localizations/globalization-studio-overview.md?context=/dynamics365/context/finance
             - name: 세계화 리소스
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/finance
             - name: 세계화 서비스
@@ -1734,9 +1734,11 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: 공급업체 송장에 대한 판매세 계산 및 조정
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: 판매세 차이 해결
+                      href: general-ledger/resolve-sales-tax-differences-purchase-orders-invoices.md
                     - name: 일반 분개장을 통한 판매세 조정
                       href: general-ledger/adjust-sales-tax-via-general-journals.md
-                    - name: 분개장에 대한 지연 세금 계산 사용
+                    - name: 분개장에서 지연된 세금 계산 사용
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: 판매세 납부 생성
                       href: general-ledger/tasks/create-sales-tax-payment.md
@@ -2514,6 +2516,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: 온라인 송장 작성 시스템
                   href: localizations/emea-hun-online-invoicing.md
+                - name: VAT 신고(헝가리)
+                  Href: localizations/emea-hun-vat-declaration-hungary.md
                 - name: 헝가리 판매세 보고서
                   href: localizations/emea-hun-sales-tax-reports.md
                 - name: 헝가리 Intrastat

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a51a601f6e283c5f6d7298b1cf342056707ebbb8
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: 49d36dc5818bdedfc764512e2f06c597c31e5b2a
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475587"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9539238"
 ---
 # <a name="finance-home-page"></a>Finance 홈페이지
 
@@ -80,6 +80,6 @@ Supply Chain Management 기능은 다음을 포함하는 조달-지급 프로세
 
 ## <a name="elearning-courses"></a>온라인 학습 과정
 
-온라인 과정 및 교육은 [Dynamics 365 Finance 학습 경로](/learn/browse/?products=dynamics-finance&resource_type=learning+path)를 확인하세요.
+온라인 과정 및 교육은 [Dynamics 365 Finance 학습 경로](/training/browse/?products=dynamics-finance&resource_type=learning+path)를 확인하세요.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

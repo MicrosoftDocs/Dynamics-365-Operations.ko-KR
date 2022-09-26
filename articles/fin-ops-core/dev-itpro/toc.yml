@@ -20,11 +20,9 @@
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: 버전 10.0.28용 플랫폼 업데이트(2022년 8월)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: 버전 10.0.27용 플랫폼 업데이트(2022년 7월)
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: 제거되거나 사용되지 않는 기능
               items:
-                - name: 에서 제거되거나 사용되지 않는 기능 홈페이지
+                - name: 제거되거나 사용되지 않는 기능 홈페이지
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: 제거되거나 사용되지 않는 플랫폼 기능
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -510,6 +508,8 @@
                   href: dev-tools/access-instances.md
                 - name: 원박스 개발 환경 구성
                   href: dev-tools/configure-developer-vm.md
+                - name: 원박스 개발 환경 보안
+                  href: dev-tools/secure-developer-vm.md
                 - name: 관리자 액세스를 허용하지 않는 VM 개발 및 빌드 FAQ
                   href: sysadmin/VMs-no-admin-access.md
                 - name: 처음 사용을 위해 다운로드 가능한 VHD 설정

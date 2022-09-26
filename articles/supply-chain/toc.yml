@@ -22,7 +22,7 @@
                   href: get-started/whats-new-scm-10-0-27.md
             - name: 제거되거나 사용되지 않는 기능
               items:
-                - name: 에서 제거되거나 사용되지 않는 기능 홈페이지
+                - name: 제거되거나 사용되지 않는 기능 홈페이지
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?context=/dynamics365/context/supply-chain
                 - name: Dynamics 365 Supply Chain Management에서 제거되거나 사용되지 않는 기능
                   href: get-started/removed-deprecated-features-scm-updates.md
@@ -206,8 +206,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/supply-chain
         - name: 문제 해결 및 FAQ
           href: supply-chain-management-troubleshooting.md
-        - name: 세계화
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio 개요
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/supply-chai
             - name: 세계화 리소스
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/supply-chain
             - name: 세계화 서비스
@@ -1637,6 +1639,8 @@
                   href: inventory/inventory-locations.md
                 - name: 재고 상태
                   href: inventory/inventory-statuses.md
+                - name: 일괄 처리 코드를 사용하여 배치를 사용 가능 여부로 표시
+                  href: inventory/batch-disposition-codes.md
                 - name: 새 웨어하우스 레이아웃 생성
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: 바코드 유형 유지
