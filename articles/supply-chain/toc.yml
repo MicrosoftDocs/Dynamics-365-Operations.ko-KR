@@ -1749,18 +1749,8 @@
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: IoT 인텔리전스
           items:
-            - name: IoT 인텔리전스 홈페이지
+            - name: IoT 인텔리전스는 이제 Sensor Data Intelligence로 대체되었습니다.
               href: iot/iot-intelligence-home-page.md
-            - name: Azure 리소스 설정
-              href: iot/iot-azure-setup.md
-            - name: IoT Hub의 메시지 스키마 형식
-              href: iot/iot-schema-format.md
-            - name: 메트릭 설정
-              href: iot/iot-metrics-setup.md
-            - name: 시나리오 설정
-              href: iot/iot-scenario-setup.md
-            - name: 모니터링 및 관리
-              href: iot/iot-management.md
         - name: 마스터 계획
           items:
             - name: 마스터 계획 홈페이지
