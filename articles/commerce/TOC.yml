@@ -390,10 +390,12 @@
                   href: channel-setup-retail.md
                 - name: 소매 작업자 구성
                   href: tasks/worker.md
-                - name: 'Modern Point of Sale (MPOS), Cloud POS, Store Commerce'
+                - name: 'Modern Point of Sale(MPOS), Cloud POS 및 Store Commerce'
                   items:
                     - name: Store Commerce 앱
                       href: dev-itpro/store-commerce.md
+                    - name: 모바일 플랫폼용 Store Commerce 앱
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: Modern POS를 Store Commerce로 마이그레이션
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: 디바이스 관리 구현 지침
