@@ -14,6 +14,8 @@
               items:
                 - name: 플랫폼 업데이트의 새로운 기능 또는 변경된 사항 홈페이지
                   href: get-started/whats-new-home-page.md
+                - name: 버전 10.0.31용 플랫폼 업데이트(2023년 2월)
+                  href: get-started/whats-new-platform-updates-10-0-31.md
                 - name: 버전 10.0.30용 플랫폼 업데이트(2022년 11월)
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: 버전 10.0.29용 플랫폼 업데이트(2022년 10월)
@@ -182,7 +184,9 @@
                   href: data-entities/configuration-data-templates.md
                 - name: 엔터티에 대한 변경 내용 추적
                   href: data-entities/entity-change-track.md
-                - name: 표준 데이터 항목 관련 정보 찾기
+                - name: 엔터티에 대한 행 버전 변경 내용 추적 허용
+                  href: data-entities/rowversion-change-track.md
+                - name: 표준 데이터 엔터티 관련 정보 찾기
                   href: data-entities/data-entities-report.md
                 - name: 여러 워크시트가 있는 데이터 템플릿
                   href: data-entities/excel-template-multiple.md
@@ -1228,6 +1232,8 @@
                   href: power-platform/admin-reference.md
                 - name: Dataverse 가상 엔터티 사용
                   href: power-platform/enable-virtual-entities.md
+                - name: Dataverse의 가상 테이블 변경 사항 추적
+                  href: power-platform/track-changes-fin-ops-virtual-table.md
                 - name: Power Apps 포털과 금융 및 운영
                   href: power-platform/power-portal-reference.md
                 - name: 금융 및 운영 가상 엔터티 FAQ

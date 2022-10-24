@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: 비동기 고객을 동기 고객으로 전환
               href: convert-async-to-sync.md
+            - name: 고객 작업의 감사 동기화
+              href: audit-async-customer-operations.md
             - name: 비동기 고객 생성 모드 FAQ
               href: async-customer-mode-faq.md
             - name: 고객 유치
@@ -1296,11 +1298,17 @@
                       href: cookie-consent-module.md
                 - name: 채팅 모듈
                   items:
-                    - name: Commerce 채팅 모듈
+                    - name: Commerce 채팅 기능 개요
+                      href: commerce-chat-overview.md
+                    - name: Customer Service용 옴니채널 모듈을 통한 Commerce 채팅
                       href: commerce-chat-module.md
+                    - name: Power Virtual Agents 모듈을 사용한 Commerce 채팅
+                      href: chat-module-pva.md
+                    - name: Commerce 채팅 모듈 사전 채팅 매개 변수
+                      href: chat-proactive-chat-parameters.md
             - name: 검색
               items:
-                - name: 기본 카테고리 랜딩 페이지 및 검색 결과 페이지 개요
+                - name: 기본 범주 랜딩 페이지 및 검색 결과 페이지 개요
                   href: category-search-page-overview.md
                 - name: 클라우드 기반 검색 개요
                   href: cloud-powered-search-overview.md

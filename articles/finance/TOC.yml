@@ -12,6 +12,8 @@
               items:
                 - name: Finance 홈페이지의 새로운 기능 또는 변경된 사항
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.31(1월)
+                  href: get-started/whats-new-changed-10-0-31.md
                 - name: Finance 10.0.30(11월)
                   href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29(10월)
@@ -232,6 +234,26 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: 지급 계정 송장 매칭 유효성 검사 설정
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Invoice Capture 솔루션
+              items:
+                - name: Invoice Capture 개요
+                  href: accounts-payable/invoice-capture-overview.md
+                - name: Invoice Capture 설치
+                  href: accounts-payable/install-invoice-capture.md
+                - name: Invoice Capture 구성
+                  href: accounts-payable/config-invoice-capture.md
+                - name: Invoice Capture 구성 그룹
+                  href: accounts-payable/invoice-capture-config-group.md
+                - name: Invoice Capture 매핑 규칙
+                  href: accounts-payable/invoice-capture-mapping-rules.md
+                - name: Invoice Capture 작업 영역
+                  href: accounts-payable/invoice-capture-workspace.md
+                - name: Invoice Capture 고급 설정
+                  href: accounts-payable/invoice-capture-advanced-settings.md
+                - name: Invoice Capture 대시보드
+                  href: accounts-payable/invoice-capture-dashboard.md
+                - name: Invoice Capture 수신 파일
+                  href: accounts-payable/invoice-capture-rec-files.md
             - name: 공급업체 송장 자동화
               items:
                 - name: 자동화된 공급업체 송장 작성 프로세스 개요

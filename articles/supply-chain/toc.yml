@@ -12,14 +12,12 @@
               items:
                 - name: Supply Chain Management의 새로운 기능 또는 변경된 사항 홈페이지
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.31(2022년 2월)
+                  href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30(2022년 11월)
                   href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29(2022년 10월)
                   href: get-started/whats-new-scm-10-0-29.md
-                - name: Supply Chain Management 10.0.28(2022년 8월)
-                  href: get-started/whats-new-scm-10-0-28.md
-                - name: Supply Chain Management 10.0.27(2022년 7월)
-                  href: get-started/whats-new-scm-10-0-27.md
             - name: 제거되거나 사용되지 않는 기능
               items:
                 - name: 제거되거나 사용되지 않는 기능 홈페이지
@@ -1777,11 +1775,15 @@
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: 수요 예측을 통한 마스터 계획
                   href: master-planning/planning-optimization/demand-forecast.md
+                - name: 공급 예측을 통한 마스터 계획
+                  href: master-planning/planning-optimization/supply-forecast.md
                 - name: 구매 거래 계약을 통한 마스터 계획
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: 견적 및 RFQ를 기반으로 계획
+                  href: master-planning/planning-optimization/quotation-planning.md
                 - name: 최적화 계획에서 사용하는 날짜 및 시간 매개 변수
                   href: master-planning/planning-optimization/date-time-used.md
-                - name: 안전 여유
+                - name: 안전 마진
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: 연기 허용 범위(음수 일수)
                   href: master-planning/planning-optimization/delay-tolerance.md
@@ -2323,6 +2325,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: 사전 정의된 제품 변형 생성
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: UI에 번역된 제품 이름 및 설명 표시
+                  href: pim/show-translated-product-info.md
                 - name: 측정 단위 관리
                   href: pim/tasks/manage-unit-measure.md
                 - name: 제품 변형당 측정 단위 전환
@@ -3633,6 +3637,8 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: 위치 지시문 작업
                       href: warehousing/create-location-directive.md
+                    - name: 승인 테스트가 포함된 테스트 위치 지시문
+                      href: warehousing/location-directive-acceptance-tests.md
                     - name: 웨어하우스 거래에 대한 제품 필터 구성
                       href: warehousing/filters-and-filter-codes.md
                     - name: 위치 재고 한도
