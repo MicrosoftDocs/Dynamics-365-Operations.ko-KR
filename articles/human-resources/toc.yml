@@ -10,19 +10,15 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Human Resources의 새로운 기능 또는 변경된 기능
               items:
+                - name: Human Resources 10.0.31(인프라 병합)
+                  href: ./get-started/whats-new-changed-10-0-31.md
                 - name: Human Resources 10.0.30(인프라 병합)
                   href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29(인프라 병합)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28(인프라 병합)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: Human Resources 10.0.27(인프라 병합)
-                  href: ./get-started/hr-whats-new-changed-10-0-27.md
-                - name: Human Resources 10.0.26(인프라 병합)
-                  href: ./get-started/hr-whats-new-changed-10-0-26.md
-                - name: Human Resources 10.0.25(인프라 병합)
-                  href: ./get-started/hr-whats-new-changed-10-0-25.md
-                - name: Dynamics 365 Human Resources(독립형) 새로운 기능
+                - name: Dynamics 365 Human Resources(독립 실행형) 새로운 기능
                   items:
                     - name: Dynamics 365 Human Resources(독립 실행형) 아카이브 2021의 새로운 기능
                       href: hr-admin-whats-new.md
@@ -64,7 +60,7 @@
                       href: hr-whats-new-2021-01-21.md
                 - name: 제거되거나 사용되지 않는 기능
                   items:
-                    - name: 에서 제거되거나 사용되지 않는 기능 홈페이지
+                    - name: 제거되거나 사용되지 않는 기능 홈페이지
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                     - name: Dynamics 365 Human Resources에서 제거되거나 사용되지 않는 기능
                       href: get-started/removed-deprecated-features-hr.md
@@ -718,6 +714,8 @@
               href: hr-develop-create-performance-review.md
         - name: 학습
           items:
+            - name: 과정 개요
+              href: hr-course-overview.md
             - name: 교육 과정 설정
               href: hr-learning-courses.md
             - name: 설문지 개요

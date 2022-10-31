@@ -12,6 +12,8 @@
               items:
                 - name: Commerce 홈페이지의 새로운 기능 또는 변경된 사항
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.31(2023년 2월)
+                  href: get-started/whats-new-commerce-10-0-31.md
                 - name: Commerce 10.0.30(2022년 11월)
                   href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29(2022년 10월)
@@ -568,6 +570,8 @@
                       href: call-center-refund-payments.md
                     - name: '신용 카드 설정, 승인, 캡처'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?context=/dynamics365/context/commerce
+                    - name: 지불 토큰 사용 제한
+                      href: dev-itpro/limit-token-usage.md
                     - name: POS에 대한 현금 액면가 구성
                       href: cash-denominations.md
                     - name: 신용 카드 처리 구성
@@ -1228,14 +1232,16 @@
                       href: ratings-reviews-modules.md
                     - name: 소셜 공유 모듈
                       href: social-share-module.md
-                - name: 모듈 구매
+                - name: 구매 모듈
                   items:
                     - name: 장바구니 모듈
                       href: add-cart-module.md
                     - name: 장바구니 아이콘 모듈
                       href: cart-icon-module.md
-                    - name: 체크 아웃 모듈
+                    - name: 결제 모듈
                       href: add-checkout-module.md
+                    - name: 결제 모듈 오류 참조 코드
+                      href: checkout-module-error-codes.md
                     - name: 결제 모듈
                       href: payment-module.md
                     - name: 배송 주소 모듈

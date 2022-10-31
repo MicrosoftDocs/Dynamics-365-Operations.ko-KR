@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: 버전 10.0.29용 플랫폼 업데이트(2022년 10월)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: 버전 10.0.28용 플랫폼 업데이트(2022년 8월)
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: 제거되거나 사용되지 않는 기능
               items:
                 - name: 제거되거나 사용되지 않는 기능 홈페이지
@@ -1605,7 +1603,11 @@
             - name: 라이선스 코드 및 구성 키 보고서
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: 회사 간 데이터 공유
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: 데이터 공유가 지원되는 테이블
+              href: sysadmin/drs-srs-tables.md
+            - name: 개발자를 위한 데이터 공유
+              href: sysadmin/drs-srs-dev.md
             - name: 유지 관리 모드
               href: sysadmin/maintenance-mode.md
             - name: 사전 구성된 시스템 계정

@@ -12,7 +12,7 @@
               items:
                 - name: Supply Chain Management의 새로운 기능 또는 변경된 사항 홈페이지
                   href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.31(2022년 2월)
+                - name: Supply Chain Management 10.0.31(2023년 2월)
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30(2022년 11월)
                   href: get-started/whats-new-scm-10-0-30.md
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: USMCA 원산지 인증
               href: transportation/usmca-certification-of-origin.md
+            - name: 상업 송장
+              href: transportation/commercial-invoice.md
             - name: 선하 증권 생성
               href: transportation/create-bill-of-lading.md
             - name: 화물 운송 경로 계획
@@ -3427,14 +3429,20 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: 창고 앱에서 이전 주문 생성
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: 피스 불출 확인
+                    - name: 개별 불출 확인
                       href: warehousing/piece-picking-confirmation.md
                     - name: 포장재 및 요금
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: 선적용 포장 컨테이너
                       href: warehousing/packing-containers.md
+                    - name: 컨테이너 레이블 인쇄
+                      href: warehousing/print-container-labels.md
                     - name: 아웃바운드 컨테이너 포장 및 발송물 처리를 위한 포장 작업
                       href: warehousing/packing-work.md
+                    - name: Warehouse Management 모바일 앱으로 컨테이너 포장
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: 예시 시나리오 - Warehouse Management 모바일 앱으로 컨테이너 포장
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: 단기 불출 항목 재할당 설정
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: 시스템 지향 작업 시퀀싱
@@ -3691,7 +3699,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: 미해결 작업 목록의 시스템 그룹화
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: 번호판 레이블에 대한 문서 라우팅 레이아웃
+                    - name: 문서 라우팅 레이블 레이아웃
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: GS1 바코드 및 QR 코드
                       href: warehousing/gs1-barcodes.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: Microsoft Dynamics AX 2012에서 금융 및 운영으로 창고 관리 프로세스 업그레이드
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: 창고 원격 분석
+              items:
+                - name: Application Insights로 창고 원격 분석 사용
+                  href: warehousing/application-insights-warehousing.md
+                - name: 모바일 디바이스 사용 및 성능 모니터링
+                  href: warehousing/application-insights-wma.md
         - name: Supply Chain Management 개발
           items:
             - name: Gantt 컨트롤 개발 가이드
