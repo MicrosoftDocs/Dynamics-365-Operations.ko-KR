@@ -2239,6 +2239,16 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: 조달 범주 계층에 대한 정책 설정
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: 공급 위험 평가
+              items:
+                - name: 공급 위험 평가 개요
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: 공급 위험 평가 구성
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: 공급업체 위험을 발견하고 처리하기 위한 실행 가능한 작업 영역
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: 위험 분석 및 성과 순위용 Power BI 보고서
+                  href: procurement/supply-risk-assessment-reports.md
             - name: 제품 영수증 및 송장 작성
               items:
                 - name: 구매 주문에 대한 제품 영수증

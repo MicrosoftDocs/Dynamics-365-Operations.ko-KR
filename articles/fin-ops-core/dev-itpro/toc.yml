@@ -334,12 +334,16 @@
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: 배포 FAQ
                       href: deployment/deploymentFAQ.md
+                    - name: 환경 마이그레이션
+                      href: deployment/geo-to-geo-migrations.md
                     - name: 셀프 서비스 배포의 알려진 문제
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: 배포를 위한 유지 관리 작업
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: 환경 업데이트
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: 환경 마이그레이션
+                      href: deployment/geo-to-geo-migrations.md
                     - name: 셀프 서비스 배포를 통해 배포된 환경 문제 해결
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: 셀프 서비스 환경의 계획된 유지 관리 FAQ
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: 프로젝트 온보딩
               href: lifecycle-services/project-onboarding.md
+            - name: 프로젝트 마이그레이션 관리자
+              href: lifecycle-services/project-migration-manager.md
             - name: 구독 예측 도구
               href: lifecycle-services/subscription-estimator.md
             - name: 보안 구성

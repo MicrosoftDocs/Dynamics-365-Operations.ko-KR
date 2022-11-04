@@ -256,8 +256,6 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Commerce 매장 내 기술 스택 현대화(백서)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Commerce 오프라인 구현 및 문제 해결
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: 온라인 스토어 카탈로그 게시
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI 콘텐츠
@@ -396,12 +394,16 @@
                   items:
                     - name: Store Commerce 앱
                       href: dev-itpro/store-commerce.md
+                    - name: Store Commerce 앱 기능
+                      href: store-commerce-capabilities.md
                     - name: 모바일 플랫폼용 Store Commerce 앱
                       href: dev-itpro/store-commerce-mobile.md
                     - name: Modern POS를 Store Commerce로 마이그레이션
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: 디바이스 관리 구현 지침
                       href: implementation-considerations-devices.md
+                    - name: Commerce 오프라인 구현 및 문제 해결
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: Store Commerce와 Cloud POS 중 선택
                       href: MPOS-or-CPOS.md
                     - name: 온라인 및·오프라인 POS 운영

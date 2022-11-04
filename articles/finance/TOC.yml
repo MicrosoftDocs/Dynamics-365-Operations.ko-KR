@@ -688,24 +688,18 @@
               href: accounts-receivable/automatic-settlement-prioritization.md
             - name: 은행 계정조정
               href: cash-bank-management/reconcile-bank-account.md
-            - name: 고급 은행계정조정
+            - name: 고급 은행 계좌 조정
               items:
-                - name: 고급 은행계정조정 설정 프로세스
+                - name: 고급 은행 계좌 조정 설정 프로세스
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: 고급 은행 계좌 조정 수입 프로세스 설정
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: 전자 보고를 사용하여 고급 은행 계좌 조정 수입 프로세스 설정
                   href: accounts-payable/import-bai2-er.md
                 - name: 은행 계좌 조정 일치 규칙 설정
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: 고급 은행 계좌 조정을 사용하여 은행 거래 내역서 조정
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: 고급 은행계정조정 MT940 수입 – 복합 데이터 엔터티 업그레이드
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
-                - name: 고급 은행계정조정 개요
+                - name: 고급 은행 계좌 조정 개요
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: 은행 거래 내역서 파일 가져오기 문제 해결
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: 은행 분개장 복합 엔터티 업데이트
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: 원가 계산
