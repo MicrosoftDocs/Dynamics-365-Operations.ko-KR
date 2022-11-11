@@ -450,6 +450,8 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: 청구 일정 복사
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: 청구 일정이 있는 고객 분할
+                      href: accounts-receivable/sb-customer-split.md
                     - name: 청구 일정 기능
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: 마일스톤 청구
@@ -1172,6 +1174,8 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: 재무 기간 마감 작업 영역
                   href: general-ledger/financial-period-close-workspace.md
+                - name: 연말 마감 최적화
+                  href: general-ledger/optimize-year-end-close.md
                 - name: 연말 마감
                   href: general-ledger/year-end-close.md
                 - name: 회계 연도 마감
@@ -3582,7 +3586,7 @@
                           href: localizations/rus-local-reports-primary-forms-ar-ap.md
                     - name: 인벤토리
                       items:
-                        - name: 공급업체에서 운송 중인 상품
+                        - name: 공급업체에서 보낸 미착 상품
                           href: localizations/rus-goods-transit-vendor.md
                         - name: 세관 신고 번호
                           href: localizations/rus-custom-declaration-number.md

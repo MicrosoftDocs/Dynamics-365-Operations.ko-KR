@@ -488,7 +488,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: 여러 제품 및 도움말의 언어 및 로캘 설명자
                   href: help/language-locale.md
-                - name: '도움말 확장, 사용자 지정 및 협업'
+                - name: 도움말 확장 및 협업
                   href: help/contributor-guide.md
             - name: 금융 및 운영 앱 지역 서비스
               items:
@@ -1624,6 +1624,10 @@
               href: sysadmin/DataMaintenancePortal.md
             - name: 법인 전체의 네트워크 프린터에 대한 액세스 관리
               href: sysadmin/sys-admin-tools-network-printer.md
+            - name: Application Insights를 사용한 모니터링 및 원격 분석
+              items:
+                - name: 개요
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
             - name: 보안
               items:
                 - name: 역할 기반 보안

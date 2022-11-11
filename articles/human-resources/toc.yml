@@ -541,8 +541,12 @@
                     - name: 구직자 모집
                       href: hr-personnel-recruit.md
         - name: 작업 관리
-          href: hr-task-mgmt.md
-        - name: 휴가 및 결근
+          items:
+            - name: 개요
+              href: hr-task-mgmt.md
+            - name: 작업 관리 업그레이드
+              href: hr-task-update.md
+        - name: 휴가 및 휴무
           items:
             - name: 개요
               href: hr-leave-and-absence-overview.md
@@ -822,7 +826,7 @@
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
             - name: 근로자 숙소 관리
               href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-    - name: 인적 자원 개발
+    - name: Human Resources 개발
       items:
         - name: 개요
           href: hr-developer-overview.md
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: 사용자 지정 필드
           href: hr-developer-custom-fields.md
+        - name: 개발 및 사용자 지정
+          items:
+            - name: 성별 기본 열거형
+              href: enum-exten.md
         - name: 데이터 통합 설정
           items:
             - name: 데이터 통합 기술 선택

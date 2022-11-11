@@ -380,11 +380,11 @@
                   href: ../finance/localizations/russia.md?context=/dynamics365/context/supply-chain
                 - name: 재고
                   items:
-                    - name: 공급업체에서 운송 중인 상품
+                    - name: 공급업체에서 보낸 미착 상품
                       href: ../finance/localizations/rus-goods-transit-vendor.md?context=/dynamics365/context/supply-chain
         - name: 분산 하이브리드 토폴로지
           items:
-            - name: 배율 단위 기능은 현재 신규 고객을 위해 일시 중지되었습니다.
+            - name: Supply Chain Management의 배율 단위 기능은 현재 일시 중지되었습니다.
               href: cloud-edge/cloud-edge-landing-page.md
         - name: 자산 관리
           items:
@@ -1753,36 +1753,54 @@
           items:
             - name: 마스터 계획 홈페이지
               href: master-planning/master-planning-home-page.md
-            - name: 마스터 계획을 위한 최적화 계획으로 마이그레이션
-              href: master-planning/new-master-planning-engine.md
-            - name: 최적화 계획
+            - name: 마스터 계획으로 시작
+              href: master-planning/planning-optimization/get-started.md
+            - name: 마스터 계획 시스템 아키텍처
+              href: master-planning/master-planning-architecture.md
+            - name: 마스터 계획 관리
               items:
-                - name: 최적화 계획 개요
-                  href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: 최적화 계획으로 시작
-                  href: master-planning/planning-optimization/get-started.md
-                - name: 최적화 계획 릴리스 프로세스 및 릴리스 기록
+                - name: 계획 최적화 릴리스 프로세스 및 릴리스 기록
                   href: master-planning/planning-optimization/release-process.md
-                - name: 최적화 계획 맞춤 분석
-                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: 기본 제공 마스터 계획과 최적화 계획의 차이점
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: 최적화 계획에서 사용하지 않는 매개 변수
-                  href: master-planning/planning-optimization/not-used-parameters.md
-                - name: 공급 일정
-                  href: master-planning/supply-schedule.md
-                - name: 계획에 필터 적용
-                  href: master-planning/planning-optimization/plan-filters.md
+                - name: 계획 최적화 문제 해결
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: '''용량 부족'' 일정 엔진 오류 해결'
+                  href: master-planning/not-enough-capacity-error-resolution.md
+                - name: 계획 작업 취소
+                  href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: 계획 최적화 확장성
+                  href: master-planning/planning-optimization/extensibility.md
+                - name: 계획 기록 및 계획 로그 보기
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: 계획 최적화에서 사용하는 날짜 및 시간 매개 변수
+                  href: master-planning/planning-optimization/date-time-used.md
+            - name: 마스터 계획 구성
+              items:
+                - name: 지연
+                  href: master-planning/delays.md
+                - name: 전개 추적 사용
+                  href: master-planning/trace-explosion.md
+                - name: 주문 제작 공급 자동화
+                  href: master-planning/make-to-order-supply-automation.md
+                - name: 음수 일수 및 동적 음수 일수
+                  href: master-planning/more-about-dynamic-negative-days.md
+                - name: 캘린더 및 마스터 계획
+                  href: master-planning/supply-chain-calendars-master-planning.md
+                - name: 사이트 일정 생성
+                  href: master-planning/tasks/create-schedule-site.md
+                - name: 사이트 계획 생성
+                  href: master-planning/tasks/create-plan-site.md
                 - name: 수요 예측을 통한 마스터 계획
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: 공급 예측을 통한 마스터 계획
                   href: master-planning/planning-optimization/supply-forecast.md
+                - name: 공급 일정
+                  href: master-planning/supply-schedule.md
+                - name: 항목의 하위 집합에 대한 계획 실행
+                  href: master-planning/planning-optimization/plan-filters.md
                 - name: 구매 거래 계약을 통한 마스터 계획
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: 견적 및 RFQ를 기반으로 계획
+                - name: 견적 및 견적 요청을 기반으로 계획
                   href: master-planning/planning-optimization/quotation-planning.md
-                - name: 최적화 계획에서 사용하는 날짜 및 시간 매개 변수
-                  href: master-planning/planning-optimization/date-time-used.md
                 - name: 안전 마진
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: 연기 허용 범위(음수 일수)
@@ -1799,55 +1817,21 @@
                   href: master-planning/planning-optimization/finite-capacity.md
                 - name: 기능에 따른 리소스 선택으로 예약
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: 우선 순위 기반 계획
-                  href: master-planning/planning-optimization/priority-based-planning.md
-                - name: DDMRP(수요 주도 자재 소요량 계획)
-                  items:
-                    - name: DDMRP 개요
-                      href: master-planning/planning-optimization/ddmrp-overview.md
-                    - name: 시스템의 DDMRP 기능 켜기
-                      href: master-planning/planning-optimization/ddmrp-enable.md
-                    - name: 재고 포지셔닝
-                      href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
-                    - name: 버퍼 프로필 및 수준
-                      href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
-                    - name: 수요 주도 계획
-                      href: master-planning/planning-optimization/ddmrp-planning.md
-                    - name: 시각적 및 협업 실행
-                      href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
-                - name: 최적화 계획을 통한 재고 표시
+                - name: 재고 표시
                   href: master-planning/planning-optimization/marking.md
                 - name: 회사 간 계획
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: 특정 제품 수명 주기 상태의 제품 제외
                   href: master-planning/planning-optimization/product-lifecycle-state.md
-                - name: 보충 방법 및 수량 수정
-                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: 적용 범위 시간 구획
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: 최적화 계획을 통한 순 필요량 및 페깅 정보
+                - name: 순 소요량 및 페깅 정보
                   href: master-planning/planning-optimization/net-requirements.md
-                - name: 계획 주문 승인
-                  href: master-planning/planning-optimization/approved-planned-order.md
-                - name: 계획 주문 확정
-                  href: master-planning/planning-optimization/planned-order-firming.md
-                - name: 계획 주문 간소화
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: 음수 보유 수량으로 계획
                   href: master-planning/planning-optimization/negative-on-hand.md
-                - name: 계획 기록 및 계획 로그 보기
-                  href: master-planning/planning-optimization/plan-history-logs.md
-                - name: 계획 작업 취소
-                  href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: 작업 메시지
-                  href: master-planning/action-messages.md
                 - name: CTP를 사용하여 판매 주문 배송 날짜 계산
                   href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
-                - name: 최적화 계획 문제 해결
-                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
-                - name: 최적화 계획 확장성
-                  href: master-planning/planning-optimization/extensibility.md
-            - name: 마스터 계획
+            - name: 마스터 계획 설정
               items:
                 - name: 마스터 계획 개요
                   href: master-planning/master-plans.md
@@ -1855,74 +1839,60 @@
                   href: master-planning/master-planning-setup.md
                 - name: 마스터 계획 설치 마법사
                   href: master-planning/master-planning-setup-wizard.md
+                - name: 제약된 계획 생성
+                  href: master-planning/tasks/constrained-plan.md
+            - name: 보충 전략 설정
+              items:
                 - name: 적용 범위 설정
                   href: master-planning/coverage-settings.md
                 - name: 항목 적용 범위 규칙 정의
                   href: master-planning/tasks/define-coverage-rules-items.md
-                - name: 제약된 계획 생성
-                  href: master-planning/tasks/constrained-plan.md
-                - name: 연산품에 대한 자재 계획 생성
-                  href: master-planning/tasks/create-material-plan-co-products.md
-                - name: 계획 주문 유지
-                  href: master-planning/maintain-planned-orders.md
-                - name: 품목에 대한 안전 재고 주문 이행
+                - name: 여러 공급업체의 제품 및 자재 소싱
+                  href: master-planning/source-from-multiple-vendors.md
+                - name: 우선 순위 기반 계획
+                  href: master-planning/planning-optimization/priority-based-planning.md
+                - name: 보충 방법 및 수량 수정
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
+            - name: 마스터 계획 및 다중 사이트 기능
+              items:
+                - name: 마스터 계획 및 다중 사이트 기능 개요
+                  href: master-planning/master-plan-multisite-functionality.md
+                - name: '사이트 적용 범위에 대한 마스터 계획, 필수 웨어하우스'
+                  href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
+                - name: '사이트 적용 범위에 대한 마스터 계획, 웨어하우스 필수 아님'
+                  href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
+                - name: '사이트 및 웨어하우스 적용 범위에 대한 마스터 계획, 웨어하우스 필수'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
+                - name: '사이트 및 웨어하우스 적용 범위에 대한 마스터 계획, 웨어하우스 필수 아님'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
+                - name: BOM 버전 확인
+                  href: master-planning/master-plan-bom-version-determined.md
+                - name: BOM 버전 전개
+                  href: master-planning/master-plan-explosion-bom-version.md
+            - name: 안전 재고
+              items:
+                - name: 항목에 대한 안전 재고 주문 이행
                   href: master-planning/safety-stock-replenishment.md
-                - name: 안전 재고 분개장을 사용하여 품목에 대한 최소 적용 범위 업데이트
+                - name: 안전 재고 분개장을 사용하여 항목에 대한 최소 적용 범위 업데이트
                   href: master-planning/safety-stock-journal.md
-                - name: 연기
-                  href: master-planning/delays.md
-                - name: 마스터 계획 작업 취소
-                  href: master-planning/cancel-master-planning-job.md
-                - name: 전개 추적 사용
-                  href: master-planning/trace-explosion.md
-                - name: 마스터 계획 실행 모니터링
-                  href: master-planning/tasks/monitor-master-planning-run.md
-                - name: 사이트 일정 생성
-                  href: master-planning/tasks/create-schedule-site.md
-                - name: 사이트 계획 생성
-                  href: master-planning/tasks/create-plan-site.md
-                - name: 캘린더 및 마스터 계획
-                  href: master-planning/supply-chain-calendars-master-planning.md
-                - name: '''용량 부족'' 일정 엔진 오류 해결'
-                  href: master-planning/not-enough-capacity-error-resolution.md
-                - name: 마스터 계획 성과 향상
-                  href: master-planning/master-planning-performance.md
-                - name: 일정 엔진 성능 향상
-                  href: master-planning/scheduling-engine-performance.md
-                - name: 마스터 계획 및 다중 사이트 기능
-                  items:
-                    - name: 마스터 계획 및 다중 사이트 기능 개요
-                      href: master-planning/master-plan-multisite-functionality.md
-                    - name: '사이트 적용 범위에 대한 마스터 계획, 필수 웨어하우스'
-                      href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
-                    - name: '사이트 적용 범위에 대한 마스터 계획, 웨어하우스 필수 아님'
-                      href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
-                    - name: '사이트 및 웨어하우스 적용 범위에 대한 마스터 계획, 웨어하우스 필수'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
-                    - name: '사이트 및 웨어하우스 적용 범위에 대한 마스터 계획, 웨어하우스 필수 아님'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
-                    - name: BOM 버전 확인
-                      href: master-planning/master-plan-bom-version-determined.md
-                    - name: BOM 버전 전개
-                      href: master-planning/master-plan-explosion-bom-version.md
-                - name: 음수 일수 및 동적 음수 일수
-                  href: master-planning/more-about-dynamic-negative-days.md
-                - name: 회사 간 계획 생성
-                  href: master-planning/tasks/create-intercompany-plan.md
-                - name: 아웃바운드 계획 회사 간 수요 보기
-                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: 기본 제공 마스터 계획을 통한 순 필요량 및 페깅 정보
-                  href: master-planning/net-requirements-built-in-master-planning.md
-                - name: 주문 제작 공급 자동화
-                  href: master-planning/make-to-order-supply-automation.md
+            - name: 계획된 주문 관리
+              items:
+                - name: 계획된 주문 유지
+                  href: master-planning/maintain-planned-orders.md
+                - name: '계획된 주문 보기, 관리 및 승인'
+                  href: master-planning/planning-optimization/approved-planned-order.md
+                - name: 계획된 주문 확정
+                  href: master-planning/planning-optimization/planned-order-firming.md
+                - name: 계획된 주문 간소화
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
+                - name: 작업 메시지
+                  href: master-planning/action-messages.md
             - name: 예측
               items:
-                - name: 수요 및 공급 예측
-                  items:
-                    - name: 재고 예측
-                      href: master-planning/inventory-forecast.md
-                    - name: '가이드: 수요 예측 수동 수정'
-                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: 재고 예측
+                  href: master-planning/inventory-forecast.md
+                - name: '가이드: 수요 예측 수동 수정'
+                  href: master-planning/tasks/modify-demand-forecast-manually.md
                 - name: 수요 예측
                   items:
                     - name: 수요 예측 개요
@@ -1943,10 +1913,50 @@
                       href: master-planning/monitor-forecast-accuracy.md
                     - name: '가이드: 기본 예측 생성'
                       href: master-planning/tasks/create-baseline-forecast.md
-                - name: 예측을 통한 마스터 계획
-                  items:
-                    - name: 예측 감소 키
-                      href: master-planning/reduction-keys.md
+                - name: 예측 감소 키
+                  href: master-planning/reduction-keys.md
+            - name: DDMRP(수요 주도 자재 소요량 계획)
+              items:
+                - name: DDMRP 개요
+                  href: master-planning/planning-optimization/ddmrp-overview.md
+                - name: 시스템의 DDMRP 기능 켜기
+                  href: master-planning/planning-optimization/ddmrp-enable.md
+                - name: 재고 포지셔닝
+                  href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
+                - name: 버퍼 프로필 및 수준
+                  href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
+                - name: 수요 주도 계획
+                  href: master-planning/planning-optimization/ddmrp-planning.md
+                - name: 시각적 및 협업 실행
+                  href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+            - name: 더 이상 사용되지 않는 계획 엔진
+              items:
+                - name: 더 이상 사용되지 않는 계획 엔진 개요
+                  href: master-planning/deprecated-master-planning-overview.md
+                - name: 마스터 계획을 위한 계획 최적화로 마이그레이션
+                  href: master-planning/new-master-planning-engine.md
+                - name: 계획 최적화에서 사용하지 않는 매개 변수
+                  href: master-planning/planning-optimization/not-used-parameters.md
+                - name: 계획 최적화와 더 이상 사용되지 않는 마스터 계획 엔진의 차이점
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
+                - name: 계획 최적화 적합 분석
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: 마스터 계획 성과 향상
+                  href: master-planning/master-planning-performance.md
+                - name: 일정 엔진 성능 향상
+                  href: master-planning/scheduling-engine-performance.md
+                - name: 회사 간 계획 생성
+                  href: master-planning/tasks/create-intercompany-plan.md
+                - name: 아웃바운드 계획된 회사 간 수요 보기
+                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
+                - name: 마스터 계획 실행 모니터링
+                  href: master-planning/tasks/monitor-master-planning-run.md
+                - name: 더 이상 사용되지 않는 계획 엔진을 통한 순 필요량 및 페깅 정보
+                  href: master-planning/net-requirements-built-in-master-planning.md
+                - name: 연산품에 대한 자재 계획 생성
+                  href: master-planning/tasks/create-material-plan-co-products.md
+                - name: 더 이상 사용되지 않는 마스터 계획 엔진을 사용하여 생성된 작업 취소
+                  href: master-planning/cancel-master-planning-job.md
         - name: 모바일 앱
           items:
             - name: 모바일 앱 홈페이지
