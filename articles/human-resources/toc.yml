@@ -110,7 +110,7 @@
                   href: hr-admin-integration-common-data-service-virtual-entities.md
                 - name: Human Resources 가상 테이블 FAQ
                   href: hr-admin-virtual-entity-faq.md
-                - name: 재무와 통합 구성
+                - name: Finance와 통합 구성
                   href: hr-admin-integration-finance.md
                 - name: Dayforce와 통합 구성
                   href: hr-admin-integration-dayforce.md
@@ -302,11 +302,13 @@
                       href: hr-admin-troubleshooting-integration.md
             - name: Human Resources 설정
               items:
-                - name: Human Resources 매개 변수 구성
+                - name: 인적 자원 매개 변수 구성
                   href: hr-setup-parameters.md
-                - name: Human Resources 공유 매개 변수 구성
+                - name: 인적 자원 공유 매개 변수 구성
                   href: hr-setup-shared-parameters.md
-                - name: Human Resources 워크플로 설정
+                - name: 법인별로 작업자에 대한 제한 액세스
+                  href: hr-advanced-security.md
+                - name: 인적 자원 워크플로 설정
                   href: hr-workflow-manage-employee-information.md
                 - name: 날짜 및 시간 필드 이해
                   href: hr-setup-date-time-fields.md
@@ -848,6 +850,8 @@
               href: hr-admin-integration-common-data-service.md
             - name: Dataverse 가상 테이블 구성
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: 가상 테이블 통합을 위한 보안
+              href: hr-security-config.md
             - name: Finance와 통합 구성
               href: hr-admin-integration-finance.md
             - name: Human Resources에서 다른 환경으로의 링크 생성

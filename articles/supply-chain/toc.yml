@@ -3395,6 +3395,8 @@
           items:
             - name: 창고 관리 개요
               href: warehousing/warehouse-management-overview.md
+            - name: 창고 관리 모듈 설정 시작하기
+              href: warehousing/get-started-with-setting-up-module.md
             - name: 인바운드 창고 운영
               items:
                 - name: 구매 주문에 대한 인바운드 적재의 창고 처리

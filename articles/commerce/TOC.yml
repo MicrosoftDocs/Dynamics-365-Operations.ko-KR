@@ -590,6 +590,8 @@
                           href: dev-itpro/adyen-connector-faq.md
                         - name: Adyen으로 Google Pay 구성
                           href: dev-itpro/google-pay-adyen.md
+                        - name: Adyen으로 Apple Pay 설정
+                          href: dev-itpro/apple-pay-adyen.md
                         - name: Adyen용 Dynamics 365 Payment Connector 문제 해결
                           href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Adyen 커넥터로 온라인 결제 방법 저장
@@ -602,6 +604,8 @@
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: 급여 송장 시나리오 설정
                       href: payinvoice.md
+                    - name: Dynamics 365 Commerce에서 선납
+                      href: dev-itpro/prepayments-commerce.md
                     - name: 중복 결제 방지
                       href: duplicate-payment-protection.md
                     - name: 옴니채널 결제 개요

@@ -430,7 +430,7 @@
                   href: accounts-receivable/rev-rec-bundles.md
                 - name: 수익 인정 재할당
                   href: accounts-receivable/rev-rec-reallocation.md
-                - name: 수익 인정 재할당 - 시나리오 1
+                - name: 수익 인정 재할당 시나리오 1
                   href: accounts-receivable/rev-rec-reallocation-scenario-1.md
                 - name: 수익 인정 재할당 시나리오 2
                   href: accounts-receivable/rev-rec-reallocation-scenario-2.md
@@ -1188,6 +1188,8 @@
                   href: general-ledger/ledger-settlements.md
                 - name: 원장 정산과 연말 마감 사이의 인식
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: 원장 정산 자동화
+                  href: general-ledger/auto-settle.md
                 - name: 총계정원장에 대한 외화 재평가
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: 총계정원장 계정 잔액
