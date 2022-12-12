@@ -564,12 +564,14 @@
               href: hr-leave-and-absence-plans.md
             - name: 휴가 계획에 근로자 할당
               href: hr-leave-and-absence-enroll.md
-            - name: 휴가 및 결근 계획 발생
+            - name: 휴가 및 휴무 계획 발생
               href: hr-leave-and-absence-accrue.md
-            - name: 휴가 일시 중단
+            - name: 휴가 일시 중지
               href: hr-leave-and-absence-suspend-leave.md
-            - name: 휴가 요청
+            - name: 휴직 요청
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: 무급 휴직 만들기
+              href: hr-create-open-leave-absence.md
             - name: 직원 휴가 관리
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: 휴가 및 결근에 대한 분석 보기

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 151991b399a30087c484262706e414e4e294bf7f
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 86020d9088d8135c83716128a77090608536a78f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715430"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804023"
 ---
 # <a name="create-checks-that-have-blank-status"></a>공백 상태인 수표 생성
 
@@ -35,7 +35,7 @@ ms.locfileid: "9715430"
 
 **수표** 페이지를 열려면 **현금 및 은행 관리 \> 은행 계좌 \> 은행 계좌** 로 이동한 다음 작업 창의 **결제 관리** 탭에 있는 **관련 정보** 그룹에서 **수표** 를 선택합니다. 또는 **현금 및 은행 관리 \> 문의 및 신고 \> 수표** 로 이동합니다.
 
-그런 다음 **백지** 상태인 수표를 만들기 위해 작업 창에서 **은행 수표 만들기** 를 선택합니다. 시스템에서 백지 수표를 생성하는 동안에는 연결된 은행 계좌가 일시적으로 비활성화됩니다. 이 동작은 결제와 백지 수표가 동시에 생성될 위험을 줄입니다. 처리가 완료되면 연결된 은행 계좌가 다시 활성화됩니다.
+그런 다음 **백지** 상태인 수표를 만들기 위해 작업 창에서 **은행 수표 만들기** 를 선택합니다. 백지 수표가 생성되는 동안에는 연결된 은행 계좌가 일시적으로 비활성화됩니다. 이 동작은 결제와 백지 수표가 동시에 생성될 위험을 줄입니다. 처리가 완료되면 연결된 은행 계좌가 다시 활성화됩니다.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

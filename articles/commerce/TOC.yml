@@ -1011,7 +1011,23 @@
                 - name: URL 리디렉션 일괄 업로드
                   href: upload-bulk-redirects.md
                 - name: Commerce에서 B2C 테넌트 설정
-                  href: set-up-B2C-tenant.md
+                  items:
+                    - name: B2C 테넌트 설정
+                      href: set-up-B2C-tenant.md
+                    - name: 기존 Azure AD B2C 테넌트 생성 또는 연결
+                      href: create-link-aad-b2c-tenant.md
+                    - name: B2C 애플리케이션 생성
+                      href: create-b2c-app.md
+                    - name: 사용자 흐름 정책 생성
+                      href: create-user-flow-policies.md
+                    - name: 소셜 ID 공급자 추가
+                      href: add-social-identity-providers.md
+                    - name: Azure AD B2C 정보로 Commerce headquarters 업데이트
+                      href: update-hq-aad-b2c-info.md
+                    - name: 사이트 빌더에서 B2C 테넌트 구성
+                      href: config-b2c-tenant-site-builder.md
+                    - name: B2C 추가 정보
+                      href: additional-b2c-info.md
                 - name: 사용자 로그인을 위한 사용자 지정 페이지 설정
                   href: custom-pages-user-logins.md
                 - name: 고객 계정에 대한 ID 레코드의 자동 연결 사용
@@ -1570,6 +1586,8 @@
               items:
                 - name: 사우디아라비아 QR 코드 생성 및 영수증에 인쇄
                   href: localizations/emea-sau-qr-code.md
+                - name: 사우디아라비아에 대한 기본 전자 송장 생성 및 제출
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: 스웨덴
               items:
                 - name: 금전 등록기 기능
@@ -2988,7 +3006,7 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: 온라인 주문에 대한 세금이 잘못 계산됨
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: 기본 결제 서비스와 관련된 주문 동기화 오류
+                - name: 비동기 주문 동기화 문제
                   href: troubleshoot/synchronization-error.md
             - name: 결제 처리
               items:
