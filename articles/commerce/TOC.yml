@@ -1422,6 +1422,8 @@
               href: set-up-rfm-analysis.md
             - name: Dynamics 365 Commerce에서 Microsoft Clarity 설정
               href: set-up-clarity.md
+            - name: Operational Insights 설정
+              href: dev-itpro/operational-insights.md
         - name: Globalization Studio
           items:
             - name: Globalization Studio 개요
@@ -3056,6 +3058,12 @@
               items:
                 - name: 계층 1 Retail Server VM에 대해 디버그하도록 전자 상거래 개발 환경 설정
                   href: troubleshoot/set-up-dev-environment-debugging.md
+            - name: 매장 재무
+              items:
+                - name: Z 보고서의 데이터 조정 문제
+                  href: troubleshoot/z-report-issues.md
+                - name: 사용할 수 없는 인벤토리 또는 업데이트 충돌로 인한 명세서 기장 오류
+                  href: troubleshoot/inventory-errors-posting.md
     - name: 금융 및 운영 앱 개발 및 관리
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

@@ -1809,6 +1809,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: 생산 계획
                   href: master-planning/planning-optimization/production-planning.md
+                - name: 스크랩을 설정하여 원자재 소요량 계산
+                  href: master-planning/scrap-calculations.md
                 - name: 저장 기간이 제한된 제품에 대한 마스터 플랜
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: 무한 용량으로 예약
@@ -2355,7 +2357,7 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: 단일 회사용으로 릴리스된 제품 생성
                   href: pim/tasks/create-released-product-single-company.md
-                - name: 데이터 엔터티 사용
+                - name: 제품 데이터 엔터티
                   href: pim/data-entities.md
                 - name: 제품 수명 주기 상태
                   items:

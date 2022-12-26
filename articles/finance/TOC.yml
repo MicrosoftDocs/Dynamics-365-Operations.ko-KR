@@ -1168,6 +1168,8 @@
                   href: general-ledger/general-ledger-statement-by-main-account.md
                 - name: 세금 표준 감사 파일(SAF-T) 전자 보고서
                   href: general-ledger/standard-audit-file.md
+                - name: 원장 정산 조회
+                  href: general-ledger/ledger-settlement-inquiry.md
             - name: 기말 마감
               items:
                 - name: 총계정원장 기말 마감
@@ -1186,8 +1188,20 @@
                   href: general-ledger/faq-year-end-activities.md
                 - name: 원장 정산
                   href: general-ledger/ledger-settlements.md
-                - name: 원장 정산과 연말 마감 사이의 인식
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: 원장 정산과 연말 결산 사이의 인식
+                  items:
+                    - name: 원장 정산과 연말 결산 사이의 인식
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: 연말 결산 전 원장 정산 사이의 인식 준비
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: 연말 결산 후 원장 정산 사이의 인식 준비
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: 원장 정산 기능과 통화 보고 사이에 잔액이 맞지 않음 인식
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: 조회창을 이용한 연말 결산 전 원장 정산 기능 사이의 인식
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: 조회창을 이용한 연말 결산 후 원장 정산 기능 사이의 인식
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
                 - name: 원장 정산 자동화
                   href: general-ledger/auto-settle.md
                 - name: 총계정원장에 대한 외화 재평가

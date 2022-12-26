@@ -32,6 +32,8 @@
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Dynamics 365 Human Resources(독립 실행형) 새로운 기능
                   items:
+                    - name: Dynamics 365 Human Resources(독립 실행형) 2022년 12월의 새로운 기능
+                      href: hr-whats-new-2022-12-12.md
                     - name: Dynamics 365 Human Resources(독립 실행형) 아카이브 2021의 새로운 기능
                       href: hr-admin-whats-new.md
                     - name: 2021년 11월 29일
@@ -110,6 +112,8 @@
                   href: hr-admin-integration-common-data-service-virtual-entities.md
                 - name: Human Resources 가상 테이블 FAQ
                   href: hr-admin-virtual-entity-faq.md
+                - name: Dataverse와 통합 구성
+                  href: hr-dataverse-integration.md
                 - name: Finance와 통합 구성
                   href: hr-admin-integration-finance.md
                 - name: Dayforce와 통합 구성
